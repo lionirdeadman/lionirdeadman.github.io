@@ -16,19 +16,26 @@
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;p&gt;I&#x27;m not good at introductions so let&#x27;s just go, please.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;how-is-the-website-made-now&quot;&gt;How is the website made now?&lt;&#x2F;h3&gt;
-&lt;p&gt;I caved in! I am now using Zola.&lt;&#x2F;p&gt;
+&lt;p&gt;I caved in! I am now using Zola and no longer on Neocities as a result because of fancy shenanigans 
+that don&#x27;t work there, I think. I might try again at a later date. So, until further disappearance, I&#x27;m here on Codeberg.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;where-s-all-the-pictures&quot;&gt;Where&#x27;s all the pictures?&lt;&#x2F;h3&gt;
 &lt;p&gt;They&#x27;re gone, they were never really used meaningfully. They were just me trying to make things look cool and well, there was no
 clear theme or style and it started to bother me.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;where-s-the-mistakes-section&quot;&gt;Where&#x27;s the mistakes section?&lt;&#x2F;h3&gt;
 &lt;p&gt;It never went anywhere with mind being scared, honestly. I think it&#x27;s better if I fill it in with more current mistakes than charging
 it with the past, it&#x27;s easier for me and probably makes more sense for you. Sorry.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;where-s-the-recommendations&quot;&gt;Where&#x27;s the recommendations?&lt;&#x2F;h3&gt;
+&lt;p&gt;They are no longer there, I might try to re-implement them but I think I&#x27;d rather try to integrate it better in the text. We&#x27;ll see how that goes.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;can-i-still-follow-the-atom-feed&quot;&gt;Can I still follow the Atom feed?&lt;&#x2F;h3&gt;
-&lt;p&gt;Yes! I believe I didn&#x27;t break the feed so it should be all a-ok!&lt;&#x2F;p&gt;
+&lt;p&gt;Yes! Although, it&#x27;s no longer at the same place so sorry about that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why-is-the-website-mit-now&quot;&gt;Why is the website MIT now?&lt;&#x2F;h3&gt;
+&lt;p&gt;Well, I didn&#x27;t really wanna build everything from scratch so I took Zola-Paper and modified it and will continue to do so but it means I&#x27;m under that license now 
+which I suppose isn&#x27;t so bad for this small website.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;waaaa-where-are-all-the-semantics&quot;&gt;Waaaa, where are all the semantics?&lt;&#x2F;h3&gt;
 &lt;p&gt;They&#x27;re coming back, I still need to tame the beast more and I&#x27;ll be implementing them more and more.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;what-am-i-going-to-do-with-this-site-going-forward&quot;&gt;What am I going to do with this site going forward?&lt;&#x2F;h3&gt;
-&lt;p&gt;Also, check the last post&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ll be trying to post more often, avoiding meta posts... like this one, for instance.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, check &lt;a href=&quot;https:&#x2F;&#x2F;lionirdeadman.codeberg.page&#x2F;2020-10-15&#x2F;&quot;&gt;the last post&lt;&#x2F;a&gt;, I think it was interresting.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -232,8 +239,6 @@ Conclusion&lt;&#x2F;p&gt;
 		<id>https://lionirdeadman.codeberg.page/2018-05-21/</id>
 		<content type="html">&lt;p&gt;This whole blog&#x27;s source code is now licensed under AGPLv3, celebrate! Okay, the code is pretty crappy but that&#x27;s another story, hopefully it improves. Feel free to contribute!&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;jpg&#x2F;gitlab.jpg&quot; alt=&quot;A screenshot of the gitlab repository&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;CC BY-SA 4.0&lt;&#x2F;p&gt;
 &lt;p&gt;I may have broken some things with some of the changes I did but I think it&#x27;s okay. At least, when I tested locally, who knows what&#x27;ll happen once this thing goes on Neocities. Hopefully nothing otherwise that&#x27;d suck.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;m still waiting for someone to actually comment on here which kind of stinks, I was hoping for people to do so! Who are those 1660 (at the time of this writing) people who saw this blog? What do they think? It really interests me.&lt;&#x2F;p&gt;
 &lt;p&gt;Anyhow, that&#x27;s off-topic and so, I&#x27;ll just end this blog post here. Oh, right! The source code is here I may have a mirror on Github later, maybe, we&#x27;ll see if anyone wants me to do so. Well, that&#x27;s all I had to say, have a good day y&#x27;all!&lt;&#x2F;p&gt;
@@ -284,13 +289,12 @@ I don&#x27;t have the burden of hosting. I can simply code away the html and not
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;This gives me freedom and peace of mind.&amp;quot;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;jpg&#x2F;neocities.jpg&quot; alt=&quot;A screenshot of the neocities homepage&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Not only that but since there&#x27;s no database or anything, just static files.
 I&#x27;ve also further restricted myself by not using javascript (although that may change)&lt;&#x2F;p&gt;
 &lt;p&gt;Why? Because the web is bloated and it takes way too long to load most
 pages and they&#x27;re just filled with ads, trackers, javascript and other crap.&lt;&#x2F;p&gt;
 &lt;p&gt;So I&#x27;m just gonna post from here from time to time some decently-sized posts..
-You can also subsribe to the &lt;a href=&quot;https:&#x2F;&#x2F;lionirdeadman.neocities.org&#x2F;atom.xml&quot;&gt;RSS&lt;&#x2F;a&gt; to see whenever I post something
+You can also subsribe to the &lt;a href=&quot;https:&#x2F;&#x2F;lionirdeadman.codeberg.page&#x2F;atom.xml&quot;&gt;RSS&lt;&#x2F;a&gt; to see whenever I post something
 on here without making an account and stuff.&lt;&#x2F;p&gt;
 </content>
 	</entry>
