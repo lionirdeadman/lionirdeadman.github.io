@@ -46,6 +46,16 @@
   .dark.list {
     background: var(--theme);
   }
+  @font-face {
+    font-family: Cantarell;
+    src: url(/Cantarell/Cantarell-Bold.woff2);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: Cantarell;
+    src: url(/Cantarell/Cantarell-Regular.woff2);
+    font-weight: normal;
+  }
   /* Reset
   -------------------------------------------------- */
   *,
@@ -478,7 +488,7 @@
     margin-left: 4px;
     margin-right: 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-family: "Cantarell";
     font-size: 0.78em;
     line-height: 1.5;
     background: var(--code-bg);
