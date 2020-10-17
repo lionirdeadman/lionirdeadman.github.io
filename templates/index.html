@@ -69,10 +69,31 @@
                     {% endfor %}{% endblock sidebar_nav %}
                 </ul>
             </nav>
-            <figure class="profile-wrapper">
-                <img src="/profile.png" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
-                <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
-            </figure>
+            <section class="h-card">
+
+              <!-- About me -->
+              <span class="p-name" style="display: none;" >Lionir Deadman</span>
+              <span class="p-gender-identity" style="display: none;" >Male</span>
+              <span class="p-note" style="display: none;" >I'm a just an average person, maybe this description will mean something someday.</span>
+
+              <!-- Profile picture -->
+              <figure class="profile-wrapper">
+                  <img class="u-photo" src="https://lionirdeadman.codeberg.page/profile.png" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
+                  <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
+              </figure>
+
+              <!-- Links -->
+              <a class="u-url u-uid" href="https://lionirdeadman.codeberg.page"></a>
+              <a class="u-url" rel="me" href="https://fosstodon.org/@lionirdeadman"></a>
+
+              <!-- Categories -->
+              <span style="display: none;" class="p-category">Blogging</span>
+              <span style="display: none;" class="p-category">Free Software</span>
+              <span style="display: none;" class="p-category">Privacy</span>
+              <span style="display: none;" class="p-category">Web Design</span>
+              <span style="display: none;" class="p-category">Philosophy</span>
+
+            </section>
         </header>
 
         <main class="main">
