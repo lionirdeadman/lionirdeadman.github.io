@@ -38,6 +38,8 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
+        <link rel="preload" href="{{ get_url(path="font.css", trailing_slash=false) }}" as="style">
+        <link rel="stylesheet" href="{{ get_url(path="font.css", trailing_slash=false) }}">
 
         <!-- Feeds -->
         {% if config.generate_feed %}<link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="Blog posts" href="{{ get_url(path=config.feed_filename) | safe }}">{% endif %}
