@@ -9,7 +9,7 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta name="google-site-verification" content="nzdt3Ehkw8NN2pRCBjyI4O-D8Eye24GzsN86EWgdTdI" />
+        <meta name="google-site-verification" content="nzdt3Ehkw8NN2pRCBjyI4O-D8Eye24GzsN86EWgdTdI">
 
         <!-- Enable responsiveness on mobile devices-->
         <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
@@ -41,6 +41,7 @@
         <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
         <link rel="preload" href="{{ get_url(path="font.css", trailing_slash=false) }}" as="style">
         <link rel="stylesheet" href="{{ get_url(path="font.css", trailing_slash=false) }}">
+        <link rel="stylesheet" href="{{ get_url(path="Fork-Awesome/css/fork-awesome.min.css", trailing_slash=false) }}">
 
         <!-- Feeds -->
         {% if config.generate_feed %}<link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="Blog posts" href="{{ get_url(path=config.feed_filename) | safe }}">{% endif %}
@@ -64,6 +65,7 @@
                 <h1 class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
                 {% endif %}
                 <ul class="menu">
+                    <li><a href="&#x2F;atom.xml"><i class="fa fa-feed"></i></a></li>
                     {% block sidebar_nav %}{% for link in config.extra.links %}
                     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
                     {% endfor %}{% endblock sidebar_nav %}
@@ -74,7 +76,8 @@
               <!-- About me -->
               <span class="p-name" style="display: none;" >Lionir Deadman</span>
               <span class="p-gender-identity" style="display: none;" >Male</span>
-              <span class="p-note" style="display: none;" >I'm a just an average person, maybe this description will mean something someday.</span>
+              <span class="p-note" style="display: none;" >I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll
+              be talking to you about a certain project all day long and another I'm gonna be into something completely different.</span>
 
               <!-- Profile picture -->
               <figure class="profile-wrapper">
@@ -82,9 +85,34 @@
                   <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
               </figure>
 
-              <!-- Links -->
               <a class="u-url u-uid" href="https://lionirdeadman.codeberg.page"></a>
+
+              <!-- Social -->
               <a class="u-url" rel="me" href="https://fosstodon.org/@lionirdeadman"></a>
+
+              <!-- Editing -->
+              <a class="u-url" rel="me" href="https://www.openstreetmap.org/user/lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://en.wikipedia.org/wiki/User:Lionirdeadman"></a>
+
+              <!-- Discussion -->
+              <a class="u-url" rel="me" href="https://tildes.net/user/lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://www.reddit.com/user/Lionir"></a>
+
+              <!-- Coding -->
+              <a class="u-url" rel="me" href="https://github.com/lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://codeberg.org/lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://gitlab.com/Lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://gitlab.gnome.org/lionirdeadman"></a>
+              <a class="u-url" rel="me" href="https://gitlab.freedesktop.org/Lionirdeadman"></a>
+
+
+              <!-- Tracking -->
+              <a class="u-url" rel="me" href="https://anidb.net/user/875375"></a>
+              <a class="u-url" rel="me" href="https://listenbrainz.org/user/Lionirdeadman"></a>
+
+              <!-- Chatting -->
+              <a class="u-url" rel="me" href="https://discordid.netlify.app/?id=202826796423577600"></a>
+              <a class="u-url" rel="me" href="https://matrix.to/#/@lionirdeadman:gnome.org"></a>
 
               <!-- Categories -->
               <span style="display: none;" class="p-category">Blogging</span>
