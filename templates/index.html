@@ -129,7 +129,7 @@
             <div class="posts">
                 {% for page in paginator.pages %}
                 {% if loop.index == 1 and paginator.current_index == 1 %}
-                <article class="first-entry">{% else %}<article class="post-entry">{% endif %}
+                <article class="h-entry first-entry">{% else %}<article class="h-entry post-entry">{% endif %}
                 {{ post_macros::page_in_list(page=page)}}
                 </article>{% endfor %}
                 <footer class="page-footer">
