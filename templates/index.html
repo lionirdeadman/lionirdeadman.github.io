@@ -46,9 +46,11 @@
         <!-- Feeds -->
         {% if config.generate_feed %}<link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="Blog posts" href="{{ get_url(path=config.feed_filename) | safe }}" />{% endif %}
 
-        <!-- Web Mentions -->
+        <!-- IndieWeb -->
         <link rel="webmention" href="https://webmention.io/thelion.website/webmention" />
         <link rel="pingback" href="https://webmention.io/thelion.website/xmlrpc" />
+        {% if page.extra.syndications %}{% for name, url in page.extra.syndications %}<link rel="syndication" title="{{ name }}" href="{{ url }}" />
+        {% endfor %}{% endif %}
     </head>
     
 
