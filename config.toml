@@ -18,5 +18,5 @@ feed_filename = "atom.xml"
 
 [extra]
 # Put all your custom variables here
-links = [ {url = "/about.html", name = "About"},
+links = [ {url = "/about/", name = "About"},
 ]

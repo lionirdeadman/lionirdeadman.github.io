@@ -20,6 +20,7 @@
         </div>
         <div class=post-update>{% if page.extra.update.message %}{{ page.extra.update.date }} : {{ page.extra.update.message }}{% endif %}</div>
     </header>
-    <div class="e-content post-content">{{ page.content | safe }}</div>
+    <div class="e-content post-content">{{ page.content | safe }}
+    {% if page.extra.syndications %}<span>Syndicated to : </span>{% for name, url in page.extra.syndications %}{% if loop.last == true %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a>{% else %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a><span>, </span>{% endif %}{% endfor %}{% endif %}</div>
 </article>
 {% endblock content %}
