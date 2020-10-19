@@ -1,3 +1,2 @@
-# Website-Builder
-
-This is just the zola stuff to build [pages](https://codeberg.org/lionirdeadman/pages)
+# Files to build website using [Zola](https://www.getzola.org/)
+If you want to look at them locally, just `zola serve`
