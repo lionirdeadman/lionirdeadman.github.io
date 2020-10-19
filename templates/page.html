@@ -3,7 +3,7 @@
 {% block content %}
 <article class="h-entry">
     <header class="post-header">
-        <h1 class="post-title p-name">{{ page.title }}</h1>
+        <h1 class="post-title p-name"><a class="u-url" title="{{ page.title }}" href="{{ page.permalink }}">{{ page.title }}</a></h1>
         <div class="post-meta">
             {% if page.extra.author_url %}Author: <a class="p-author h-card" href="{{ page.extra.author_url | safe }}">
                 {{ page.extra.author }}
@@ -20,6 +20,6 @@
         </div>
         <div class=post-update>{% if page.extra.update.message %}{{ page.extra.update.date }} : {{ page.extra.update.message }}{% endif %}</div>
     </header>
-    <div class="e-content">{{ page.content | safe }}</div>
+    <div class="e-content post-content">{{ page.content | safe }}</div>
 </article>
 {% endblock content %}

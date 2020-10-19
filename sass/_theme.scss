@@ -267,7 +267,7 @@
   .first-entry .entry-header h2 {
     font-size: 40px;
   }
-  .first-entry .p-summary {
+  .first-entry .entry-content {
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 16px;
@@ -287,14 +287,14 @@
   .post-entry:active {
     transform: scale(0.96);
   }
-  .tag-entry .p-summary,
+  .tag-entry .entry-content,
   .tag-entry .entry-footer {
     display: none;
   }
   .entry-header h2 {
     font-size: 24px;
   }
-  .p-summary {
+  .entry-content {
     margin-top: 8px;
     margin-bottom: 8px;
     color: var(--secondary);
@@ -339,146 +339,146 @@
     text-align: center;
     margin-top: 40px;
   }
-  .e-content {
+  .post-content {
     color: var(--content);
   }
-  .e-content h1 {
+  .post-content h1 {
     margin-top: 40px;
     margin-bottom: 32px;
   }
-  .e-content h2 {
+  .post-content h2 {
     margin-top: 32px;
     margin-bottom: 24px;
   }
-  .e-content h3,
-  .e-content h4,
-  .e-content h5,
-  .e-content h6 {
+  .post-content h3,
+  .post-content h4,
+  .post-content h5,
+  .post-content h6 {
     margin-top: 24px;
     margin-bottom: 16px;
   }
-  .e-content h1 {
+  .post-content h1 {
     font-size: 40px;
   }
-  .e-content h2 {
+  .post-content h2 {
     font-size: 32px;
   }
-  .e-content h3 {
+  .post-content h3 {
     font-size: 24px;
   }
-  .e-content h4 {
+  .post-content h4 {
     font-size: 16px;
   }
-  .e-content h5 {
+  .post-content h5 {
     font-size: 14px;
   }
-  .e-content h6 {
+  .post-content h6 {
     font-size: 12px;
   }
-  .e-content a {
+  .post-content a {
     box-shadow: 0 1px 0 var(--primary);
   }
-  .e-content a code {
+  .post-content a code {
     margin-left: 0;
     margin-right: 0;
     border-radius: 0;
     box-shadow: 0 -1px 0 var(--primary) inset;
   }
-  .e-content del {
+  .post-content del {
     text-decoration: none;
     background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50% / 1px 1px repeat-x;
   }
-  .e-content p,
-  .e-content ul,
-  .e-content ol,
-  .e-content dl {
+  .post-content p,
+  .post-content ul,
+  .post-content ol,
+  .post-content dl {
     margin-bottom: var(--content-gap);
   }
-  .e-content ul,
-  .e-content ol {
+  .post-content ul,
+  .post-content ol {
     padding-left: 20px;
   }
-  .e-content li {
+  .post-content li {
     margin-top: 5px;
   }
-  .e-content li p {
+  .post-content li p {
     margin-bottom: 0;
   }
-  .e-content dl {
+  .post-content dl {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
   }
-  .e-content dt {
+  .post-content dt {
     width: 25%;
     font-weight: 700;
   }
-  .e-content dd {
+  .post-content dd {
     width: 75%;
     margin-left: 0;
     padding-left: 10px;
   }
-  .e-content dt ~ dt,
-  .e-content dd ~ dd {
+  .post-content dt ~ dt,
+  .post-content dd ~ dd {
     margin-top: 10px;
   }
-  .e-content table {
+  .post-content table {
     margin-bottom: 32px;
   }
-  .e-content table th,
-  .e-content table:not(.highlighttable) td {
+  .post-content table th,
+  .post-content table:not(.highlighttable) td {
     min-width: 80px;
     padding: 12px 8px;
     line-height: 1.5;
     border-bottom: 1px solid var(--border);
   }
-  .e-content table th {
+  .post-content table th {
     font-size: 14px;
     text-align: left;
   }
-  .e-content table:not(.highlighttable) td code:only-child {
+  .post-content table:not(.highlighttable) td code:only-child {
     margin-left: 0;
     margin-right: 0;
   }
-  .e-content .highlight,
-  .e-content pre {
+  .post-content .highlight,
+  .post-content pre {
     margin-left: calc(var(--gap) * -1);
     margin-right: calc(var(--gap) * -1);
     margin-bottom: 32px;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
   }
-  .e-content ul pre {
+  .post-content ul pre {
     margin-left: calc(var(--gap) * -2);
   }
-  .e-content .highlight pre {
+  .post-content .highlight pre {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
   /* table */
-  .e-content .highlighttable {
+  .post-content .highlighttable {
     table-layout: fixed;
   }
-  .e-content .highlighttable td:first-child {
+  .post-content .highlighttable td:first-child {
     width: 40px;
   }
-  .e-content .highlighttable td .linenodiv {
+  .post-content .highlighttable td .linenodiv {
     padding-right: 0 !important;
   }
-  .e-content .highlighttable td .linenodiv pre,
-  .e-content .highlighttable td .highlight {
+  .post-content .highlighttable td .linenodiv pre,
+  .post-content .highlighttable td .highlight {
     margin-bottom: 0;
   }
-  .e-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+  .post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
     display: none;
   }
   /* inline */
-  .e-content .highlight span {
+  .post-content .highlight span {
     background: transparent !important;
   }
   
-  .e-content code {
+  .post-content code {
     margin-left: 4px;
     margin-right: 4px;
     padding: 4px 6px;
@@ -488,7 +488,7 @@
     background: var(--code-bg);
     border-radius: 2px;
   }
-  .e-content pre code {
+  .post-content pre code {
     display: block;
     margin-left: 0;
     margin-right: 0;
@@ -497,12 +497,12 @@
     background: transparent;
     border-radius: 0;
   }
-  .e-content blockquote {
+  .post-content blockquote {
     margin: 0 0 0 calc(var(--gap) * -1);
     padding: 0 0 0 21px;
     border-left: 3px solid var(--primary);
   }
-  .e-content hr {
+  .post-content hr {
     height: 1px;
     margin-top: 56px;
     margin-bottom: 56px;
@@ -510,7 +510,7 @@
     border-top: 0;
     border-bottom: 0;
   }
-  .e-content iframe {
+  .post-content iframe {
     max-width: 100%;
   }
   .post-footer {

@@ -2,11 +2,11 @@
                     <header class="entry-header">
                         <h2 class="p-name">{{ page.title }}</h2>
                     </header>
-                    {% if page.summary %}<section class="p-summary">
+                    {% if page.summary %}<section class="p-summary entry-content">
                         {{ page.summary | safe }}
                     </section>{% endif %}
                     <footer class="entry-footer">
                         <time class="dt-published">{{ page.date | date(format="%B %e, %Y") }}</time>
                     </footer>
-                    <a class="entry-link" title="{{ page.title }}" href="{{ page.permalink }}"></a>
+                    <a class="u-url entry-link" title="{{ page.title }}" href="{{ page.permalink }}"></a>
 {% endmacro page_in_list %}
