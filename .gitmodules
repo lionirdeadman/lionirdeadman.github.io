@@ -1,0 +1,6 @@
+[submodule "webmention.js"]
+	path = webmention.js
+	url = git@github.com:lionirdeadman/webmention.js.git
+[submodule "static/webmention.js"]
+	path = static/webmention.js
+	url = git@github.com:lionirdeadman/webmention.js.git
