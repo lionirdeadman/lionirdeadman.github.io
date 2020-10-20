@@ -149,6 +149,8 @@
   -------------------------------------------------- */
   .header {
     background: linear-gradient(70deg, #E01B24 -5%, #E66100 80%);
+    // I like this purple, let's keep it here for now
+    //background: linear-gradient(70deg, #cc10b6 -5%, #8410cc 80%);
     position: relative;
     height: 300px;
   }
@@ -516,6 +518,12 @@
   .post-footer {
     margin-top: 56px;
   }
+  /* Webmentions
+  -------------------------------------------------- */
+  .webmentions-how-to a {
+    box-shadow: 0 1px 0 var(--primary);
+  }
+
   /* Footer
   -------------------------------------------------- */
   .footer {
