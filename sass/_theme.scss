@@ -10,7 +10,7 @@
 -------------------------------------------------- */
 :root {
     --gap: 24px;
-    --content-gap: 40px;
+    --content-gap: 20px;
     --nav-width: 1024px;
     --main-width: 640px;
     --header-height: 60px;
@@ -61,7 +61,7 @@
     color: var(--primary);
     font-family: "Cantarell", sans-serif;
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.6;
     word-break: break-word;
     background: var(--theme);
   }
