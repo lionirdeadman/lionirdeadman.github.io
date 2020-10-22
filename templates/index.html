@@ -84,7 +84,7 @@
                 <h1 class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
                 {% endif %}
                 <ul class="menu">
-                    <li><a href="&#x2F;atom.xml" alt="Atom feed"><i class="fa fa-feed"></i></a></li>
+                    <li><a href="&#x2F;atom.xml"><span style="display:none;">Atom Feed</span><i class="fa fa-feed"></i></a></li>
                     {% block sidebar_nav %}{% for link in config.extra.links %}
                     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
                     {% endfor %}{% endblock sidebar_nav %}

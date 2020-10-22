@@ -2,9 +2,9 @@
                     <header class="entry-header">
                         <h2 class="p-name">{{ page.title }}</h2>
                     </header>
-                    {% if page.summary %}<section class="p-summary entry-content">
+                    {% if page.summary %}<span class="p-summary entry-content">
                         {{ page.summary | safe }}
-                    </section>{% endif %}
+                    </span>{% endif %}
                     <footer class="entry-footer">
                         <time class="dt-published" datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
                     </footer>
