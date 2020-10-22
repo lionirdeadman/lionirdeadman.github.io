@@ -12,13 +12,13 @@
                 Author: {{ page.extra.author }}
             </span>{% endif %}
             <br/>
-            <span class="post-date">Published: <time class="dt-published">{{ page.date | date(format="%B %e, %Y") }}</time></span>
+            <span class="post-date">Published: <time class="dt-published" datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.date | date(format="%Y-%m-%d") }}</time></span>
             <span>&middot;</span>
             <span class="post-reading-time">{{ page.reading_time }} min read</span>
             <br/>
             <span class="post-license">License: <a rel="license" href="{{ page.extra.license.url }}">{{ page.extra.license.name }}</a>.</span>
         </div>
-        <div class=post-update>{% if page.extra.update.message %}{{ page.extra.update.date }} : {{ page.extra.update.message }}{% endif %}</div>
+        <div class=post-update>{% if page.extra.update.message %}<time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.extra.update.date | date(format="%Y-%m-%d") }}</time> : {{ page.extra.update.message }}{% endif %}</div>
     </header>
     <div class="e-content post-content">{{ page.content | safe }}
     <hr />

@@ -16,7 +16,7 @@
           "license": "{{ page.extra.license.url | safe }}",
           "headline": "{{ page.title }}",
           "backstory": "{{ page.summary | safe | striptags }}",
-          "datePublished": "{{ page.date | date(format="%Y-%m-%d %H:%M", timezone="America/New_York") }}"
+          "datePublished": "{{ page.date | date(format="%Y-%m-%d") }}"
         }
         </script>{% endif %}
 
@@ -158,8 +158,8 @@
                 </article>{% endfor %}
                 <footer class="page-footer">
                     <nav class="pagination">
-                        {% if paginator.previous %}<a class="prev" href="{{ paginator.previous }}">← Previous</a>{% else %}<!--Hidden Previous-Button-->{% endif %}
-                        {% if paginator.next %}<a class="next" href="{{ paginator.next }}">Next →</a>{% else %}<!--Hidden Next-Button-->{% endif %}
+                        {% if paginator.previous %}<a class="prev" rel="prev" href="{{ paginator.previous }}">← Previous</a>{% else %}<!--Hidden Previous-Button-->{% endif %}
+                        {% if paginator.next %}<a class="next" rel="next" href="{{ paginator.next }}">Next →</a>{% else %}<!--Hidden Next-Button-->{% endif %}
                     </nav>
                 </footer>
             </div>

@@ -6,7 +6,7 @@
                         {{ page.summary | safe }}
                     </section>{% endif %}
                     <footer class="entry-footer">
-                        <time class="dt-published">{{ page.date | date(format="%B %e, %Y") }}</time>
+                        <time class="dt-published" datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
                     </footer>
                     <a class="u-url entry-link" title="{{ page.title }}" href="{{ page.permalink }}"></a>
 {% endmacro page_in_list %}
