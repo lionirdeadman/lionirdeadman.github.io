@@ -1,10 +1,10 @@
 {% import "post_macros.html" as post_macros %}
 
 <!DOCTYPE html>
-<html lang="en">
+{% if page %}<html lang="en">{% else %}<html lang="en" class="h-feed">{% endif %}
     <head>
         <meta charset="UTF-8" />
-        <title>{% if page.title %}{{ config.title }} - {{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
+        {% if page %}<title>{% else %}<title class="p-name">{% endif %}{% if page.title %}{{ config.title }} - {{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
         {% if page %}<script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -99,7 +99,6 @@
                 <span class="p-pronoun-nominative">he</span>/
                 <span class="p-pronoun-oblique">him</span>/
                 <span class="p-x-pronoun-possessive">his</span>/
-                <span class="p-pronoun-oblique">them</span>
               </a>
               <span class="p-note" style="display: none;" >I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll
               be talking to you about a certain project all day long and another I'm gonna be into something completely different.</span>
