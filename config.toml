@@ -16,6 +16,14 @@ title = "The Lion"
 generate_feed = true
 feed_filename = "atom.xml"
 
+
+insert_anchor_links = "right"
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
 [extra]
 # Put all your custom variables here
 links = [ {url = "/about/", name = "About"},
