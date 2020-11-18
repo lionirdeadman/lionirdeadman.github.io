@@ -2,6 +2,7 @@
 title = "Growtopia's systems destroy its social aspects"
 date = 2020-11-15
 slug_url = true
+draft = true
 
 [extra]
 author = "Lionirdeadman"
