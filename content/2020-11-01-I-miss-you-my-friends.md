@@ -13,7 +13,7 @@ license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
 
 I'm writing this as I'm reminescent of the past, it's probably going to be irrational and filled with errors but I don't care.
 <!-- more -->
-I recently checked on a game I used to play a few years ago hoping to find someone I lost contact with. I don't think it'll go anywhere but
+I recently checked on a game[^1] I used to play a few years ago hoping to find someone I lost contact with. I don't think it'll go anywhere but
 I still checked and I talked to someone by chance, really. It made me feel quite reminescent. I am slowly remembering certain pieces of those
 chaotic years. 
 
@@ -42,3 +42,5 @@ It's time for me to be this idealist again. I *will* find you all, I promise tha
 Sorry... I don't think I can find you. I am so sorry that I lost you.
 
 I hope to find you. For those who are still beside me, please hold me close.
+
+[^1]: That game is [Growtopia](https://growtopiagame.com/), not entirely sure why I was cryptic about it when I wrote this.
