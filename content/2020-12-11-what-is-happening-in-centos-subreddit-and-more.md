@@ -27,7 +27,7 @@ Now, we can go to [the announcement](https://blog.centos.org/2020/12/future-is-c
 
 > The future of the CentOS Project is CentOS Stream, and over the next year we’ll be shifting focus from CentOS Linux, the rebuild of Red Hat Enterprise Linux (RHEL), to CentOS Stream, which tracks just ahead of a current RHEL release. CentOS Linux 8, as a rebuild of RHEL 8, will end at the end of 2021. CentOS Stream continues after that date, serving as the upstream (development) branch of Red Hat Enterprise Linux.
 
-Now, people are mad because they see this as not only a betrayal from the EOL they gave previously which would've ended in 2029 but also of what CentOS stood for to them.
+Now, people are mad because they see this as not only a betrayal from the EOL that was expected as a copy of RHEL which would've ended in 2029.
 A lot of people used CentOS like they'd use RHEL but simply without the entreprise support that Red Hat provided.
 
 From CentOS's perspective, this is seen as an opportunity to become more than a clone, they want to influence RHEL as seen from this exerpt :
@@ -70,4 +70,4 @@ Now, with this in mind, another moderator, /u/RheaAyase, decides to ask them to 
 Well, we were all expecting this at this point, right? They just removed them from being a moderator. Not only that but they decided to mock them with a flair, to undermine
 their past moderation experience, to undermine the effort that they gave on the subreddit and just generally be a dick.
 
-Now, do I want anyone to harass them? No. However, if you know how to contact Reddit staff to raise this issue, I would gladly appreciate it. Thank you.
+Now, do I want anyone to harass them? No, please don't. However, if you know how to contact Reddit staff to raise this issue, I would gladly appreciate it. Thank you.
