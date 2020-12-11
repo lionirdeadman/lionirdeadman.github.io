@@ -2,7 +2,6 @@
 title = "What is happening in r/CentOS and why /u/redundantly should not be a moderator"
 date = 2020-12-11
 slug_url = true
-draft = true
 
 [extra]
 author = "Lionirdeadman"
