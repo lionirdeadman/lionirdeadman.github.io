@@ -8,6 +8,7 @@ author = "Lionirdeadman"
 author_url = "https://thelion.website/about/"
 license.name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Tildes" = "https://tildes.net/~tech/tw2/what_is_happening_in_r_centos_and_why_u_redundantly_should_not_be_a_moderator"}
 
 +++
 I will shortly explain what drove all this sudden spike of activity and basically, what happened in the CentOS community. Afterwards, I'll explain
