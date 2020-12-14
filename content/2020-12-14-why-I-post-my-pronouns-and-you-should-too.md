@@ -2,6 +2,7 @@
 title = "Why I post my pronouns and you should too"
 date = 2020-12-14
 slug_url = true
+draft = true
 
 [extra]
 author = "Lionirdeadman"
