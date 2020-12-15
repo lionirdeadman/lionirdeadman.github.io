@@ -44,24 +44,22 @@ like they don't belong, make them remember this feeling that they're in the wron
 
 ## Fighting it
 
-Put your pronouns everywhere you can. Tell people your pronouns.
-
-By doing this, you break the pattern. You can create a new pattern, a new normal. You make people feel more comfortable doing the same.
-
-By doing this, people don't need to assume your pronouns because you just tell them. People are more likely to do the same so you don't need
-to guess, you can feel more confident when using someone's pronouns.
-
-By doing this, you acknowledge cisnormativity and you show that you care.
-
-If people don't tell you, don't feel scared to ask! It'll probably feel awkward at first but you'll get used it. It's part of the process.
+Put your pronouns everywhere you can. Tell people your pronouns. If people don't tell you, don't feel scared to ask! 
+It'll probably feel awkward at first but you'll get used it. It's part of the process.
 
 If you mess up, it's fine, don't worry about it. Apologizing too much is probably gonna make people feel like they're asking too much so just
 continue talking and use the right pronoun from that moment.
 
-As a side note, you should try doing it even with your cis friends. Otherwise, it might come out awkward to people who know you and kinda act like a signal
-to people that the person you're presenting isn't cis which is a shame.
+This way, I try to break the pattern of assumptions regarding pronouns and gender. I try to be more inclusive with my language.
 
-Anyways, these are my thoughts on the subject.
+As a result, I can show that I am there for people and that I care about this.
+
+You make people feel more comfortable doing the same.
+
+I try to do it even with cis friends. Otherwise, I think it might come out awkward to people who know me and kinda act like a signal
+to people that the person I'm presenting isn't cis which is a shame.
+
+Anyways, this is why I do it.
 
 ---
 
