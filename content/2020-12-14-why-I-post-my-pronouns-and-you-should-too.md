@@ -2,7 +2,6 @@
 title = "Why I post my pronouns and you should too"
 date = 2020-12-14
 slug_url = true
-draft = true
 
 [extra]
 author = "Lionirdeadman"
@@ -30,12 +29,12 @@ What is cisnormativity? Let's check [the wiktionary definition](https://en.wikti
 
 I think this is a fair starting point. So, most people are cisgendered and you might think you can guess. However, that's exactly the problem
 with norms. It is true that you can probably do this and be right most of the time but by doing so, you will unavoidably make people
-living outside of the norm feel alienated, excluded and just hurt.
+living outside of the norm feel alienated, excluded and hurt.
 
-As a sidenote, I do want to point out that pronouns don't neccessarily align with someone's gender and it doesn't necessarily match. You can
+As a sidenote, I do want to point out that pronouns don't necessarily align with someone's gender. You can
 think of this like people who dress in a feminine fashion even though they're male. It's just easier to talk about it in terms of gender for me.
 
-Now, if you're like how I used to be, you might be thinking "Oh, only snowflakes get hurt by that" or something like that. Well, if you're
+Now, if you're like how I used to be, you might be thinking "Oh, only snowflakes get hurt by that". Well, if you're
 a guy, do you like being called a girl? I think in most cases, at least from anecdotal evidence, people take it as an insult. That's not
 to say being a certain gender is bad but being called something you're not is usually not flattering, let's put it that way.
 
