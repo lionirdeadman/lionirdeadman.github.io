@@ -38,7 +38,7 @@
         {% if page %}
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:url" content="{{ get_url(path=page.path, trailing_slash=false) }}" />
-        <meta property="og:description" content="{{ page.summary | markdown(inline=true) }}" />
+        <meta property="og:description" content="{{ page.summary | markdown(inline=true)  | safe | striptags }}" />
         {% if page.extra.banner_path %}
         <meta property='og:image' content="{{ resize_image(path=page.extra.banner_path, op="fill", format="auto") }}" />
         {% endif %}
