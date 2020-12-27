@@ -2,7 +2,6 @@
 title = "Why I don't believe in encrypted mail providers anymore"
 date = 2020-12-27
 slug_url = true
-draft = true
 
 [extra]
 author = "Lionirdeadman"
