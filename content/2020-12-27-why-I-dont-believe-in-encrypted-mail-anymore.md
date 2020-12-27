@@ -8,6 +8,7 @@ author = "Lionirdeadman"
 author_url = "https://thelion.website/about/"
 license.name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Tildes" = "https://tildes.net/~tech/u7k/why_i_dont_believe_in_encrypted_mail_providers_anymore", "Mastodon" = "https://fosstodon.org/@lionirdeadman/105454380433782624"}
 
 +++
 Recently, I moved away from [Tutanota](https://tutanota.com) to [Migadu](https://migadu.com). Why would I move away from a provider which provides encryption for all
