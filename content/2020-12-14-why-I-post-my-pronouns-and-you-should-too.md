@@ -8,6 +8,7 @@ author = "Lionirdeadman"
 author_url = "https://thelion.website/about/"
 license.name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Tildes" = "https://tildes.net/~lgbt/tyh/why_i_post_my_pronouns_and_you_should_too"}
 
 +++
 This is mostly a post for future reference but maybe people can learn more about how I see things.
