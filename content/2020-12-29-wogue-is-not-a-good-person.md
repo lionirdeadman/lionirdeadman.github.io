@@ -28,9 +28,9 @@ Here, you can see that they are willingly staying ignorant of facts and simply w
 > - Expel all developers that have said offensive things to others
 > - Remove all applications like GNOME Videos or Games that include content that is considered offensive (and actually is!) in many countries and people
 
-Here you can see a common case of "If x is offensive then what about y?" bullshit that you often see right-wingers make because they don't seem to understand
-power dynamics and like to exagerate things to make actual issues into nothing more than jokes. Also, yes, do expel developers that say horrendous shit, it's part
-of [GNOME's Code of conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) nowadays at least.
+Here you can see a common case of "If x is offensive then what about y?" that you'll often see right-wingers make because they don't seem to understand
+power dynamics and like to exaggerate things to make actual issues into nothing more than jokes. Also, yes, do expel developers that say horrendous shit, it's part
+of [GNOME's Code of conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) now at least.
 
 > I am trying to make a point through joking, because I really can’t be serious on these things.
 
@@ -39,31 +39,31 @@ Here you can see they think it's okay to publicly make a "joke" about hurting an
 > My personal opinion, is if you are calling something “racist” you’re also calling all the people behind it “racist”. 
 
 Well, yes but no. If the person is unwilling to listen to minorities after they complain about an issue then yes, I'd agree that this person is racist. However,
-if that issue was not made, I would simply say they are ignorant. In this case, I would agree to say that Cherokee's developer is racist through their entitlement
-for an indegineous' group's name and then using a caricature of them as logo. Gross.
+if that issue was not made, I would simply say they are ignorant. In this case, however, I would agree to say that Cherokee's developer is racist through their entitlement
+for an indegineous' group's name and then using a caricature of them as logo. It's quite gross.
 
 For reference on this. Alvaro (one of the developers on Cherokee) was [told](https://bugzilla.redhat.com/show_bug.cgi?id=681339#c31) that someone of Cherokee heritage who works 
 on Cherokee issues that it was "100% offensive". Their response was :
 
 > It's certainly sad that one has to choose inanimate objects as logo not to somehow be offensive to the somebody's nobel feelings.
 
-Entitlement to the end! How dare they find that appropriating and caricaturising their culture is offensive?! Needless to say, this is terrible and indefensible.
+Entitlement to the end! How dare they find that appropriating and caricaturising their culture offensive?! Needless to say, this is terrible and indefensible.
 
 > I would expect “some” Fedorians to be more cautious, and not connect a project with politics and history.
 
-This is bullshit in many ways. First, [Free Software](https://en.wikipedia.org/wiki/Free_software), Open source and copyleft in general *are* political and have always
-been this way. Second, **ASKING PEOPLE TO NOT BE ENTITLED RACIST PRICKS IS NOT POLITICAL**. How many times does this claim have to be made? There were also calls about
-"censorship" because the logo was being removed. If not wanting to ship offensive content means "censoring" things then fuck it, I'm all for censorship. There are
-limits to free speech. Free speech absolutism never fucking works. I might have to make blog posts about both of these issues ("Politcs in Free Software" and "Free 
-speech absolutism being evil".
+This is wrong in many ways. First, [Free Software](https://en.wikipedia.org/wiki/Free_software), Open source and copyleft in general *are* political and have always
+been this way. Second, asking people to not be entitled racist pricks is not political, it's just common sense. How many times does this claim have to be made? 
+There were also calls about "censorship" because the logo was being removed. If not wanting to ship offensive content means "censoring" things then I guess I'm all 
+for censorship. There are limits to free speech. Free speech absolutism never works. It simply derails to the bottom of the bin because of the paradox of intolerence.
+I might have to make blog posts about both of these issues ("Politcs in Free Software" and "Free speech absolutism being evil").
 
 > Unfortunately anti-racism campaigns and communities of any kind, is what preserve and keep the racism alive.
 
-NO! NO! YOU DIDN'T JUST SAY THAT.
+No. I think a good analogy for this incredibly wrong statement would be "condoms and education about sex is what keeps unwanted pregnancies alive".
 
 > There isn’t any kind of racism, other than the economical racism. And that was always the case.
 
-At this point, I'm just done.
+This is blatantly, patently false. I don't feel the need to explain why it's false. Anyone with *any* knowledge of history or racism would know this.
 
 Also, in [this comment](https://www.worldofgnome.org/whats-next-burning-leonardo-da-vinci-paintings/#comment-1285625432) :
 
@@ -81,9 +81,10 @@ If this wasn't unwelcoming and great example of exactly what not to do, they go 
 
 > You may get special treatment on other places! But not on baby Wogue World!
 
-Oh yeah, because being an unwelcoming piece of shit to women is clearly the appropriate thing to say in an industry which is primarly male. No, seriously, fuck you Wogue.
+Oh yeah, because being an unwelcoming to women is clearly the appropriate thing to say in an industry which is primarly male. No, seriously, how do you just wake
+up one day and say this?
 
-Oh, more sauce! In a [comment under the video](https://www.youtube.com/watch?v=gMlls1eUVGE&lc=Ugw4C3Ssy_Uu5nj8E6p4AaABAg) :
+Oh, it gets worse! In a [comment under the video](https://www.youtube.com/watch?v=gMlls1eUVGE&lc=Ugw4C3Ssy_Uu5nj8E6p4AaABAg) :
 
 > testing various stuff, and one of them is like how many will unsubscribe after this!! not that i care, but still super curious :p
 
