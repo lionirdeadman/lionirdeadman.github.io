@@ -27,7 +27,7 @@ Here, you can see that they are willingly staying ignorant of facts and simply w
 > - Expel all developers that have said offensive things to others
 > - Remove all applications like GNOME Videos or Games that include content that is considered offensive (and actually is!) in many countries and people
 
-Here you can see a common case of "If x is offensive then what about y?" that you'll often see right-wingers make because they don't seem to understand
+Here you can see a common case of [whataboutism](https://en.m.wikipedia.org/wiki/Whataboutism) that you'll often see right-wingers make because they don't seem to understand
 power dynamics and like to exaggerate things to make actual issues into nothing more than jokes. Also, yes, do expel developers that say horrendous shit, it's part
 of [GNOME's Code of conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) now at least.
 
