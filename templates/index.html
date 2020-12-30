@@ -111,33 +111,59 @@
               <a class="u-url u-uid" href="https://thelion.website"></a>
               <a href="mailto:website@thelion.website" rel="me"></a>
 
+              {% if config.extra.identities_social %}
               <!-- Social -->
-              <a class="u-url" rel="me" href="https://mastodon.thelion.website"></a>
+                {% for name, url in config.extra.identities_social %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
+              {% if config.extra.identities_editing %}
               <!-- Editing -->
-              <a class="u-url" rel="me" href="https://openstreetmap.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://wikipedia.thelion.website"></a>
+                {% for name, url in config.extra.identities_editing %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
+              {% if config.extra.identities_discussion %}
               <!-- Discussion -->
-              <a class="u-url" rel="me" href="https://tildes.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://reddit.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://discourse-gnome.thelion.website"></a>
+                {% for name, url in config.extra.identities_discussion %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
+              {% if config.extra.identities_coding %}
               <!-- Coding -->
-              <a class="u-url" rel="me" href="https://github.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://codeberg.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://gitlab.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://gitlab-gnome.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://gitlab-freedesktop.thelion.website"></a>
+                {% for name, url in config.extra.identities_coding %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
-
+              {% if config.extra.identities_tracking %}
               <!-- Tracking -->
-              <a class="u-url" rel="me" href="https://anidb.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://listen.thelion.website"></a>
+                {% for name, url in config.extra.identities_tracking %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
+              {% if config.extra.identities_chatting %}
               <!-- Chatting -->
-              <a class="u-url" rel="me" href="https://discord.thelion.website"></a>
-              <a class="u-url" rel="me" href="https://matrix.thelion.website"></a>
+                {% for name, url in config.extra.identities_chatting %}
+                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
 
               <!-- Categories -->
               <span style="display: none;" class="p-category">Blogging</span>
@@ -167,8 +193,6 @@
             {% endblock content %}
         </main>
 
-        <!-- Cloudflare Web Analytics -->
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6a0247943464818b4d0b65abf076570"}'></script>
         <!-- Plausible Analytics -->
         <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/plausible.js"></script>
         <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/index.outbound-links.js"></script>

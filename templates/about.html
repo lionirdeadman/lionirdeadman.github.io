@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="https://thelion.website/main.css" />
         <link rel="preload" href="https://thelion.website/font.css" as="style" />
         <link rel="stylesheet" href="https://thelion.website/font.css" />
-        <link rel="stylesheet" href="https://thelion.website/Fork-Awesome/css/fork-awesome.min.css" />
 
         <!-- Feeds -->
         <link rel="alternate" type="application/atom+xml" title="Blog posts" href="https://thelion.website/atom.xml" />
@@ -84,39 +83,71 @@
 
         <p>Here's all my other identities :</p>
 
+        {% if config.extra.identities_social %}
         <!-- Social -->
         <p><b>Social</b> <br />
-        <i class="fa fa-mastodon" aria-hidden="true"></i><a class="u-url" rel="me" href="https://mastodon.thelion.website">Mastodon</a><p>
+          {% for name, url in config.extra.identities_social %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
+        {% if config.extra.identities_editing %}
         <!-- Editing -->
         <p><b>Editing</b> <br />
-        <i class="fa fa-map" aria-hidden="true"></i><a class="u-url" rel="me" href="https://openstreetmap.thelion.website">OpenStreetMap</a> <br />
-        <i class="fa fa-wikipedia-w" aria-hidden="true"></i><a class="u-url" rel="me" href="https://wikipedia.thelion.website">Wikipedia</a></p>
+          {% for name, url in config.extra.identities_editing %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
+        {% if config.extra.identities_discussion %}
         <!-- Discussion -->
         <p><b>Discussion</b> <br />
-        <i aria-hidden="true"><img style="display: inline;" src="/Other-SVGs/tildes.svg" height="19" width="19" alt="Tildes Logo"></img></i><a class="u-url" rel="me" href="https://tildes.thelion.website">Tildes</a> <br />
-        <i class="fa fa-reddit" aria-hidden="true"></i><a class="u-url" rel="me" href="https://reddit.thelion.website">Reddit</a> <br />
-        <i class="fa fa-comments" aria-hidden="true"></i><a class="u-url" rel="me" href="https://discourse-gnome.thelion.website">GNOME Discourse</a></p>
+          {% for name, url in config.extra.identities_discussion %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
+        {% if config.extra.identities_coding %}
         <!-- Coding -->
         <p><b>Coding</b> <br />
-        <i class="fa fa-github" aria-hidden="true"></i><a class="u-url" rel="me" href="https://github.thelion.website">GitHub</a> <br />
-        <i class="fa fa-gitea" aria-hidden="true"></i><a class="u-url" rel="me" href="https://codeberg.thelion.website">Codeberg</a> <br />
-        <i class="fa fa-gitlab" aria-hidden="true"></i><a class="u-url" rel="me" href="https://gitlab.thelion.website">GitLab.com</a> <br />
-        <i class="fa fa-gitlab" aria-hidden="true"></i><a class="u-url" rel="me" href="https://gitlab-gnome.thelion.website">GNOME GitLab</a> <br />
-        <i class="fa fa-gitlab" aria-hidden="true"></i><a class="u-url" rel="me" href="https://gitlab-freedesktop.thelion.website">FreeDesktop GitLab</a></p>
+          {% for name, url in config.extra.identities_coding %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
-
+        {% if config.extra.identities_tracking %}
         <!-- Tracking -->
         <p><b>Tracking</b> <br />
-        <i aria-hidden="true"><img style="display: inline;" src="/Other-SVGs/anidb.svg" height="27" width="27" alt="AniDB Logo"></img></i><a class="u-url" rel="me" href="https://anidb.thelion.website">Anidb</a> <br />
-        <i aria-hidden="true"><img style="display: inline; filter: grayscale(100%) contrast(200%);" src="/Other-SVGs/metabrainz.svg" height="24" width="24" alt="MetaBrainz Logo"></img></i><a class="u-url" rel="me" href="https://listen.thelion.website">Listenbrainz</a></p>
+          {% for name, url in config.extra.identities_tracking %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
+        {% if config.extra.identities_chatting %}
         <!-- Chatting -->
         <p><b>Chatting</b> <br />
-        <i class="fa fa-discord" aria-hidden="true"></i><a class="u-url" rel="me" href="https://discord.thelion.website">Discord (using a tool a friend made, pretty neat)</a> <br />
-        <i class="fa fa-matrix-org" aria-hidden="true"></i><a class="u-url" rel="me" href="https://matrix.thelion.website">Matrix</a></p>
+          {% for name, url in config.extra.identities_chatting %}
+            {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
+            {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
 
         <!-- Categories -->
         <span style="display: none;" class="p-category">Blogging</span>
@@ -131,8 +162,6 @@
 
         </main>
 
-        <!-- Cloudflare Web Analytics -->
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6a0247943464818b4d0b65abf076570"}'></script>
         <!-- Plausible Analytics -->
         <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/plausible.js"></script>
         <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/index.outbound-links.js"></script>
@@ -145,6 +174,8 @@
             <span>Theme️ forked from <a href="https://github.com/schoenenberg/zola-paper" rel="noopener" target="_blank">Zola-Paper</a></span>
             <span>&middot;</span>
             <span>Hosted on <a href="https://pages.github.com/" rel="noopener" target="_blank">GitHub Pages</a></span>
+            <span>&middot;</span>
+            <span>Analytics by <a href="https://plausible.io" rel="noopener" target="_blank">Plausible</a></span>
         </footer>
     </body>
 </html>
