@@ -92,8 +92,19 @@ They perfectly know this isn't acceptable behaviour and they'll gladly move the 
 
 ## Abusive to developers
 
-I have seen behaviour of them calling developers various insults in the past. There's also [this video](https://www.youtube.com/watch?v=gB0ESxIy5HU) which I find to be quite
-bad taste but right now I just want to push this post and do something else because I've been pushing this article later editing it more and more. 
+I have seen behaviour of them calling developers various insults in the past. I feel like that's harder to comment on since these are personal stories and
+some might not want to make a public response but I'll show two examples of this behaviour (at least that I could find rapidly because I don't want to dig up his videos anymore).
 
-I will probably edit it later so if you want to tell me stories about Wogue which you think are worth mentioning, please send me a message, I'll be there to listen.
+This is the first instance where I saw someone speak up about the harm that Wogue commits with his videos. In ["WOGUE is no friend of GNOME"](https://blogs.gnome.org/hughsie/2019/06/09/wogue-is-no-friend-of-gnome/),
+Richard explains that Wogue is trying to shame developers in a video (It's far from the only video like this) as a way to make them work harder. However, this
+has the exact opposite effect. Reprimending and shaming people does not make them want to work harder, it simply sucks.
+
+Wogue's response was one of "It's your opinion and it's just one or two videos out of 500" while completely missing that fact that it's not just this video
+and compliments don't make things any less harmful.
+
+There's also [this video](https://www.youtube.com/watch?v=gB0ESxIy5HU) which I find to be quite distasteful but I'm not sure how George feels about it so I
+won't comment on it more than that.
+
+I will probably edit this post later so if you want to tell me stories about Wogue which you think are worth mentioning, please send me a message, 
+I'll be there to listen. If a video is made by Wogue about this post, I won't respond to it because I don't want a needless back-and-forth.
 
