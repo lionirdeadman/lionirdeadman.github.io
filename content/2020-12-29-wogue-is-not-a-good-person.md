@@ -2,7 +2,6 @@
 title = "Wogue is not a good person"
 date = 2020-12-29
 slug_url = true
-draft = true
 
 [extra]
 author = "Lionirdeadman"
