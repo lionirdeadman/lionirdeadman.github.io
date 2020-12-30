@@ -93,5 +93,7 @@ They perfectly know this isn't acceptable behaviour and they'll gladly move the 
 ## Abusive to developers
 
 I have seen behaviour of them calling developers various insults in the past. There's also [this video](https://www.youtube.com/watch?v=gB0ESxIy5HU) which I find to be quite
-bad taste but right now I just want to push this post and do something else because I've been pushing this article later editing it more and more. I will probably edit it later.
+bad taste but right now I just want to push this post and do something else because I've been pushing this article later editing it more and more. 
+
+I will probably edit it later so if you want to tell me stories about Wogue which you think are worth mentioning, please send me a message, I'll be there to listen.
 
