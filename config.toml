@@ -26,7 +26,7 @@ anchors = "on"
 
 [extra]
 # Put all your custom variables here
-links = [ {url = "/about/", name = "About"},
+links = [ {url = "/atom.xml", name = "Feed"}, {url = "/projects/", name = "Projects"}, {url = "/about/", name = "About"},
 ]
 
 identities_social = {"Mastodon" = "https://mastodon.thelion.website"}
