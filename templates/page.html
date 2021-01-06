@@ -4,6 +4,7 @@
 <article class="h-entry">
     <header class="post-header">
         <h1 class="post-title p-name"><a class="u-url" title="{{ page.title }}" href="{{ page.permalink }}">{{ page.title }}</a></h1>
+        <br />
         <div class="post-meta">
             {% if page.extra.author_url %}Author: <a class="p-author h-card" href="{{ page.extra.author_url | safe }}">
                 {{ page.extra.author }}
@@ -18,15 +19,12 @@
             <br/>
             <span class="post-license">License: <a rel="license" href="{{ page.extra.license.url }}">{{ page.extra.license.name }}</a>.</span>
         </div>
+        <br />
+        <hr />
         <div class=post-update>{% if page.extra.update.message %}<time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.extra.update.date | date(format="%Y-%m-%d") }}</time> : {{ page.extra.update.message }}{% endif %}</div>
     </header>
     <div class="e-content post-content">{{ page.content | safe }}
     <hr />
     {% if page.extra.syndications %}<span>Syndicated to : </span>{% for name, url in page.extra.syndications %}{% if loop.last == true %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a>{% else %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a><span>, </span>{% endif %}{% endfor %}{% endif %}</div>
 </article>
-<div class="webmentions-how-to">
-  <p>If you've been inspired, want to share your thoughts or respond in detail to a post, feel free to send a webmention. If you're not familiar with webmentions,
-  click <a href="https://telegraph.p3k.io/send-a-webmention">here</a> and enter the details. If I find a webmention relevant (for any number of reasons), I will include it
-  here. You can find why I have this policy <a href="https://thelion.website/2020-10-21/">here</a></p>
-</div>
 {% endblock content %}
