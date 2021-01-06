@@ -20,9 +20,7 @@
         }
         </script>{% endif %}
 
-        <link rel="shortcut icon" href="/logo.png" type="image/png" />
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="/logo-blue.svg" type="image/svg+xml" />
         <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
 
         <!-- Enable responsiveness on mobile devices-->
@@ -58,7 +56,7 @@
 
         <!-- Feeds -->
         {% if config.generate_feed %}<link rel="alternate self" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="Blog posts" href="{{ get_url(path=config.feed_filename) | safe }}" />
-        <link rel="hub" href="http://thelion.superfeedr.com/" /> {% endif %}
+        {% endif %}
 
         <!-- IndieWeb -->
         <link rel="webmention" href="https://webmention.io/thelion.website/webmention" />
@@ -82,12 +80,12 @@
                 <h1 class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
                 {% endif %}
                 <ul class="menu">
-                    <li><a href="&#x2F;atom.xml"><span style="display:none;">Atom Feed</span><i class="fa fa-feed"></i></a></li>
                     {% block sidebar_nav %}{% for link in config.extra.links %}
                     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
                     {% endfor %}{% endblock sidebar_nav %}
                 </ul>
             </nav>
+            {% if index %}
             <section class="h-card p-author">
 
               <!-- About me -->
@@ -100,13 +98,15 @@
               </a>
               <span class="p-note" style="display: none;" >I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll
               be talking to you about a certain project all day long and another I'm gonna be into something completely different.</span>
+            {% endif %}
 
               <!-- Profile picture -->
               <figure class="profile-wrapper">
-                  <img class="u-photo" src="{{ get_url(path="/profile.png", trailing_slash=false ) }}" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
+                  <img class="u-photo" src="{{ get_url(path="/winter_elf_profile.png", trailing_slash=false ) }}" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
                   <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
               </figure>
 
+              {% if index %}
               <a class="u-url u-uid" href="https://thelion.website"></a>
               <a href="mailto:website@thelion.website" rel="me"></a>
 
@@ -170,8 +170,8 @@
               <span style="display: none;" class="p-category">Privacy</span>
               <span style="display: none;" class="p-category">Web Design</span>
               <span style="display: none;" class="p-category">Philosophy</span>
-
             </section>
+            {% endif %}
         </header>
 
         <main class="main">
@@ -205,6 +205,8 @@
             <span>Theme️ forked from <a href="https://github.com/schoenenberg/zola-paper" rel="noopener" target="_blank">Zola-Paper</a></span>
             <span>&middot;</span>
             <span>Hosted on <a href="https://pages.github.com/" rel="noopener" target="_blank">GitHub Pages</a></span>
+            <span>&middot;</span>
+            <span>Analytics by <a href="https://plausible.io/" rel="noopener" target="_blank">Plausible</a></span>
         </footer>
     {% endblock body %}
     </body>
