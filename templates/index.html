@@ -65,11 +65,6 @@
     
 
     {% if page %}<body class="single">{% else %}<body class="list">{% endif %}
-    <script>
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-      }
-    </script>
                                                   
     {% block body %}
         <header class="header">
