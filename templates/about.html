@@ -1,61 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>The Lion - About</title>
-        <link rel="shortcut icon" href="/logo.png" type="image/png" />
+{% extends "index.html" %}
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
-
-        <!-- Enable responsiveness on mobile devices-->
-        <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
-
-        <!-- Open Graph Tags -->
-        <meta property="og:site_name" content="The Lion" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://thelion.website/about.html" />
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://thelion.website/main.css" />
-        <link rel="preload" href="https://thelion.website/font.css" as="style" />
-        <link rel="stylesheet" href="https://thelion.website/font.css" />
-
-        <!-- Feeds -->
-        <link rel="alternate" type="application/atom+xml" title="Blog posts" href="https://thelion.website/atom.xml" />
-
-        <!-- Web Mentions -->
-        <link rel="webmention" href="https://webmention.io/thelion.website/webmention" />
-        <link rel="pingback" href="https://webmention.io/thelion.website/xmlrpc" />
-    </head>
-
-
-    <body class="single">
-    <script>
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-      }
-    </script>
-        <header class="header">
-            <nav class="nav">
-
-                <h1 class="logo"><a href="https://thelion.website">The Lion</a></h1>
-
-                <ul class="menu">
-                    <li><a href="/atom.xml" alt="Atom feed"><i class="fa fa-feed"></i></a></li>
-
-                    <li><a href="/about/">About</a></li>
-                </ul>
-            </nav>
-            <figure class="profile-wrapper">
-                <img src="https://thelion.website/profile.png" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
-                <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
-            </figure>
-        </header>
-
-        <main class="main">
-
+{% block content %}
 <article class="post-single">
     <header class="post-header">
         <h1 class="post-title">About me</h1>
@@ -75,7 +20,7 @@
 
         <!-- Profile picture -->
         <figure style="display: none;" class="profile-wrapper">
-            <img class="u-photo" src="https://thelion.website/profile.png" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
+            <img class="u-photo" src="{{ get_url(path="/winter_elf_profile.png", trailing_slash=false ) }}" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
             <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
         </figure>
 
@@ -159,23 +104,4 @@
       </section>
     </div>
 </article>
-
-        </main>
-
-        <!-- Plausible Analytics -->
-        <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/plausible.js"></script>
-        <script async defer data-domain="thelion.website" src="https://stats.thelion.website/js/index.outbound-links.js"></script>
-
-        <footer class="footer">
-            <span>&#127279; <a href="https://github.com/lionirdeadman/lionirdeadman.github.io">Website code under MIT</a> !</span>
-            <br />
-            <span>Powered by <a href="https://www.getzola.org" rel="noopener" target="_blank">Zola</a>️</span>
-            <span>&middot;</span>
-            <span>Theme️ forked from <a href="https://github.com/schoenenberg/zola-paper" rel="noopener" target="_blank">Zola-Paper</a></span>
-            <span>&middot;</span>
-            <span>Hosted on <a href="https://pages.github.com/" rel="noopener" target="_blank">GitHub Pages</a></span>
-            <span>&middot;</span>
-            <span>Analytics by <a href="https://plausible.io" rel="noopener" target="_blank">Plausible</a></span>
-        </footer>
-    </body>
-</html>
+{% endblock content %}
