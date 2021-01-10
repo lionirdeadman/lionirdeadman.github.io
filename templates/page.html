@@ -25,6 +25,13 @@
     </header>
     <div class="e-content post-content">{{ page.content | safe }}
     <hr />
-    {% if page.extra.syndications %}<h3>Join the discussions : </h3>{% for name, url in page.extra.syndications %}{% if loop.last == true %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a>{% else %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a><span>, </span>{% endif %}{% endfor %}{% endif %}</div>
+    {% if page.extra.syndications %}
+      <h3>Join the discussions : </h3>
+      {% for name, url in page.extra.syndications %}
+        {% if loop.last == true %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a>
+        {% else %}<a rel="syndication" class="u-syndication" title="{{ name }}" href="{{ url }}">{{ name }}</a><span>, </span>
+        {% endif %}
+      {% endfor %}
+    </div>{% endif %}
 </article>
 {% endblock content %}

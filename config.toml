@@ -26,7 +26,9 @@ anchors = "on"
 
 [extra]
 # Put all your custom variables here
-links = [ {url = "/atom.xml", name = "Feed"}, {url = "/projects/", name = "Projects"}, {url = "/about/", name = "About"},
+links = [ {url = "/atom.xml", name = "Feed"},
+	  {url = "/projects/", name = "Projects"},
+	  {url = "/about/", name = "About"},
 ]
 
 identities_social = {"Mastodon" = "https://mastodon.thelion.website"}
@@ -35,3 +37,10 @@ identities_discussion = {"Tildes" = "https://tildes.thelion.website", "Reddit" =
 identities_coding = {"GitHub" = "https://github.thelion.website", "Codeberg" = "https://codeberg.thelion.website", "GitLab.com" = "https://gitlab.thelion.website", "GNOME GitLab" = "https://gitlab-gnome.thelion.website", "FreeDesktop GitLab" = "https://gitlab-freedesktop.thelion.website"}
 identities_tracking = {"Anidb" = "https://anidb.thelion.website", "Listenbrainz" = "https://listen.thelion.website"}
 identities_chatting = {"Discord (using a tool a friend made, pretty neat)" = "https://discord.thelion.website", "Matrix" = "https://matrix.thelion.website"}
+
+anime_completed = [ {name = "91 Days", rating = "8/10", status = "Watched twice"},
+                    {name = "Akame ga Kill!", rating = "7/10", status = "Watched once"},
+                    {name = "Naruto", rating = "7.5/10", status = "Watched once"},
+	            {name = "Code Geass", rating = "9/10", status = "Watched twice"},
+	            {name = "Steins;Gate", rating = "10/10", status = "Watched thrice"},
+]
