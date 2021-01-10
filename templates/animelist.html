@@ -4,10 +4,10 @@
 <style>
   .table-row {
     display: grid;
-    grid-template-columns: 2fr 1.5fr 1.25fr;
+    grid-template-columns: 1.5fr 0.7fr 0.7fr;
   }
   .table-row span {
-    margin: 7px 13px;
+    margin: 5px 10px;
   }
   .table-head {
     background: #008dc9;
@@ -15,12 +15,23 @@
     color: rgba(255, 255, 255, 1);
     border-radius: 5px;
   }
+  .center-span {
+    text-align: center;
+  }
   .anime-header {
     text-align: center;
   }
+  .anime-entry hr {
+    width: 99%;
+  }
+  @media only screen and (max-width: 700px) {
+    .main {
+      max-width: 100%;
+    }
+  }
 </style>
 
-<article class="h-entry">
+<article class="h-entry anime-entry">
     <header class="anime-header">
         <h1 class="post-title">Anime List</h1>
     </header>
@@ -30,15 +41,16 @@
       <div class="table">
         <div class="table-row table-head">
           <span>Name</span>
-          <span>Rating</span>
-          <span>Status</span>
+          <span class="center-span">Rating</span>
+          <span class="center-span">Status</span>
         </div>
         {% block anime_list %}{% for anime in config.extra.anime_completed %}
         <div class="table-row">
           <span>{{ anime.name }}</span>
-          <span>{{ anime.rating }}</span>
-          <span>{{ anime.status }}</span>
+          <span class="center-span">{{ anime.rating }}</span>
+          <span class="center-span">{{ anime.status }}</span>
         </div>
+        <hr />
         {% endfor %}{% endblock anime_list %}
       </div>
 </article>
