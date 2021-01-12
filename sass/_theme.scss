@@ -529,6 +529,34 @@ i {
   margin-top: 56px;
 }
 
+/* Table
+-------------------------------------------------- */
+.table-row {
+  display: grid;
+  grid-template-columns: 1.5fr 0.7fr 0.7fr;
+}
+.table-row span {
+  margin: 5px 10px;
+}
+.table-head {
+  background: #008dc9;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+.center-span {
+  text-align: center;
+}
+.table-header {
+  text-align: center;
+}
+.table-entry hr {
+  width: 99%;
+}
+.go-back {
+  font-weight: 600;
+  font-size: 24px;
+}
 /* Footer
 -------------------------------------------------- */
 .footer {

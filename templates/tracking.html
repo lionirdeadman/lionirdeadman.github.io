@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+
+{% block content %}
+<style>
+  @media only screen and (max-width: 700px) {
+    .main {
+      max-width: 100%;
+    }
+  }
+</style>
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">Tracking</h1>
+    </header>
+      <div class="post-content">
+        <p>I try to keep track of what I watch, read and play. Maybe you'll find it interesting so here's a list of that : </p>
+        <ul>
+          <li><a href="/tracking/anime/">Anime</a></li>
+          <li><a href="/tracking/manga/">Manga</a></li>
+          <li><a href="/tracking/game/">Games</a></li>
+          <li><a href="/tracking/book/">Books</a></li>
+          <li><a href="/tracking/tv/">TV/Movies</a></li>
+        </ul>
+    </div>
+</article>
+{% endblock content %}
