@@ -63,7 +63,7 @@
 
         {% if config.extra.identities_coding %}
         <!-- Coding -->
-        <p><b>Coding</b> <br />
+        <p><b>Coding <a href="/git.pub">(PGP Key)</a></b> <br />
           {% for name, url in config.extra.identities_coding %}
             {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
             {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />
