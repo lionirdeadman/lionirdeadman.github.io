@@ -346,9 +346,10 @@ i {
 .post-update {
   color: var(--content);
   font-size: 20px;
-  background: var(--code-bg);
-  border-radius: 8px;
-  text-align: center;
+  border-style: dashed;
+  border-color: red;
+  border-radius: 15px;
+  padding: 15px;
   margin-top: 40px;
 }
 .post-content {

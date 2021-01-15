@@ -21,7 +21,7 @@
         </div>
         <br />
         <hr />
-        <div class=post-update>{% if page.extra.update.message %}<time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.extra.update.date | date(format="%Y-%m-%d") }}</time> : {{ page.extra.update.message }}{% endif %}</div>
+        {% if page.extra.update.message %}<div class=post-update><time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.extra.update.date | date(format="%Y-%m-%d") }}</time> : {{ page.extra.update.message }}</div>{% endif %}
     </header>
     <div class="e-content post-content">{{ page.content | safe }}
     <hr />
