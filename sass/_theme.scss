@@ -199,6 +199,7 @@ i {
 .nav a {
   display: block;
   line-height: var(--header-height);
+  font-weight: bold;
 }
 .logo,
 .menu {
@@ -207,7 +208,6 @@ i {
 }
 .logo a {
   font-size: 32px;
-  font-weight: 700;
 }
 .menu {
   display: flex;
@@ -220,7 +220,6 @@ i {
 }
 .menu a {
   font-size: 24px;
-  font-weight: 600;
 }
 /* Main
 -------------------------------------------------- */
@@ -343,20 +342,12 @@ i {
   color: var(--secondary);
   font-size: 14px;
 }
-.post-meta a {
-    color: var(--secondary);
-}
-.post-meta a:hover {
-    color: var(--primary);
-    box-shadow: 0 1px 0 var(--primary);
-}
 .post-update {
   color: var(--content);
   font-size: 20px;
-  border-style: dashed;
-  border-color: red;
-  border-radius: 15px;
-  padding: 15px;
+  background: var(--code-bg);
+  border-radius: 8px;
+  text-align: center;
   margin-top: 40px;
 }
 .post-content {
@@ -560,6 +551,10 @@ i {
 }
 .table-entry hr {
   width: 99%;
+}
+.go-back {
+  font-weight: 600;
+  font-size: 24px;
 }
 /* Footer
 -------------------------------------------------- */
