@@ -10,11 +10,8 @@
 
         <!-- About me -->
         <p>Hi! I'm <span class="p-name">Lionir Deadman</span> but just can just call me <span class="p-given-name">Lion</span> for short. My pronouns are
-        <a href="https://pronoun.is/he/him/his" class="p-pronoun p-pronouns">
-          <span class="p-pronoun-nominative">he</span>/
-          <span class="p-pronoun-oblique">him</span>/
-          <span class="p-pronoun-possessive">his</span>
-        </a> . Nice to meet you!</p>
+        <a href="https://pronoun.is/he/him/his" class="p-pronoun p-pronouns"><span class="p-pronoun-nominative">he</span>/<span class="p-pronoun-oblique">him</span>/<span class="p-pronoun-possessive">his</span></a>.
+        Nice to meet you!</p>
         <p class="p-note">I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll
         be talking to you about a certain project all day long and another I'm gonna be into something completely different.</p>
 
@@ -63,7 +60,7 @@
 
         {% if config.extra.identities_coding %}
         <!-- Coding -->
-        <p><b>Coding <a href="/git.pub">(PGP Key)</a></b> <br />
+        <p><b>Coding</b> <a class="pgpkey" rel="pgpkey" type="application/pgp-keys" href="/git.pub">(PGP Key)</a><br />
           {% for name, url in config.extra.identities_coding %}
             {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}">{{ name }}</a>
             {% else %}<a class="u-url" rel="me" href="{{ url }}">{{ name}}</a> <br />

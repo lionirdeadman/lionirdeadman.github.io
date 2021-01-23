@@ -19,7 +19,7 @@
   
     --theme: #fff;
     --entry: #fff;
-    --primary: rgba(0, 0, 0, 0.88);
+    --primary: #008ee6;
     --secondary: rgba(0, 0, 0, 0.56);
     --tertiary: rgba(0, 0, 0, 0.16);
     --content: rgba(0, 0, 0, 0.88);
@@ -38,7 +38,7 @@
   :root {
     --theme: #202024;
     --entry: #2A2B2F;
-    --primary: rgba(255, 255, 255, 0.84);
+    --primary: #008fdb;
     --secondary: rgba(255, 255, 255, 0.74);
     --tertiary: rgba(255, 255, 255, 0.16);
     --content: rgba(255, 255, 255, 0.84);
@@ -246,8 +246,9 @@ i {
   color: var(--theme);
   font-size: 13px;
   line-height: 36px;
-  background: var(--primary);
+  background: #0073e6;
   border-radius: calc(36px / 2);
+  font-weight: bold;
 }
 .pagination .prev {
   padding-left: 16px;
@@ -314,6 +315,9 @@ i {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+.entry-content a {
+	color: var(--secondary);
 }
 .entry-footer {
   color: var(--secondary);
@@ -398,6 +402,7 @@ i {
 }
 .post-content a {
   box-shadow: 0 1px 0 var(--primary);
+  color: #0073e6;
 }
 .post-content a code {
   margin-left: 0;
@@ -546,6 +551,12 @@ i {
 }
 .table-row span {
   margin: 5px 10px;
+}
+.table-row span {
+  color: var(--content);
+}
+.table-head span {
+  color: rgba(255, 255, 255, 1);
 }
 .table-head {
   background: #008dc9;
