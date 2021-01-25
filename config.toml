@@ -42,7 +42,7 @@ identities_chatting = {"Discord (using a tool a friend made, pretty neat)" = "ht
 
 # Tracking
 anime_watching = [  {name = "Legend of the Galactic Heroes", rating = "9/10", status = "89/115"},
-                    {name = "Psycho Pass", rating = "?/10", status = "14/22"},
+                    {name = "Psycho Pass 2", rating = "?/10", status = "3/11"},
 ]
 anime_completed = [ {name = "91 Days", rating = "8/10", status = "x2"},
                     {name = "Akame ga Kill!", rating = "7/10", status = "x1"},
@@ -102,7 +102,7 @@ anime_completed = [ {name = "91 Days", rating = "8/10", status = "x2"},
                     {name = "Occultic;Nine", rating = "?/10", status = "x1"},
                     {name = "One Punch Man", rating = "7/10", status = "x1"},
                     {name = "Prison School", rating = "7/10", status = "x2"},
-                    {name = "Psycho Pass", rating = "?/10", status = "x1"},
+                    {name = "Psycho Pass", rating = "8/10", status = "x2"},
                     {name = "Psycho Pass 2", rating = "?/10", status = "x1"},
                     {name = "School Days", rating = "?/10", status = "x1"},
                     {name = "Serial Experiments Lain", rating = "4/10", status = "x1"},
