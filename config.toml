@@ -42,7 +42,7 @@ identities_chatting = {"Discord (using a tool a friend made, pretty neat)" = "ht
 
 # Tracking
 anime_watching = [  {name = "Legend of the Galactic Heroes", rating = "9/10", status = "89/115"},
-                    {name = "Psycho Pass 2", rating = "?/10", status = "3/11"},
+                    {name = "Psycho Pass 2", rating = "?/10", status = "7/11"},
 ]
 anime_completed = [ {name = "91 Days", rating = "8/10", status = "x2"},
                     {name = "Akame ga Kill!", rating = "7/10", status = "x1"},
