@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>The Lion</title>
+	<link href="https://thelion.website/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://thelion.website"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-12-29T00:00:00+00:00</updated>
+	<id>https://thelion.website/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Wogue is not a good person</title>
+		<published>2020-12-29T00:00:00+00:00</published>
+		<updated>2020-12-29T00:00:00+00:00</updated>
+		<link href="https://thelion.website/wogue-is-not-a-good-person/" type="text/html"/>
+		<id>https://thelion.website/wogue-is-not-a-good-person/</id>
+		<content type="html">&lt;p&gt;I was not planning to make a a clear statement about Wogue but the last video they have published was the the straw that broke the camel&#x27;s back. I can&#x27;t
+stand this anymore. I encourage heavily people to distance themselves from them. I&#x27;ll be going through incidents that I&#x27;ve personally witnessed.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;the-cherokee-incident&quot;&gt;The Cherokee incident&lt;&#x2F;h2&gt;
+&lt;p&gt;This is the first incident that I can remember. In &lt;a href=&quot;https:&#x2F;&#x2F;www.worldofgnome.org&#x2F;whats-next-burning-leonardo-da-vinci-paintings&#x2F;&quot;&gt;the post&lt;&#x2F;a&gt;, Wogue complains about
+&lt;a href=&quot;https:&#x2F;&#x2F;bugzilla.redhat.com&#x2F;show_bug.cgi?id=681339&quot;&gt;this issue&lt;&#x2F;a&gt; on the Fedora bug tracker to remove &lt;a href=&quot;https:&#x2F;&#x2F;cherokee-project.com&#x2F;&quot;&gt;Cherokee&lt;&#x2F;a&gt;&#x27;s offensive logo.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Additionally, I didn’t read every comment in the corresponding bug reports to have a better opinion about this issue, simply because I don’t care about these things in such a way.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here, you can see that they are willingly staying ignorant of facts and simply wanted to have &lt;em&gt;their&lt;&#x2F;em&gt; voice heard over those that are affected by this issue.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Destroy Leonardo Da Vinci paintings because they are considered sexist, and I am not even referring to religious issues.&lt;&#x2F;li&gt;
+&lt;li&gt;Expel all developers that have said offensive things to others&lt;&#x2F;li&gt;
+&lt;li&gt;Remove all applications like GNOME Videos or Games that include content that is considered offensive (and actually is!) in many countries and people&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here you can see a common case of &lt;a href=&quot;https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Whataboutism&quot;&gt;whataboutism&lt;&#x2F;a&gt; that you&#x27;ll often see right-wingers make because they don&#x27;t seem to understand
+power dynamics and like to exaggerate things to make actual issues into nothing more than jokes. Also, yes, do expel developers that say horrendous shit, it&#x27;s part
+of &lt;a href=&quot;https:&#x2F;&#x2F;wiki.gnome.org&#x2F;Foundation&#x2F;CodeOfConduct&quot;&gt;GNOME&#x27;s Code of conduct&lt;&#x2F;a&gt; now at least.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am trying to make a point through joking, because I really can’t be serious on these things.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here you can see they think it&#x27;s okay to publicly make a &amp;quot;joke&amp;quot; about hurting and being unwelcoming to minorities. Very nice! It&#x27;s really not funny.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My personal opinion, is if you are calling something “racist” you’re also calling all the people behind it “racist”. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Well, yes but no. If the person is unwilling to listen to minorities after they complain about an issue then yes, I&#x27;d agree that this person is racist. However,
+if that issue was not made, I would simply say they are ignorant. In this case, however, I would agree to say that Cherokee&#x27;s developer is racist through their entitlement
+for an indegineous&#x27; group&#x27;s name and then using a caricature of them as logo. It&#x27;s quite gross.&lt;&#x2F;p&gt;
+&lt;p&gt;For reference on this. Alvaro (one of the developers on Cherokee) was &lt;a href=&quot;https:&#x2F;&#x2F;bugzilla.redhat.com&#x2F;show_bug.cgi?id=681339#c31&quot;&gt;told&lt;&#x2F;a&gt; that someone of Cherokee heritage who works 
+on Cherokee issues that it was &amp;quot;100% offensive&amp;quot;. Their response was :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It&#x27;s certainly sad that one has to choose inanimate objects as logo not to somehow be offensive to the somebody&#x27;s nobel feelings.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Entitlement to the end! How dare they find that appropriating and caricaturising their culture offensive?! Needless to say, this is terrible and indefensible.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I would expect “some” Fedorians to be more cautious, and not connect a project with politics and history.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is wrong in many ways. First, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Free_software&quot;&gt;Free Software&lt;&#x2F;a&gt;, Open source and copyleft in general &lt;em&gt;are&lt;&#x2F;em&gt; political and have always
+been this way. Second, asking people to not be entitled racist pricks is not political, it&#x27;s just common sense. How many times does this claim have to be made? 
+There were also calls about &amp;quot;censorship&amp;quot; because the logo was being removed. If not wanting to ship offensive content means &amp;quot;censoring&amp;quot; things then I guess I&#x27;m all 
+for censorship. There are limits to free speech. Free speech absolutism never works. It simply derails to the bottom of the bin because of the paradox of intolerence.
+I might have to make blog posts about both of these issues (&amp;quot;Politcs in Free Software&amp;quot; and &amp;quot;Free speech absolutism being evil&amp;quot;).&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unfortunately anti-racism campaigns and communities of any kind, is what preserve and keep the racism alive.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;No. I think a good analogy for this incredibly wrong statement would be &amp;quot;condoms and education about sex is what keeps unwanted pregnancies alive&amp;quot;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There isn’t any kind of racism, other than the economical racism. And that was always the case.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is blatantly, patently false. I don&#x27;t feel the need to explain why it&#x27;s false. Anyone with &lt;em&gt;any&lt;&#x2F;em&gt; knowledge of history or racism would know this.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, in &lt;a href=&quot;https:&#x2F;&#x2F;www.worldofgnome.org&#x2F;whats-next-burning-leonardo-da-vinci-paintings&#x2F;#comment-1285625432&quot;&gt;this comment&lt;&#x2F;a&gt; :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think they are wrong. Not even Cherokee guys aren&#x27;t complaining. Without knowing that, I guess this software has been created from someone of the tribe.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Here you can see that they use the ignorance they gained to project misinformation too.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blatant-misoginy&quot;&gt;Blatant misoginy&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gMlls1eUVGE&quot;&gt;This&lt;&#x2F;a&gt; is the video that broke me. In this video &amp;quot;made for women&amp;quot;, &lt;a href=&quot;https:&#x2F;&#x2F;imgur.com&#x2F;a&#x2F;FYKJ47l&quot;&gt;Wogue says&lt;&#x2F;a&gt; :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And so! We don&#x27;t want any women here!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If this wasn&#x27;t unwelcoming and great example of exactly what not to do, they go further :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You may get special treatment on other places! But not on baby Wogue World!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Oh yeah, because being an unwelcoming to women is clearly the appropriate thing to say in an industry which is primarly male. No, seriously, how do you just wake
+up one day and say this?&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, it gets worse! In a &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gMlls1eUVGE&amp;amp;lc=Ugw4C3Ssy_Uu5nj8E6p4AaABAg&quot;&gt;comment under the video&lt;&#x2F;a&gt; :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;testing various stuff, and one of them is like how many will unsubscribe after this!! not that i care, but still super curious :p&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;They perfectly know this isn&#x27;t acceptable behaviour and they&#x27;ll gladly move the dagger in the wound.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;abusive-to-developers&quot;&gt;Abusive to developers&lt;&#x2F;h2&gt;
+&lt;p&gt;I have seen behaviour of them calling developers various insults in the past. I feel like that&#x27;s harder to comment on since these are personal stories and
+some might not want to make a public response but I&#x27;ll show two examples of this behaviour (at least that I could find rapidly because I don&#x27;t want to dig up his videos anymore).&lt;&#x2F;p&gt;
+&lt;p&gt;This is the first instance where I saw someone speak up about the harm that Wogue commits with his videos. In &lt;a href=&quot;https:&#x2F;&#x2F;blogs.gnome.org&#x2F;hughsie&#x2F;2019&#x2F;06&#x2F;09&#x2F;wogue-is-no-friend-of-gnome&#x2F;&quot;&gt;&amp;quot;WOGUE is no friend of GNOME&amp;quot;&lt;&#x2F;a&gt;,
+Richard explains that Wogue is trying to shame developers in a video (It&#x27;s far from the only video like this) as a way to make them work harder. However, this
+has the exact opposite effect. Reprimending and shaming people does not make them want to work harder, it simply sucks.&lt;&#x2F;p&gt;
+&lt;p&gt;Wogue&#x27;s response was one of &amp;quot;It&#x27;s your opinion and it&#x27;s just one or two videos out of 500&amp;quot; while completely missing that fact that it&#x27;s not just this video
+and compliments don&#x27;t make things any less harmful.&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s also &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gB0ESxIy5HU&quot;&gt;this video&lt;&#x2F;a&gt; which I find to be quite distasteful but I&#x27;m not sure how George feels about it so I
+won&#x27;t comment on it more than that.&lt;&#x2F;p&gt;
+&lt;p&gt;I will probably edit this post later so if you want to tell me stories about Wogue which you think are worth mentioning, please send me a message, 
+I&#x27;ll be there to listen. If a video is made by Wogue about this post, I won&#x27;t respond to it because I don&#x27;t want a needless back-and-forth.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Why I don&#x27;t believe in encrypted mail providers anymore</title>
+		<published>2020-12-27T00:00:00+00:00</published>
+		<updated>2020-12-27T00:00:00+00:00</updated>
+		<link href="https://thelion.website/why-i-dont-believe-in-encrypted-mail-anymore/" type="text/html"/>
+		<id>https://thelion.website/why-i-dont-believe-in-encrypted-mail-anymore/</id>
+		<content type="html">&lt;p&gt;Recently, I moved away from &lt;a href=&quot;https:&#x2F;&#x2F;tutanota.com&quot;&gt;Tutanota&lt;&#x2F;a&gt; to &lt;a href=&quot;https:&#x2F;&#x2F;migadu.com&quot;&gt;Migadu&lt;&#x2F;a&gt;. Why would I move away from a provider which provides encryption for all
+my emails? It&#x27;s one of the most important parts of someone&#x27;s digital life, so, why would I want that unencrypted for my provider to see? Let&#x27;s get into that.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;no-specification-or-interopability-for-the-encryption&quot;&gt;No specification or interopability for the encryption&lt;&#x2F;h2&gt;
+&lt;p&gt;Usually, the magic &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;End-to-end_encryption&quot;&gt;E2EE&lt;&#x2F;a&gt; only works if both recipient and sender use the same provider. If you use anything else,
+it just won&#x27;t work without hassle. If Tutanota, you&#x27;ll require the other person to follow a link and enter a password and 
+be stuck on that Tutanota&#x27;s web interface which won&#x27;t be fun for them. In the case of &lt;a href=&quot;https:&#x2F;&#x2F;protonmail.com&quot;&gt;Protonmail&lt;&#x2F;a&gt;, another encrypted mail provider, you&#x27;ll need to find OpenPGP keys
+and you&#x27;re basically back to square one. OpenPGP is just too much pain for people to use and do it properly.&lt;&#x2F;p&gt;
+&lt;p&gt;In either case, it&#x27;s not how you move email forward, you&#x27;re simply injecting proprietary protocols and&#x2F;or encryption protocols.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;no-interopability-with-the-email-server-in-general&quot;&gt;No interopability with the email server in general&lt;&#x2F;h2&gt;
+&lt;p&gt;Protonmail does have an &lt;a href=&quot;https:&#x2F;&#x2F;protonmail.com&#x2F;bridge&#x2F;&quot;&gt;IMAP bridge program&lt;&#x2F;a&gt; but that assumes you want to run that on your computer all the time to access your email?!
+You also get none of the benefits of their encryption! It&#x27;s just worse. As for Tutanota, there&#x27;s just nothing. You use the web interface (which the desktop and mobile
+clients also use). I mean, their web interfaces look nice, don&#x27;t get me wrong but that&#x27;s not how you move email forward, it&#x27;s just a pain for anyone
+who isn&#x27;t happy with your clients.&lt;&#x2F;p&gt;
+&lt;p&gt;This also means that it&#x27;s generally painful to move from one provider to the other. Protonmail does not offer any way to export your email for free (!!!!). This
+just traps people in their service. The worst part is that they have &lt;a href=&quot;https:&#x2F;&#x2F;protonmail.com&#x2F;import-export&quot;&gt;a tool&lt;&#x2F;a&gt; to let you export your email but you have to pay for it. Tutanota doesn&#x27;t have any bulk
+tools but it&#x27;s easy enough to just shift-click all the email in the desktop client and export to eml files. It&#x27;s not ideal but atleast it let me move my email.&lt;&#x2F;p&gt;
+&lt;p&gt;(I have asked Protonmail about making these tools available for free because I believe that it may be a GDPR violation. Exporting is not a privilege, it&#x27;s a right.
+I&#x27;ll update when I get a response.)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;it-s-not-more-private-nor-secure&quot;&gt;It&#x27;s not more private nor secure&lt;&#x2F;h2&gt;
+&lt;p&gt;The truth is your email is not really any more secure for most if not all communications. The copy on the other side is likely not encrypted. The webmail interface
+could be poisoned, there&#x27;s nothing proving that the interface you see is the source code given, they could at any point in time inject something to get your keys. This is something that
+could be avoided with third-party implementations or clients which can&#x27;t be updated in the background but those don&#x27;t exist for those services. Even if we could prove that
+the client was fine, the server could always just keep a plain copy with no issues at all for most email. &lt;&#x2F;p&gt;
+&lt;p&gt;From my time using email, I have actually never email someone with Tutanota&#x27;s encryption other than myself for testing purposes. Even in that case, the server could still
+just keep the metadata of who contacted who and when because it needs to have that information to send the encrypted data.&lt;&#x2F;p&gt;
+&lt;p&gt;All these issues just give the user a false sense of privacy and security that simply can&#x27;t be solved in the current state.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;My conclusion is simple : Don&#x27;t use encrypted mail providers. Assume everything you say through email can be read. While I do trust my provider not to do so, I
+have little reason to think that a government can&#x27;t and just have to act like it. Use other services for private information, delete information if I don&#x27;t want it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>I&#x27;m trying out Plausible Analytics</title>
+		<published>2020-12-18T00:00:00+00:00</published>
+		<updated>2020-12-18T00:00:00+00:00</updated>
+		<link href="https://thelion.website/trying-out-plausible-io/" type="text/html"/>
+		<id>https://thelion.website/trying-out-plausible-io/</id>
+		<content type="html">&lt;p&gt;I&#x27;m trying out &lt;a href=&quot;https:&#x2F;&#x2F;plausible.io&quot;&gt;Plausible&lt;&#x2F;a&gt;. Why? Well, let&#x27;s get into that. Also, this is a bit more than just a metapost so please stick by!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Okay... so, basically. I don&#x27;t want to pay. However, my hands are kind of tied. &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;web-analytics&#x2F;&quot;&gt;Cloudflare Web Analytics&lt;&#x2F;a&gt; does exist and I do
+still use it for now but I&#x27;ll probably remove it after the trial for Plausible expires if everything goes well.&lt;&#x2F;p&gt;
+&lt;p&gt;As &lt;a href=&quot;https:&#x2F;&#x2F;www.ctrl.blog&#x2F;entry&#x2F;review-cloudflare-analytics.html&quot;&gt;this post&lt;&#x2F;a&gt; made my realise, well, it doesn&#x27;t work. Rather, it doesn&#x27;t work properly.
+An overwhelming amount of pageviews at the root make it kind of not great. I&#x27;m not sure what people are looking at exactly.&lt;&#x2F;p&gt;
+&lt;p&gt;With the release of &lt;a href=&quot;https:&#x2F;&#x2F;blog.cloudflare.com&#x2F;cloudflare-pages&#x2F;&quot;&gt;Cloudflare Pages&lt;&#x2F;a&gt;, I can also more clearly see the goal that Cloudflare is trying to achieve.
+They want performance analytics of real-world websites so they&#x27;re offering these free tools to allow people to give them that data.&lt;&#x2F;p&gt;
+&lt;p&gt;So, why Plausible analytics then? Simply put, the design is clear, it looks to be more accurate and the price is good enough that I will swallow it. Also,
+as with everything that I pay, it&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;philosophy&#x2F;free-sw.en.html&quot;&gt;free software&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;One neat thing is you can make your analytics public with Plausible which is definitely something I want to do but... not now, I feel like there&#x27;s not enough traffic
+on this website to make this data less sensitive. I&#x27;ll tell you when I make it public.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, this might sound strange but I think the fact that I&#x27;ll pay for it will lead me to make more posts. I don&#x27;t want to waste money, right?&lt;&#x2F;p&gt;
+&lt;p&gt;In good news, the semester is over so expect more posts unless I let games eat my life!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Why I post my pronouns and you should too</title>
+		<published>2020-12-14T00:00:00+00:00</published>
+		<updated>2020-12-14T00:00:00+00:00</updated>
+		<link href="https://thelion.website/why-i-post-my-pronouns-and-you-should-too/" type="text/html"/>
+		<id>https://thelion.website/why-i-post-my-pronouns-and-you-should-too/</id>
+		<content type="html">&lt;p&gt;This is mostly a post for future reference but maybe people can learn more about how I see things.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I recently was asked by someone why I put my pronouns publicly in bios, I forget who and I forget where but it doesn&#x27;t matter anyways.&lt;&#x2F;p&gt;
+&lt;p&gt;I believe it was a fair question. Why would a cis person put their pronouns like this? &amp;quot;It&#x27;s obvious that I&#x27;m male&amp;quot;, they said.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, first of all, this isn&#x27;t obvious. I&#x27;m not sure if it&#x27;s just the internet circles I&#x27;m in but the profile pictures don&#x27;t align with the gender
+you&#x27;d think they are. So even if we assume cisnormativity (more on this very shortly) and that you can guess someone&#x27;s gender, this doesn&#x27;t quite work.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ll try to explain in detail why it doesn&#x27;t work and why we should be presenting this information.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-is-cisnormativity&quot;&gt;What is cisnormativity?&lt;&#x2F;h2&gt;
+&lt;p&gt;What is cisnormativity? Let&#x27;s check &lt;a href=&quot;https:&#x2F;&#x2F;en.wiktionary.org&#x2F;wiki&#x2F;cisnormativity&quot;&gt;the wiktionary definition&lt;&#x2F;a&gt; :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The assumption that all human beings are cisgender, i.e. have a gender identity which matches their biological sex.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I think this is a fair starting point. So, most people are cisgendered and you might think you can guess. However, that&#x27;s exactly the problem
+with norms. It is true that you can probably do this and be right most of the time but by doing so, you will unavoidably make people
+living outside of the norm feel alienated, excluded and hurt.&lt;&#x2F;p&gt;
+&lt;p&gt;As a sidenote, I do want to point out that pronouns don&#x27;t necessarily align with someone&#x27;s gender. You can
+think of this like people who dress in a feminine fashion even though they&#x27;re male. It&#x27;s just easier to talk about it in terms of gender for me.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, if you&#x27;re like how I used to be, you might be thinking &amp;quot;Oh, only snowflakes get hurt by that&amp;quot;. Well, if you&#x27;re
+a guy, do you like being called a girl? I think in most cases, at least from anecdotal evidence, people take it as an insult. That&#x27;s not
+to say being a certain gender is bad but being called something you&#x27;re not is usually not flattering, let&#x27;s put it that way.&lt;&#x2F;p&gt;
+&lt;p&gt;But also, for people outside of this norm, it&#x27;s even worse because it most likely happens often and it will probably make them feel
+like they don&#x27;t belong, make them remember this feeling that they&#x27;re in the wrong body.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fighting-it&quot;&gt;Fighting it&lt;&#x2F;h2&gt;
+&lt;p&gt;Put your pronouns everywhere you can. Tell people your pronouns. If people don&#x27;t tell you, don&#x27;t feel scared to ask! 
+It&#x27;ll probably feel awkward at first but you&#x27;ll get used it. It&#x27;s part of the process.&lt;&#x2F;p&gt;
+&lt;p&gt;If you mess up, it&#x27;s fine, don&#x27;t worry about it. Apologizing too much is probably gonna make people feel like they&#x27;re asking too much so just
+continue talking and use the right pronoun from that moment.&lt;&#x2F;p&gt;
+&lt;p&gt;This way, I try to break the pattern of assumptions regarding pronouns and gender. I try to be more inclusive with my language.&lt;&#x2F;p&gt;
+&lt;p&gt;As a result, I can show that I am there for people and that I care about this.&lt;&#x2F;p&gt;
+&lt;p&gt;You make people feel more comfortable doing the same.&lt;&#x2F;p&gt;
+&lt;p&gt;I try to do it even with cis friends. Otherwise, I think it might come out awkward to people who know me and kinda act like a signal
+to people that the person I&#x27;m presenting isn&#x27;t cis which is a shame.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, this is why I do it.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;The post &lt;a href=&quot;https:&#x2F;&#x2F;sugarbutch.net&#x2F;2019&#x2F;04&#x2F;dear-cis-people&#x2F;&quot;&gt;&amp;quot;Dear (Cis) People Who Put Your Pronouns On Your “Hello My Name Is” Name Tag&amp;quot;&lt;&#x2F;a&gt; 
+might be interesting to you&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>What is happening in r&#x2F;CentOS and why &#x2F;u&#x2F;redundantly should not be a moderator</title>
+		<published>2020-12-11T00:00:00+00:00</published>
+		<updated>2020-12-11T00:00:00+00:00</updated>
+		<link href="https://thelion.website/what-is-happening-in-centos-subreddit-and-more/" type="text/html"/>
+		<id>https://thelion.website/what-is-happening-in-centos-subreddit-and-more/</id>
+		<content type="html">&lt;p&gt;I will shortly explain what drove all this sudden spike of activity and basically, what happened in the CentOS community. Afterwards, I&#x27;ll explain
+my feelings towards the actions of this moderator.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;what-happened-in-centos&quot;&gt;What happened in CentOS?&lt;&#x2F;h2&gt;
+&lt;p&gt;Well, okay, let&#x27;s explain what CentOS was and for that, we can just look at &lt;a href=&quot;https:&#x2F;&#x2F;centos.org&#x2F;about&#x2F;&quot;&gt;the about page&lt;&#x2F;a&gt; from their website.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Since March 2004, CentOS Linux has been a community-supported distribution derived from sources freely provided to the public by Red Hat. As such, CentOS Linux aims to be functionally compatible with RHEL. We mainly change packages to remove upstream vendor branding and artwork. CentOS Linux is no-cost and free to redistribute.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;It was just a clone of RHEL, really. &lt;&#x2F;p&gt;
+&lt;p&gt;Now, we can go to &lt;a href=&quot;https:&#x2F;&#x2F;blog.centos.org&#x2F;2020&#x2F;12&#x2F;future-is-centos-stream&#x2F;&quot;&gt;the announcement&lt;&#x2F;a&gt; which triggered the uproar.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The future of the CentOS Project is CentOS Stream, and over the next year we’ll be shifting focus from CentOS Linux, the rebuild of Red Hat Enterprise Linux (RHEL), to CentOS Stream, which tracks just ahead of a current RHEL release. CentOS Linux 8, as a rebuild of RHEL 8, will end at the end of 2021. CentOS Stream continues after that date, serving as the upstream (development) branch of Red Hat Enterprise Linux.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Now, people are mad because they see this as not only a betrayal from the EOL that was expected as a copy of RHEL which would&#x27;ve ended in 2029.
+A lot of people used CentOS like they&#x27;d use RHEL but simply without the entreprise support that Red Hat provided.&lt;&#x2F;p&gt;
+&lt;p&gt;From CentOS&#x27;s perspective, this is seen as an opportunity to become more than a clone, they want to influence RHEL as seen from this exerpt :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It gives the CentOS contributor community a great deal of influence in the future of RHEL. And it removes confusion around what “CentOS” means in the Linux distribution ecosystem.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Now, this is messy and I&#x27;m not entirely sure what exactly brought this seemingly sudden change and well, no one else really knows as far as I know.&lt;&#x2F;p&gt;
+&lt;p&gt;What I feel really was a mishit in this announcement was this part :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you are using CentOS Linux 8 in a production environment, and are concerned that CentOS Stream will not meet your needs, we encourage you to contact Red Hat about options.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This strongly implies that CentOS Stream isn&#x27;t meant to be as stable and well, to a lot of people, that&#x27;s why they were on CentOS. It also reinforces the idea
+that the decision was fueled by Red Hat wanting to get more customers.&lt;&#x2F;p&gt;
+&lt;p&gt;With this explanation out of the way, you can imagine the reaction from people posting and commenting on r&#x2F;CentOS and that&#x27;s where bad moderation comes in.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-did-u-redundantly-do&quot;&gt;What did &#x2F;u&#x2F;redundantly do?&lt;&#x2F;h2&gt;
+&lt;p&gt;They went out of their inactive role as a moderator as can be seen in &lt;a href=&quot;https:&#x2F;&#x2F;imgur.com&#x2F;DyUttAR&quot;&gt;this picture&lt;&#x2F;a&gt; provided by a moderator (which is now demoted), &#x2F;u&#x2F;RheaAyase in &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kaq0qu&#x2F;an_open_letter_from_one_moderator_to_another&#x2F;&quot;&gt;this post&lt;&#x2F;a&gt; but more on that later.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, what would you do if you&#x27;re a moderator and people are wildly complaining about the project the subreddit is about? I would try to help people find solutions,
+try to keep things cool and generally just try to move things in a good direction. &lt;&#x2F;p&gt;
+&lt;p&gt;Well, unfortunately, they decided to change the description to call CentOS dead. They linked to &lt;a href=&quot;https:&#x2F;&#x2F;centos.rip&#x2F;&quot;&gt;centos.rip&lt;&#x2F;a&gt; to add insult to injury. They decided to change
+the rules of subreddit to include this :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;No image macros or memes, unless it&#x27;s related to the death of CentOS&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;They made a lot of flairs just blatantly trying to make fun of people trying to push things in a good direction as you can see &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kako6g&#x2F;save_centos_from_redhat_you_can_sign_to_show&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; where they flair it as &lt;code&gt;They don&#x27;t care&lt;&#x2F;code&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kallmj&#x2F;experience_with_centos_stream_sharing_thread&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; where the post is flaired as &lt;code&gt;Experience thread needed for not switching&lt;&#x2F;code&gt; and the person making the post is flaired as &lt;code&gt;Shill&lt;&#x2F;code&gt; which they then
+asked moderation for rectification as can be seen in &lt;a href=&quot;https:&#x2F;&#x2F;imgur.com&#x2F;mxTrzII&quot;&gt;this screenshot&lt;&#x2F;a&gt; (Thanks again, &#x2F;u&#x2F;RheaAyase for this information), they decide to refuse and to further insult the person.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for posts which suggest other projects than CentOS with &lt;code&gt;On your marks!&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kahj26&#x2F;rocky_linux_is_go_centos_founders_new_project&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;Better than nothing&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kau0f0&#x2F;is_oracle_linux_a_good_centos_replacement&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;YAYAYAYAYAY&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kafdes&#x2F;communitydriven_rhel_fork_by_cloudlinux_announced&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;Hope and Change&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;k9ya42&#x2F;i_really_hope_rocky_becomes_a_great_replacement&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;Praise be to Oracle&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;k9xkn1&#x2F;any_real_world_experience_with_oracle_linux&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;. I think you get the picture but I wanted to make sure to capture the scope.&lt;&#x2F;p&gt;
+&lt;p&gt;For posts claiming CentOS is dead or something along those lines, you&#x27;ll have &lt;code&gt;CENTOS WAS THE IMPOSTER&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kadtmj&#x2F;what_it_feels_like&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;Yup&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kamdix&#x2F;centos_8_dead_thanks_to_redhat_corporate_greed&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;The bar was set too low&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kamdix&#x2F;centos_8_dead_thanks_to_redhat_corporate_greed&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;CentOS cheated on us first&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kabjy5&#x2F;centos_commands_cheat_sheet&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;, &lt;code&gt;DOLLA DOLLA BILLS Y&#x27;ALL&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;ka2lrt&#x2F;be_on_the_lookout_for_unintended_consequences_of&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;With these three types of flairs, we can clearly see that they don&#x27;t want to represent CentOS as a project and really just want to pour oil on the fire.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, with this in mind, another moderator, &#x2F;u&#x2F;RheaAyase, decides to ask them to step down from being a moderator &lt;a href=&quot;https:&#x2F;&#x2F;old.reddit.com&#x2F;r&#x2F;CentOS&#x2F;comments&#x2F;kaq0qu&#x2F;an_open_letter_from_one_moderator_to_another&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; and....
+Well, we were all expecting this at this point, right? They just removed them from being a moderator. Not only that but they decided to mock them with a flair, to undermine
+their past moderation experience, to undermine the effort that they gave on the subreddit and just generally be a dick.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, do I want anyone to harass them? No, please don&#x27;t. However, if you know how to contact Reddit staff to raise this issue, I would gladly appreciate it. Thank you.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>I am using cloudflare analytics</title>
+		<published>2020-12-09T00:00:00+00:00</published>
+		<updated>2020-12-09T00:00:00+00:00</updated>
+		<link href="https://thelion.website/using-cloudflare-analytics/" type="text/html"/>
+		<id>https://thelion.website/using-cloudflare-analytics/</id>
+		<content type="html">&lt;p&gt;This is both a warning and explanation. I will explore why I&#x27;m using &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;web-analytics&#x2F;&quot;&gt;Cloudflare Web Analytics&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Now, for first, it&#x27;s free so it&#x27;s definitely something I can afford to do. I&#x27;d love use &lt;a href=&quot;https:&#x2F;&#x2F;plausible.io&quot;&gt;Plausible&lt;&#x2F;a&gt; and I&#x27;d recommend
+anyone who can afford it to do so but being a student, I try to keep subcriptions to a minimum and it&#x27;s simply too expensive.&lt;&#x2F;p&gt;
+&lt;p&gt;Why do I want analytics? Well... while it is fun to scream in the void, it is just that because I get virtually no feedback. I want to see
+that atleast people are reading this and potentially what people like the most. Maybe how it gets shared around (although it probably doesn&#x27;t).&lt;&#x2F;p&gt;
+&lt;p&gt;So why Cloudflare outside of price? Well, I obviously don&#x27;t want Google Analytics because I don&#x27;t trust Google and they&#x27;re known for using that data in ways
+I don&#x27;t like. So what other choices do I have for something free? Well, not much really.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, Cloudflare claims :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cloudflare Web Analytics does not use any client-side state, such as cookies or localStorage, to collect usage metrics. We also don’t “fingerprint” individuals via their IP address, User Agent string, or any other data for the purpose of displaying analytics. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Assuming this is true, I think I&#x27;m fine with that. So, well, that&#x27;s why.&lt;&#x2F;p&gt;
+&lt;p&gt;By the way, I have some ideas of posts to make so look forward to that. I&#x27;ve been quite busy with school lately so that&#x27;s why I&#x27;ve not written much lately.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>I miss you my friends</title>
+		<published>2020-11-01T00:00:00+00:00</published>
+		<updated>2020-11-01T00:00:00+00:00</updated>
+		<link href="https://thelion.website/i-miss-you-my-friends/" type="text/html"/>
+		<id>https://thelion.website/i-miss-you-my-friends/</id>
+		<content type="html">&lt;p&gt;I&#x27;m writing this as I&#x27;m reminescent of the past, it&#x27;s probably going to be irrational and filled with errors but I don&#x27;t care.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I recently checked on a game&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; I used to play a few years ago hoping to find someone I lost contact with. I don&#x27;t think it&#x27;ll go anywhere but
+I still checked and I talked to someone by chance, really. It made me feel quite reminescent. I am slowly remembering certain pieces of those
+chaotic years. &lt;&#x2F;p&gt;
+&lt;p&gt;I can&#x27;t shake this feeling that I&#x27;ll look back on now in the same way I look at back then. I hate it, I didn&#x27;t want to loose these people,
+these memories. I hate it so much, I feel powerless to time, to my own idiocy, to my own recklessness. Why didn&#x27;t I keep contact with them?
+Am I doomed to loose everything I know now to time? Were these friendships really meaningless? Who was I? Was I a good friend? Were they?&lt;&#x2F;p&gt;
+&lt;p&gt;These thoughts themselves will most likely vanish to time too unless I write them down. Is this me waking up from a slumber and being rational
+or is this just a mental breakdown? I don&#x27;t know. Who can tell?&lt;&#x2F;p&gt;
+&lt;p&gt;I miss you my friends. Am I insane for trying to find you on the internet? For messaging this phone number I had saved a long time when we were closer?
+Am I being creepy by doing that? I probably sound insane or maybe you can relate. I don&#x27;t know you. Heck, you probably don&#x27;t know this past of mine, it&#x27;s
+not a story I&#x27;ve told.&lt;&#x2F;p&gt;
+&lt;p&gt;I miss these delusions of grandeur where I thought I could accomplish everything I was thinking about, when I believed the world would just listen.
+That was foolish, true but I liked them. I was an idealist to the core, is that still what I am? I don&#x27;t know, I feel tainted.&lt;&#x2F;p&gt;
+&lt;p&gt;These names I see and feel a familiarity to, did I actually know them or is it just deja vu? I don&#x27;t know. Curse my memory. Curse my powerlessness. Curse
+my foolishness. I am sorry to you all that I have lost to the ennemy that is time.&lt;&#x2F;p&gt;
+&lt;p&gt;I miss these names, these people I knew. RyeRye519, KawaiiJilly, xChels, Kevino, Deaquez, amanduhh, XxSamanthaxX, LARREH, Kissabunni, Skayfi, michelle395,
+bouboule and Darnakun0 from Growtopia, Odd and Bella from Palringo, those who I knew on Plag and many many more from other places that 
+I can&#x27;t even remember.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s time for me to be this idealist again. I &lt;em&gt;will&lt;&#x2F;em&gt; find you all, I promise that time won&#x27;t seperate us. I&#x27;m just saying lies to sound cool... aren&#x27;t I?
+Sorry... I don&#x27;t think I can find you. I am so sorry that I lost you.&lt;&#x2F;p&gt;
+&lt;p&gt;I hope to find you. For those who are still beside me, please hold me close.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;That game is &lt;a href=&quot;https:&#x2F;&#x2F;growtopiagame.com&#x2F;&quot;&gt;Growtopia&lt;&#x2F;a&gt;, not entirely sure why I was cryptic about it when I wrote this.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>PSA about email rating limiting on Discord</title>
+		<published>2020-10-29T00:00:00+00:00</published>
+		<updated>2020-10-29T00:00:00+00:00</updated>
+		<link href="https://thelion.website/psa-rate-limit-discord/" type="text/html"/>
+		<id>https://thelion.website/psa-rate-limit-discord/</id>
+		<content type="html">&lt;p&gt;This post is just a PSA for those who are looking in the dark and a lesson about keeping multiple ways to contact people.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;This is very unlikely to happen really but I got myself rate limited from... changing my email. I didn&#x27;t think it was a thing at all
+but turns out it is and well, that sucks, really.&lt;&#x2F;p&gt;
+&lt;p&gt;So, how does it happen? Well, you just change your email 3 times in a row and bam, you&#x27;re rate limited. Now, if you fuck up and you can&#x27;t
+verify on the one you&#x27;re stuck with, you risk not being able to message anyone or any room for around 2-4hours (it happened to me but
+I&#x27;m not certain that this always happens when being rate limited due to email), I didn&#x27;t keep track of how long it was
+and maybe it depends on where you want to send a message. Calls and status messages work during this time.&lt;&#x2F;p&gt;
+&lt;p&gt;Now you&#x27;re wondering how long until you can change again, right? Well, it takes 12hours and then you&#x27;re not ratelimited anymore. So, hopefully, 
+you didn&#x27;t have anything important planned and you&#x27;re not a moderator or anything like that.&lt;&#x2F;p&gt;
+&lt;p&gt;What did I learn out of this experience? Always have another way to contact people you care about. You never know what could happen to be at the whims 
+of a giant corporation which might have a similar policy (I assume Discord isn&#x27;t alone on this).&lt;&#x2F;p&gt;
+&lt;p&gt;I hope everything goes well for anyone to whom this happens to.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The IndieWeb and me</title>
+		<published>2020-10-21T00:00:00+00:00</published>
+		<updated>2020-10-21T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2020-10-21/" type="text/html"/>
+		<id>https://thelion.website/2020-10-21/</id>
+		<content type="html">&lt;p&gt;This post will be about how I handle IndieWeb technologies and why.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Hm, where do I start? Oh, well, let&#x27;s do it by the order I implemented them. (Feel free to spy on the git commits)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;h-card&quot;&gt;H-card&lt;&#x2F;h3&gt;
+&lt;p&gt;I started with this because it seemed pretty easy and something I&#x27;d use in my about page (which exists now, no longer 404-land although some of the
+SVGs are dark on dark theme which I have to fix... later).&lt;&#x2F;p&gt;
+&lt;p&gt;So, why? I think allowing people to see what my identities online are makes it less likely that I&#x27;m going to impersonated and well, it allows me to
+just link to the website and have it verified although that&#x27;s just on some of them unfortunately. It also allows people to easily scrap data to re-use it
+instead of hard-coding it which I think is pretty cool. And well, I just like metadata and semantics in general to be quite frank.&lt;&#x2F;p&gt;
+&lt;p&gt;Oh yeah, it allows me to do IndieAuth too which is cool.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;h-entries&quot;&gt;H-entries&lt;&#x2F;h3&gt;
+&lt;p&gt;I made these a little after and it might be useful for scraping but I don&#x27;t have any benefits for it really atleast yet. Although, it does make
+webmentions work better, I think so that&#x27;s cool. As you can see, I don&#x27;t really have a reason for it but I still did because I sorta felt obligated to.
+I didn&#x27;t mind at the time since it was easy anyways.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;webmentions&quot;&gt;Webmentions&lt;&#x2F;h3&gt;
+&lt;p&gt;I first thought of making them show automagically on my page for commentary and such. And so, I wanted to backfeed comments. I tried for quite a bit but
+I struggled implementing it and it just didn&#x27;t act how I wanted. &lt;&#x2F;p&gt;
+&lt;p&gt;I thought a bit more about it and decided I&#x27;d do it manually instead. Why? I think most commentary tends to not be detailed enough which borders on noise since it&#x27;s
+mostly just there for the sake of it. It would also mean I have to be proactive with moderation and I don&#x27;t want to do that either.&lt;&#x2F;p&gt;
+&lt;p&gt;So instead, I&#x27;m doing it manually if I think it&#x27;s good, there&#x27;s a burden on me because of that of course but I also think that it will make the things I link much
+more interresting and something that people would want to read instead of suffering from curiosity.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;websub&quot;&gt;WebSub&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve not finished that yet but I just see it as an improvement on efficiency and speed, it doesn&#x27;t bother me.&lt;&#x2F;p&gt;
+&lt;p&gt;Yep, that&#x27;s all.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>How to survive the new Fall?</title>
+		<published>2020-10-18T00:00:00+00:00</published>
+		<updated>2020-10-18T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2020-10-18/" type="text/html"/>
+		<id>https://thelion.website/2020-10-18/</id>
+		<content type="html">&lt;p&gt;This is a follow-up to &lt;a href=&quot;https:&#x2F;&#x2F;thelion.website&#x2F;2020-10-15&#x2F;&quot;&gt;a post&lt;&#x2F;a&gt; I made a few days ago. Oh btw, I have this domain now, no more codeberg or neocities, sorry!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Alright, where to start... Well, alright, I explained the problem so let&#x27;s look at my solution. Maybe I should go and find why it&#x27;s 
+better before presenting the solution but it&#x27;ll all work out the way I do it, I think. The solution that I found is using a feed reader.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-is-heck-is-a-feed-reader&quot;&gt;What is heck is a feed reader?&lt;&#x2F;h3&gt;
+&lt;p&gt;Well, it&#x27;s a piece of software which is going to allow you to subscribe to websites which provide RSS&#x2F;Atom&#x2F;JSONFeed (Don&#x27;t worry about the terminology, it&#x27;s just
+different formats for a feed). Subscribe to a website? Yes! This way instead of going to websites and seeing if they posted anything new, you just have it there.&lt;&#x2F;p&gt;
+&lt;p&gt;Is this still too vague? If so, showing feed readers might help. I personally use &lt;a href=&quot;https:&#x2F;&#x2F;feedbin.com&#x2F;&quot;&gt;Feedbin&lt;&#x2F;a&gt; which is paid but here are some other popular ones,
+&lt;a href=&quot;https:&#x2F;&#x2F;feedly.com&quot;&gt;Feedly&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.inoreader.com&#x2F;&quot;&gt;Inoreader&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;miniflux.app&#x2F;&quot;&gt;Miniflux&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;freshrss.org&#x2F;&quot;&gt;FreshRSS&lt;&#x2F;a&gt;. They have different terms,
+layouts and pricing, pick whichever you want. There&#x27;s also some apps for desktop or mobile for these services (or to have it locally rather than as a service)
+if you want but I&#x27;m gonna skip on that for the sake of brievity.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why-would-i-use-that&quot;&gt;Why would I use that?&lt;&#x2F;h3&gt;
+&lt;p&gt;Simply, you get news about whatever you want without relying on others sharing the article on social media.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why-would-i-want-that&quot;&gt;Why would I want that?&lt;&#x2F;h3&gt;
+&lt;p&gt;I have five big reasons : &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;No commentary&lt;&#x2F;li&gt;
+&lt;li&gt;No virality&lt;&#x2F;li&gt;
+&lt;li&gt;No &amp;quot;quick comment&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Only sources you trust&lt;&#x2F;li&gt;
+&lt;li&gt;Relevant to you&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;no-commentary&quot;&gt;No commentary&lt;&#x2F;h4&gt;
+&lt;p&gt;When you find an article on social media, you&#x27;re likely to read the title then read the comments (or read commentary about the article first). This creates a clear bias 
+to how you&#x27;ll read the article (if you even end up doing that). This might mean you come into an article thinking whoever wrote it did so in bad faith which will skew 
+how you read what they&#x27;re saying. Note, the commentary could be insightful in certain cases but largely, this is not how social media pushes discussions. More generally,
+this avoids mob mentality and allows you to form your own opinion.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;no-virality&quot;&gt;No virality&lt;&#x2F;h4&gt;
+&lt;p&gt;You&#x27;re less likely to share something which is actually misinformation because if you read the article, you might realise something is fishy and be inclined to research
+it more to be sure that you have the right information and you&#x27;re less likely to read false information in general.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;no-quick-comment&quot;&gt;No &amp;quot;quick comment&amp;quot;&lt;&#x2F;h4&gt;
+&lt;p&gt;You&#x27;ve probably seen those comments which are just there for a quick joke, or some crappy comment that anyone who has read the article knows is false. These kinds comments
+tend to derail how any discussion goes and as such, you should avoid doing them if you end up on a discussion forum about the article and you should just ignore people who
+make those types of comments (or feel free to correct them, that&#x27;s good too but never take it to face value). A good place for conversations that I like is 
+&lt;a href=&quot;https:&#x2F;&#x2F;tildes.net&#x2F;&quot;&gt;Tildes&lt;&#x2F;a&gt; but I&#x27;m going off-topic now.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;only-sources-you-trust&quot;&gt;Only sources you trust&lt;&#x2F;h4&gt;
+&lt;p&gt;This might be the most important part. When articles are shared widely, you don&#x27;t think about what the source of the information is. When you make your feed,
+you should take your time to check the source of your information to both see their biases but also to see it&#x27;s not just bullshit. A good start to see if you 
+should trust them is seeing who owns the newspaper and how they fund themselves.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;relevant-to-you&quot;&gt;Relevant to you&lt;&#x2F;h4&gt;
+&lt;p&gt;You should make your feed reader personalized for things you can take action in, like local politics, or projects that you want to follow&#x2F;participate in. For example,
+if you don&#x27;t live in the US, you probably shouldn&#x27;t follow US news daily. Maybe you can make it a weekly if you have friends there and want to be informed on how it is
+there but it shouldn&#x27;t flood your feed otherwise you&#x27;ll get tired of it. As a result, this changes the dynamics from passive to proactive and that makes things 
+both more interresting and less tiring.&lt;&#x2F;p&gt;
+&lt;p&gt;There are other solutions obviously but well, this is what I found personally.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Updates avalanche</title>
+		<published>2020-10-16T00:00:00+00:00</published>
+		<updated>2020-10-16T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2020-10-16/" type="text/html"/>
+		<id>https://thelion.website/2020-10-16/</id>
+		<content type="html">&lt;p&gt;Oh boy, it&#x27;s been a long time. I remade the site from scratch, how will things be going forward?&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I&#x27;m not good at introductions so let&#x27;s just go, please.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-is-the-website-made-now&quot;&gt;How is the website made now?&lt;&#x2F;h3&gt;
+&lt;p&gt;I caved in! I am now using Zola and no longer on Neocities as a result because of fancy shenanigans 
+that don&#x27;t work there, I think. I might try again at a later date. So, until further disappearance, I&#x27;m here on Codeberg.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;where-s-all-the-pictures&quot;&gt;Where&#x27;s all the pictures?&lt;&#x2F;h3&gt;
+&lt;p&gt;They&#x27;re gone, they were never really used meaningfully. They were just me trying to make things look cool and well, there was no
+clear theme or style and it started to bother me.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;where-s-the-mistakes-section&quot;&gt;Where&#x27;s the mistakes section?&lt;&#x2F;h3&gt;
+&lt;p&gt;It never went anywhere with mind being scared, honestly. I think it&#x27;s better if I fill it in with more current mistakes than charging
+it with the past, it&#x27;s easier for me and probably makes more sense for you. Sorry.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;where-s-the-recommendations&quot;&gt;Where&#x27;s the recommendations?&lt;&#x2F;h3&gt;
+&lt;p&gt;They are no longer there, I might try to re-implement them but I think I&#x27;d rather try to integrate it better in the text. We&#x27;ll see how that goes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;can-i-still-follow-the-atom-feed&quot;&gt;Can I still follow the Atom feed?&lt;&#x2F;h3&gt;
+&lt;p&gt;Yes! Although, it&#x27;s no longer at the same place so sorry about that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why-is-the-website-mit-now&quot;&gt;Why is the website MIT now?&lt;&#x2F;h3&gt;
+&lt;p&gt;Well, I didn&#x27;t really wanna build everything from scratch so I took Zola-Paper and modified it and will continue to do so but it means I&#x27;m under that license now 
+which I suppose isn&#x27;t so bad for this small website.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;waaaa-where-are-all-the-semantics&quot;&gt;Waaaa, where are all the semantics?&lt;&#x2F;h3&gt;
+&lt;p&gt;They&#x27;re coming back, I still need to tame the beast more and I&#x27;ll be implementing them more and more.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-am-i-going-to-do-with-this-site-going-forward&quot;&gt;What am I going to do with this site going forward?&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ll be trying to post more often, avoiding meta posts... like this one, for instance.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, check &lt;a href=&quot;https:&#x2F;&#x2F;thelion.website&#x2F;2020-10-15&#x2F;&quot;&gt;the last post&lt;&#x2F;a&gt;, I think it was interresting.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Food for thought : Social media sent information back to the dark ages</title>
+		<published>2020-10-15T00:00:00+00:00</published>
+		<updated>2020-10-15T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2020-10-15/" type="text/html"/>
+		<id>https://thelion.website/2020-10-15/</id>
+		<content type="html">&lt;p&gt;This might sound quite ridiculous but let me explain how I came to this conclusion by describing three eras. Mind you, this is a think piece, not a research so take that as you will.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I&#x27;m not really good at history to be honest so it&#x27;s likely I&#x27;ll be wrong in some way but I&#x27;ll be rather vague.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-dark-ages&quot;&gt;The Dark Ages&lt;&#x2F;h3&gt;
+&lt;p&gt;First, let&#x27;s look back before information was free. During those times, the information was given by authorities (This might&#x27;ve been governments or the Church).
+Why is this important? Simply put, you weren&#x27;t alone nor on an equal field. If you were to criticise something in the public, you&#x27;d likely be exiled therefore you
+had to trust them to tell the truth and since this was shared knowledge and there were no alternatives, you were just left with that. There was no action.
+Until the press and literacy started growing...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-renaissance&quot;&gt;The Renaissance&lt;&#x2F;h3&gt;
+&lt;p&gt;Yes, the invention of the printer is what started it all. With this, information wasn&#x27;t given by authority anymore, it was not public so it was entirely your choice
+if you decided to believe it or criticize it. That&#x27;s not to say that this was always easy but it could be done. Critical thinking sprouting and it all went uphill
+from there. Thoughts could finally be distributed freely. Or could they?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-fall&quot;&gt;The Fall&lt;&#x2F;h3&gt;
+&lt;p&gt;Welcome to the internet, everyone can say anything! This is great, information can be shared more quickly than ever and with little costs compared to the old days of
+the press. But then something happens, social media is born. At first, this only made things better to the eyes of people, they could easily discuss news and share it.&lt;&#x2F;p&gt;
+&lt;p&gt;This is great, isn&#x27;t it? What&#x27;s the problem? People stopped going to the news for information, they&#x27;d just see what people were sharing. There&#x27;s nothing wrong with that?
+Social media became the gateway to information. People started reading the headlines and discussing the information from there. The existance of embeds was the start of the end.
+You&#x27;d likely not see who made the article you skimmed, you&#x27;d be more interrested in the discussions after this is social media. It&#x27;s all about your friends.. or is it now?&lt;&#x2F;p&gt;
+&lt;p&gt;By trying to keep people entertained on their websites to generate income, social media created another problem : the algorithmic feed. Now, with the rise of social media, they realised
+they wanted to keep you hooked in and so they created the algorithmic feed. At first, it probably encouraged discussions but with time, it encouraged radicalisation,
+misinformation and yellow journalism.&lt;&#x2F;p&gt;
+&lt;p&gt;Woah woah, you&#x27;re going too fast, why would it do that? Well, first, radicalisation because people like to see what they like and if they don&#x27;t like it, it will lead to &lt;a href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;386&#x2F;&quot;&gt;xkcd #386&lt;&#x2F;a&gt;
+which the algorithm will just see as the article being &lt;em&gt;engaging&lt;&#x2F;em&gt;. Why misinformation? For the same as radicalisation, it just pays. Now, yellow journalism? Simple, headlines
+go viral and then you&#x27;ll have more visitors. Wait, why do visitors matter? Well, certain newspapers turned to advertising too so they need the clicks.&lt;&#x2F;p&gt;
+&lt;p&gt;And that&#x27;s how we&#x27;re here where information is free but misinformation reigns supreme.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-can-we-do&quot;&gt;What can we do?&lt;&#x2F;h3&gt;
+&lt;p&gt;Sorry for leaving you on a down, I&#x27;ll be exploring this in a future article where I plan to talk about it more in depth. As the title suggests,
+you can take that time to think about it, yeah? I promise I&#x27;ll answer soon and here it &lt;a href=&quot;https:&#x2F;&#x2F;thelion.website&#x2F;2020-10-18&#x2F;&quot;&gt;is&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic web and rant</title>
+		<published>2019-06-25T00:00:00+00:00</published>
+		<updated>2019-06-25T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2019-06-25/" type="text/html"/>
+		<id>https://thelion.website/2019-06-25/</id>
+		<content type="html">&lt;p&gt;So, the semantic web, I came to it from being simply interresting in it because well, I thought it was good to make the computer 
+understand my content and it also made HTML prettier in my eyes.. especially HTML5 semantic elements.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;That&#x27;s cool stuff and I learn along the way although, deeper semantics have left me deeply confused since their documentation is 
+quite hard and there&#x27;s multiple implementations so for now, I decided to leave it at that and use simple semantics for the most part.&lt;&#x2F;p&gt;
+&lt;p&gt;Things like, the details element below, the figure element to put captions and picture elements together, the time element to make the 
+time machine-readeable making that data potentially useful for research, the nav element for navigation elements, all these kind of things 
+which make parsing much easier than a bajillion div elements.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, that brought me to well, the most common use for machine-readeable semantics -- Search. By far, search is what needs the most semantics 
+to make the results appropriate. That lead me to changing my robots.txt to allow crawling of certain parts which was fairly straight forward.&lt;&#x2F;p&gt;
+&lt;p&gt;Then I thought sitemap could be nice to allow it more easily and then since I had no feedback on those changes, I took my helmet and braced 
+Google&#x27;s search console which is.. painful, there&#x27;s delays everywhere, you need to verify you own the website, you need to make sure your results 
+look fine which will require even more waiting... then yesterday, I realised something terrible.&lt;&#x2F;p&gt;
+&lt;p&gt;Certain pages which I didn&#x27;t allow to be crawled were indexed, there was no way to remove it from any interface nor a hint to tell me so then 
+I talked to a friend about it and he linked me something that made me very mad.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Keep in mind that these settings can be read and followed only if crawlers are allowed to access the pages that include these settings. 
+The &lt;code&gt;&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;noindex&amp;quot; &#x2F;&amp;gt;&lt;&#x2F;code&gt; tag or directive applies to search engine crawlers. To block non-search crawlers, such as AdsBot-Google, 
+you might need to add directives targeted to the specific crawler (for example, &lt;code&gt;&amp;lt;meta name=&amp;quot;AdsBot-Google&amp;quot; content=&amp;quot;noindex&amp;quot; &#x2F;&amp;gt;&lt;&#x2F;code&gt;). -&lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;search&#x2F;reference&#x2F;robots_meta_tag&quot;&gt;Google&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;And this non-standard is really annoying. Not only does Google not see that not Crawling should equate in non-indexing but their solution to make 
+the difference is a standard that they don&#x27;t even follow all the time, they say it only applies to search-engine bots.&lt;&#x2F;p&gt;
+&lt;p&gt;Why is that a problem? Indexing and crawling is one of the most basic flows of requests so when you can&#x27;t have a simple opt-out from all of them, 
+you&#x27;ll end up with unwanted traffic and&#x2F;or a million meta tags to control it and that just makes me terribly mad.&lt;&#x2F;p&gt;
+&lt;p&gt;If anyone at W3C or at Google reads this, please standardize a sane system for indexing and crawling. Robots.txt is not standardized so that can be painful 
+to deal with and the meta robots tag doesn&#x27;t have a simple catch-all nor is it standardized either.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Flexbox and more changes</title>
+		<published>2019-06-18T00:00:00+00:00</published>
+		<updated>2019-06-18T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2019-06-18/" type="text/html"/>
+		<id>https://thelion.website/2019-06-18/</id>
+		<content type="html">&lt;p&gt;So, just last week I was saying a bunch of changes I had made, well, this is not gonna be as long, it&#x27;s just some little updates.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;new-layout-again&quot;&gt;New layout (again)&lt;&#x2F;h3&gt;
+&lt;p&gt;Yes, as you see, and as you probably saw to see this article. A new tweak for the layout, on desktops, you get more space used which is pretty good, really. I&#x27;m not sure how I like how it messes a little bit with how linear it was but it works and it&#x27;s still quite easy to manage.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;related-pages&quot;&gt;Related pages&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m not sure what to say, I&#x27;m putting articles at the bottom of articles so people can discover new content from other people or my older content. Kind of similar to webrings but well, more curated in a way.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;mistakes&quot;&gt;Mistakes&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m quite scared and stressed about this but I do want to let it out. It&#x27;ll take time and courage but I&#x27;ll do it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;more-appropriate-links&quot;&gt;More appropriate links&lt;&#x2F;h3&gt;
+&lt;p&gt;Old links will be broken, sorry about that but I think the new ones better fit the content.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I&#x27;ll try to stop redesigning so much and creating so much meta content. Sorry.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Time for some change!</title>
+		<published>2019-06-13T00:00:00+00:00</published>
+		<updated>2019-06-13T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2019-06-13/" type="text/html"/>
+		<id>https://thelion.website/2019-06-13/</id>
+		<content type="html">&lt;p&gt;So I&#x27;ve not updated this blog in a while but in the last few days I&#x27;ve updated it a bunch! So here&#x27;s some of the key changes from this.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;biggest-change-probably-no-more-comments&quot;&gt;Biggest change probably : No more comments!&lt;&#x2F;h3&gt;
+&lt;p&gt;So you might&#x27;ve thought it was about toxicity in comments or something about the ethics of it... It wasn&#x27;t used much either or well, I should say, I never saw it being used.&lt;&#x2F;p&gt;
+&lt;p&gt;But well, it&#x27;s a lot simpler than that, the service seems to be no more. I contacted the admin and there was no response, it&#x27;s possible that the email service is also dead but well, it&#x27;s gone for now atleast.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;licensing&quot;&gt;Licensing&lt;&#x2F;h3&gt;
+&lt;p&gt;So I did quite a bit of changes relating to work licenses, I already had the code under AGPLv3 as per my blog post but well, I have more changes.
+Proper license notice for artwork&lt;&#x2F;p&gt;
+&lt;p&gt;Now all of the artwork I use has the license terms and a link to the source for attribution! The GitHub also has LICENSES files to make this easier for those who are seeing from there. I&#x27;m pretty happy with how that looks too.
+Licensing my text as CC BY-SA 4.0&lt;&#x2F;p&gt;
+&lt;p&gt;Now all of the text is under CC BY-SA 4.0 which is noted at the end of each article so this change is pretty self-explanatory..&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;new-styling&quot;&gt;New styling&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve done some few changes with the design, the posts page is more minimalist and more similar to the mobile view, I like it.&lt;&#x2F;p&gt;
+&lt;p&gt;As you may have seen too, there&#x27;s a dark theme too! It works using &amp;quot;prefers-color-scheme: dark&amp;quot; which Safari, Chromium and Firefox respect based on your operating system settings or an internal setting&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s also new navigation changes which can be seen at the top for easier than before way to switch views.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;metadata-changes&quot;&gt;Metadata changes&lt;&#x2F;h3&gt;
+&lt;p&gt;Now when websites need to embed the website, we give them the usual web author and description, we give OpenGraph metadata and Twitter metadata which should let them to have good embeds and previews for the content!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;switch-to-webp&quot;&gt;Switch to Webp&lt;&#x2F;h3&gt;
+&lt;p&gt;I put all the pictures from .pngs and .jpgs to .webps which reduced the size from there over five times (432kb from 2.9mb)!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Reponse to GNOME critique</title>
+		<published>2019-05-02T00:00:00+00:00</published>
+		<updated>2019-05-02T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2019-05-02/" type="text/html"/>
+		<id>https://thelion.website/2019-05-02/</id>
+		<content type="html">&lt;p&gt;I&#x27;ll be answering the points one at a time as a gnome user so strap on for the ride, it&#x27;s gonna be a long one. I&#x27;d highly recommend reading their post first so you can see the points which I&#x27;m adressing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;1-a-desktop-that-does-nothing&quot;&gt;1. A Desktop that does nothing&lt;&#x2F;h3&gt;
+&lt;p&gt;That&#x27;s part of the design, get everything out of the way. That&#x27;s also why the workplace switcher isn&#x27;t shown unless you press the user key. Maximimize screen real estate while still offering the features in a coherent manner.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-barely-functional-status-bar&quot;&gt;2. Barely functional status bar&lt;&#x2F;h3&gt;
+&lt;p&gt;Sound is the exception because most people will simply use the keyboard keys unlike Wi-Fi or Bluetooth where that&#x27;s not an option? That makes sense to me, I&#x27;m not sure what&#x27;s off about this&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;a-connecting-to-a-wi-fi-network-is-too-many-steps&quot;&gt;a. Connecting to a Wi-Fi network is too many steps&lt;&#x2F;h4&gt;
+&lt;p&gt;From my understanding, this is done to avoid having an overly long sub-menu but still being able to quickly change networks (as opposed to opening the settings app which would be more work) It&#x27;s a compromise made by design&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;b-no-battery-percentage-option&quot;&gt;b. No battery percentage option&lt;&#x2F;h4&gt;
+&lt;p&gt;This entry is misleading at best, you yourself admit that the option exists in Gnome Tweaks I&#x27;ll explain why Gnome Tweaks is a good thing later ;)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;c-no-app-indicators&quot;&gt;c. No app indicators&lt;&#x2F;h4&gt;
+&lt;p&gt;This one is a little more complicated to explain. It&#x27;s a good thing. Bear with me now.&lt;&#x2F;p&gt;
+&lt;p&gt;First of all, the old format was the one supported by TopIcons, it&#x27;s quite poor due to the API and so, they removed support for that old API.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Okay but I want them!&amp;quot; I hear you say, that&#x27;s why Ubuntu made the extension with a newer and better API which people actually support unlike what you lead people to believe when you say &amp;quot;Even if a better implementation may exist, it needs to be understood and accepted that cross-platform apps are unlikely to create indicators specific to the Linux Desktop, a marketshare of less than 5%.&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Okay well, why isn&#x27;t that in GNOME?&amp;quot;, well, it&#x27;s relatively new for one and well, it&#x27;s more effort to maintain the more options you give but of course, that&#x27;s entirely the reason why it&#x27;s not done, it&#x27;s also possibly because of design decisions&lt;&#x2F;p&gt;
+&lt;p&gt;And that&#x27;s where you comment on the GNOME-styled &amp;quot;Fragments&amp;quot; torrent client come in, that&#x27;s the design that GNOME seems to want, &amp;quot;if you want your program to run, you should leave it open&amp;quot;, and you might say that&#x27;s terrible but here&#x27;s the thing, GNOME is a very keyboard-based (more on that in a second) and uses Workspaces quite heavily so what you&#x27;d do is.. use them to put background programs if you don&#x27;t currently need them or they&#x27;re done for a specific &amp;quot;work&amp;quot; environment.&lt;&#x2F;p&gt;
+&lt;p&gt;So about the keyboard oriented design of this anti-feature. What this effectively means is that you can use natural keyboard bindings to get to your application instead of using your cursor to get to the icon.&lt;&#x2F;p&gt;
+&lt;p&gt;As for the intrusivity of the notifications, I hear you, I&#x27;d personally want a do-not-disturb feature to block the peeking as Pop!_OS provides, I think that&#x27;s the best way to go about this issue.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;d-no-suspend-button&quot;&gt;d. No suspend button&lt;&#x2F;h4&gt;
+&lt;p&gt;Yeah, that&#x27;s not great design and should be fixed, I agree.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-deceiving-app-drawer&quot;&gt;3. Deceiving app drawer&lt;&#x2F;h3&gt;
+&lt;p&gt;You bundled things together here but I&#x27;ll try to stay coherent in my response. First of all, keyboard shortcuts should be known, they&#x27;re all in the settings if it really bothered anyone to have to click the application drawer icon in the first place... It&#x27;s really the first time I hear this.&lt;&#x2F;p&gt;
+&lt;p&gt;As for the truncated names, I don&#x27;t really think this as an issue considering the icons are also shown but as you said, it&#x27;s a WIP which will be done eventually for those that are bothered by it&lt;&#x2F;p&gt;
+&lt;p&gt;The folder issue is real, I&#x27;ll give you that but software handling it after a little of grumble works relatively well I would say.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4-unnecessary-notifications&quot;&gt;4. Unnecessary notifications&lt;&#x2F;h3&gt;
+&lt;p&gt;That&#x27;s done by design, windows are not meant to grab focus on gnome automatically, this can be annoying if you start an application then it just decides &amp;quot;lol, you were doing something? Well, I don&#x27;t care, focus on me&amp;quot; and so it tells you that the application has sucessfully loaded in instead, I would not expect this to change. Use the extension if you want to be annoyed&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;5-barebones-file-manager&quot;&gt;5. Barebones file manager&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;a-can-t-create-new-document-from-the-context-menu&quot;&gt;a. Can’t create new document from the context menu&lt;&#x2F;h4&gt;
+&lt;p&gt;It&#x27;s in the help documents, maybe use them. Although a default for a blank file might be useful. I&#x27;m not sure how you would want this to be more &amp;quot;intuitive&amp;quot;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;b-confusing-action-buttons&quot;&gt;b. Confusing action buttons&lt;&#x2F;h4&gt;
+&lt;p&gt;I think I&#x27;ll be repeating myself more but it&#x27;s by design, tooltips are not elegant and you misconceived the hamburger menu as a setting menu while it&#x27;s an option menu since you wouldn&#x27;t put 30 bajillion options in the titlebar, that would be a cursed sight.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;c-same-icons-for-different-file-types&quot;&gt;c. Same icons for different file types&lt;&#x2F;h4&gt;
+&lt;p&gt;Can we not make an icon for literally every format on planet earth? Please. They&#x27;re similar formats, let&#x27;s use the same icon, spare my sanity.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;d-oh-the-file-picker&quot;&gt;d. Oh, the file picker!&lt;&#x2F;h4&gt;
+&lt;p&gt;Have you ever thought that GNOME devs aren&#x27;t bothered by it and if people care so much about a stupid issue like that they could instead fix it rather than meme it? I think it&#x27;s quite an hostile mentality to expect people to work on everything and then complain and meme the issue rather than trying to fix it.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;e-non-discoverable-way-to-bookmark-folders&quot;&gt;e. Non-discoverable way to bookmark folders&lt;&#x2F;h4&gt;
+&lt;p&gt;Next thing you&#x27;re gonna tell me that menubars are not intuitive and as per the issue you filed, we would like to not duplicate that UI since it&#x27;s frankly not very useful to do so and just more clutter... and GNOME tries to avoid exactly that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;6-document-viewer-pdf-reader-with-no-tabs&quot;&gt;6. Document viewer (PDF reader) with no tabs!&lt;&#x2F;h3&gt;
+&lt;p&gt;The developer of the application doesn&#x27;t want this by design. If you don&#x27;t like it, there are other applications which you can use. Please don&#x27;t force people to do things that they don&#x27;t want because &amp;quot;People want it!&amp;quot;. Thank you.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;7-two-photo-viewing-apps&quot;&gt;7. Two photo viewing apps&lt;&#x2F;h3&gt;
+&lt;p&gt;While yes, you could dislike that. There is a clear distinction between the two and maybe I don&#x27;t want &amp;quot;GNOME Photos&amp;quot; to manage my photos but rather another photo manager but I still want a lightweight option like &amp;quot;Eye of Gnome&amp;quot; to view my pictures (which is what I do if you were wondering).&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s kind of interesting how you fight to get more options unless when you personally find it inconvenient..&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;8-can-t-find-my-settings&quot;&gt;8. Can’t find my settings&lt;&#x2F;h3&gt;
+&lt;p&gt;I know I&#x27;ll hate this part.. but here we go.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;a-undiscoverable-settings&quot;&gt;a. Undiscoverable settings&lt;&#x2F;h4&gt;
+&lt;p&gt;Uncommon things are put behind 3 dot menus, who would&#x27;ve thought, right?..&lt;&#x2F;p&gt;
+&lt;p&gt;Also, while you have ample of space, it&#x27;s worth mentioning that most people can access more than 3 access points meaning there isn&#x27;t as much place as you&#x27;d think.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;b-can-t-set-a-custom-wallpaper&quot;&gt;b. Can’t set a custom wallpaper&lt;&#x2F;h4&gt;
+&lt;p&gt;Except you can and you just said so.. sure, a file picker would be nice but what you&#x27;re saying is very misleading&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;c-tweaks-app-that-shouldn-t-exist&quot;&gt;c. Tweaks app that shouldn’t exist&lt;&#x2F;h4&gt;
+&lt;p&gt;I knew this was gonna happen... why..&lt;&#x2F;p&gt;
+&lt;p&gt;Okay, so, yes, some options could be changed over. However, this is a design decision.. So, we don&#x27;t want the clusterfuck of options from KDE so we put it in another application so those things are still available while not overwhelming the user which uses the settings application.&lt;&#x2F;p&gt;
+&lt;p&gt;But there&#x27;s also another thing to consider, some of those settings are not entirely safe to use so we might not want them to be as easy to access as all the other options to avoid the user breaking their system. Some options which could result in that include : Scaling, Themes, Extensions.&lt;&#x2F;p&gt;
+&lt;p&gt;TL;DR : It&#x27;s a compromise between flexibility and stability&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, gnome settings is more so DE-agnostic being that I could use all of the settings in there in another environment, while with Tweaks, that&#x27;s not the case.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;9-software-center&quot;&gt;9. Software Center&lt;&#x2F;h3&gt;
+&lt;p&gt;These are just shown in the updates menu where you would expect them to be... Also, if they don&#x27;t show up there, it&#x27;s your distro&#x27;s fault
+Conclusion&lt;&#x2F;p&gt;
+&lt;p&gt;Even though I appreciate the time you&#x27;ve taken to state your points, I highly disagree and hope you can understand my points. Thanks for reading.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Crawling back to GitHub...</title>
+		<published>2018-09-29T00:00:00+00:00</published>
+		<updated>2018-09-29T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2018-09-29/" type="text/html"/>
+		<id>https://thelion.website/2018-09-29/</id>
+		<content type="html">&lt;p&gt;I&#x27;m really sad. My code contributions have been quite low and I haven&#x27;t worked as much as I wish I did, my code&#x27;s been relatively untouched in the last months even though I need to modify it. But I&#x27;m also sad that my switch to Gitlab has not been as smooth as I wish it had been.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;First of all, the most frustrating part is how Gitlab handles watching and the lack of notifications unlike GitHub. This makes me watch my repositories manually most of the time which is quite frustrating. I really hope they work on this.&lt;&#x2F;p&gt;
+&lt;p&gt;I would switch to something which does have notifications like for example &lt;a href=&quot;https:&#x2F;&#x2F;gitbucket.github.io&#x2F;&quot;&gt;Gitbucket&lt;&#x2F;a&gt; but I have no hosting place to do this so it&#x27;s an impossibility at the moment. Maybe somebody else can offer it to me until I can use a VPS of my own&lt;&#x2F;p&gt;
+&lt;p&gt;I really hate to do this but notifications is something I really need out of my git platform. &lt;em&gt;sighs&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>This blog is AGPLv3!</title>
+		<published>2018-05-21T00:00:00+00:00</published>
+		<updated>2018-05-21T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2018-05-21/" type="text/html"/>
+		<id>https://thelion.website/2018-05-21/</id>
+		<content type="html">&lt;p&gt;This whole blog&#x27;s source code is now licensed under AGPLv3, celebrate! Okay, the code is pretty crappy but that&#x27;s another story, hopefully it improves. Feel free to contribute!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;I may have broken some things with some of the changes I did but I think it&#x27;s okay. At least, when I tested locally, who knows what&#x27;ll happen once this thing goes on Neocities. Hopefully nothing otherwise that&#x27;d suck.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m still waiting for someone to actually comment on here which kind of stinks, I was hoping for people to do so! Who are those 1660 (at the time of this writing) people who saw this blog? What do they think? It really interests me.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyhow, that&#x27;s off-topic and so, I&#x27;ll just end this blog post here. Oh, right! The source code is here I may have a mirror on GitHub later, maybe, we&#x27;ll see if anyone wants me to do so. Well, that&#x27;s all I had to say, have a good day y&#x27;all!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Comments on my blog!</title>
+		<published>2018-05-16T00:00:00+00:00</published>
+		<updated>2018-05-16T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2018-05-16/" type="text/html"/>
+		<id>https://thelion.website/2018-05-16/</id>
+		<content type="html">&lt;p&gt;Okay so I&#x27;ve been thinking about the best way for people reading my blog to contact me and I think I&#x27;ve found a solution which is pretty good.. comments! Okay, here&#x27;s why that&#x27;s a good way.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;1-control&quot;&gt;1. Control&lt;&#x2F;h3&gt;
+&lt;p&gt;With the comment system in place, I don&#x27;t have a contact page but that&#x27;s good, you&#x27;ll just comment and put your email address and other ways I can contact you there and then I can contact you when I want, this means that I won&#x27;t risk getting spammed as much.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-privacy&quot;&gt;2. Privacy&lt;&#x2F;h3&gt;
+&lt;p&gt;The messages will not be public until I approve them so if you give me your contact information inside the comment, I&#x27;ll simply delete it and it&#x27;ll never be seen by other people.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-just-comments&quot;&gt;3. Just.. comments!&lt;&#x2F;h3&gt;
+&lt;p&gt;If you post a comment regarding the article &#x2F; blog post, I&#x27;ll approve it and people will be able to see it and reply to you. I think it&#x27;ll be really cool to see what you all think of this and it won&#x27;t feel like I&#x27;m talking to myself anymore, haha.&lt;&#x2F;p&gt;
+&lt;p&gt;Oh! I almost forgot, the javascript and third-party service provider will not be loaded until you click the &amp;quot;Show comments&amp;quot; button so you can still read it without a third-party snooping on you.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Friendships and honesty.</title>
+		<published>2018-05-14T00:00:00+00:00</published>
+		<updated>2018-05-14T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2018-05-14/" type="text/html"/>
+		<id>https://thelion.website/2018-05-14/</id>
+		<content type="html">&lt;p&gt;I strongly believe that honesty is the foundation of any relationship. If you&#x27;re not honest with the people you talk to, you&#x27;re not yourself. You&#x27;re simply protraying someone which you&#x27;re not and therefore you&#x27;re actually creating a relationship in which two people, whom they&#x27;re not, are in a relationship.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Your friendship is therefore simply an illusion.&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;You may say that your relationship is fine if you lie &#x27;sometimes&#x27; but this gives precendence for future dishonesty. If you lie because of shame, guilt or even fear, this relationship is toxic because it&#x27;s one in which you can&#x27;t express yourself. You are scared of the person with whom you&#x27;re supposedly friends with.&lt;&#x2F;p&gt;
+&lt;p&gt;And if you&#x27;re scared of that person, why would you be with them in the first place? You should be able to tell them anything without fear of consequences.&lt;&#x2F;p&gt;
+&lt;p&gt;You may not want your friends to know certain things because you&#x27;re not comfortable and I think that&#x27;s perfectly normal but you shouldn&#x27;t be hiding it, you should simply tell them you don&#x27;t want to give them this information because you don&#x27;t have that kind of relationship with them.&lt;&#x2F;p&gt;
+&lt;p&gt;I think I&#x27;m starting to go in circles so I&#x27;ll just end this post here.. Maybe I&#x27;m crazy to think this way, I&#x27;m not sure anymore..&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Why am I using Neocities?</title>
+		<published>2018-04-27T00:00:00+00:00</published>
+		<updated>2018-04-27T00:00:00+00:00</updated>
+		<link href="https://thelion.website/2018-04-27/" type="text/html"/>
+		<id>https://thelion.website/2018-04-27/</id>
+		<content type="html">&lt;p&gt;Well, for one, it&#x27;s free. &amp;quot;Okay, and?&amp;quot;, you may be saying. 
+I don&#x27;t have the burden of hosting. I can simply code away the html and not worry about anything else..&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;This gives me freedom and peace of mind.&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Not only that but since there&#x27;s no database or anything, just static files.
+I&#x27;ve also further restricted myself by not using javascript (although that may change)&lt;&#x2F;p&gt;
+&lt;p&gt;Why? Because the web is bloated and it takes way too long to load most
+pages and they&#x27;re just filled with ads, trackers, javascript and other crap.&lt;&#x2F;p&gt;
+&lt;p&gt;So I&#x27;m just gonna post from here from time to time some decently-sized posts..
+You can also subsribe to the &lt;a href=&quot;https:&#x2F;&#x2F;lionirdeadman.codeberg.page&#x2F;atom.xml&quot;&gt;RSS&lt;&#x2F;a&gt; to see whenever I post something
+on here without making an account and stuff.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
