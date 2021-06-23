@@ -12,8 +12,7 @@ license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
 +++
 In the past month, I've started contributing to Flathub to update runtimes as to reduce
 the amount of applications using EOL runtimes. In this adventure, I've made some small
-projects and some great progress towards towards reducing the amount of applications using
-EOL runtimes.
+projects and some great progress towards towards reducing the amount of applications using EOL runtimes.
 <!-- more -->
 
 ### Some definitions
