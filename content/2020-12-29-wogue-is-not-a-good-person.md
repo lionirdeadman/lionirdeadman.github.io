@@ -16,7 +16,7 @@ stand this anymore. I encourage heavily people to distance themselves from them.
 
 ## The Cherokee incident
 
-This is the first incident that I can remember. In [the post](https://www.worldofgnome.org/whats-next-burning-leonardo-da-vinci-paintings/), Wogue complains about
+This is the first incident that I can remember. In [the post](https://web.archive.org/web/20170709230049/https://www.worldofgnome.org/whats-next-burning-leonardo-da-vinci-paintings/), Wogue complains about
 [this issue](https://bugzilla.redhat.com/show_bug.cgi?id=681339) on the Fedora bug tracker to remove [Cherokee](https://cherokee-project.com/)'s offensive logo.
 
 > Additionally, I didn’t read every comment in the corresponding bug reports to have a better opinion about this issue, simply because I don’t care about these things in such a way.
