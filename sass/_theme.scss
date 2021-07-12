@@ -243,8 +243,8 @@ i {
   display: flex;
 }
 .pagination a {
-  color: var(--theme);
-  font-size: 13px;
+  color: #fff;
+  font-size: 16px;
   line-height: 36px;
   background: #0073e6;
   border-radius: calc(36px / 2);
@@ -402,7 +402,7 @@ i {
 }
 .post-content a {
   box-shadow: 0 1px 0 var(--primary);
-  color: #0073e6;
+  color: #0273bf;
 }
 .post-content a code {
   margin-left: 0;
@@ -559,7 +559,7 @@ i {
   color: rgba(255, 255, 255, 1);
 }
 .table-head {
-  background: #008dc9;
+  background: #0073e6;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;

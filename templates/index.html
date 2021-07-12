@@ -70,9 +70,9 @@
         <header class="header">
             <nav class="nav">
                 {% if page %}
-                <p class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></p>
+                <p class="u-url u-uid logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></p>
                 {% else %}
-                <h1 class="logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
+                <h1 class="u-url u-uid logo"><a href="{{ get_url(path="", trailing_slash=false ) }}">{{ config.title }}</a></h1>
                 {% endif %}
                 <ul class="menu">
                     {% block sidebar_nav %}{% for link in config.extra.links %}
@@ -97,76 +97,15 @@
 
               <!-- Profile picture -->
               <figure class="profile-wrapper">
-                  <img class="u-photo" src="{{ get_url(path="/cool_profile.png", trailing_slash=false ) }}" loading="lazy" alt="Drawing of me made by my friend Kuroma" />
+                  <picture class="profile-wrapper">
+                    <source class="u-photo" srcset="{{ get_url(path="/cool_profile.avif", trailing_slash=false ) }}" loading="lazy" type="image/avif" />
+                    <source class="u-photo" srcset="{{ get_url(path="/cool_profile.webp", trailing_slash=false ) }}" loading="lazy" type="image/webp" />
+                    <source class="u-photo" srcset="{{ get_url(path="/cool_profile.png", trailing_slash=false ) }}" loading="lazy" type="image/png" />
+                    <img class="u-photo" src="{{ get_url(path="/cool_profile.png", trailing_slash=false ) }}" loading="lazy" type="image/png" alt="Drawing of me made by my friend Kuroma" />
+                  </picture>
                   <figcaption class="picture-license"><a href="https://www.deviantart.com/kuroma-dyne/" target="_blank">©Kuroma</a></figcaption>
               </figure>
-
-              {% if about %}{% else %}
-              <a class="u-url u-uid" href="https://thelion.website"></a>
-              <a href="mailto:indielogin@thelion.website" rel="me"></a>
-
-              {% if config.extra.identities_social %}
-              <!-- Social -->
-                {% for name, url in config.extra.identities_social %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              {% if config.extra.identities_editing %}
-              <!-- Editing -->
-                {% for name, url in config.extra.identities_editing %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              {% if config.extra.identities_discussion %}
-              <!-- Discussion -->
-                {% for name, url in config.extra.identities_discussion %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              {% if config.extra.identities_coding %}
-              <!-- Coding -->
-                {% for name, url in config.extra.identities_coding %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              {% if config.extra.identities_tracking %}
-              <!-- Tracking -->
-                {% for name, url in config.extra.identities_tracking %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              {% if config.extra.identities_chatting %}
-              <!-- Chatting -->
-                {% for name, url in config.extra.identities_chatting %}
-                  {% if loop.last == true %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% else %}<a class="u-url" rel="me" href="{{ url }}"></a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              <!-- Categories -->
-              <span style="display: none;" class="p-category">Blogging</span>
-              <span style="display: none;" class="p-category">Free Software</span>
-              <span style="display: none;" class="p-category">Privacy</span>
-              <span style="display: none;" class="p-category">Web Design</span>
-              <span style="display: none;" class="p-category">Philosophy</span>
             </section>
-            {% endif %}
         </header>
 
         <main class="main">
