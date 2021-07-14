@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="182.81mm" height="175.33mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 182.81 175.33" xmlns="http://www.w3.org/2000/svg">
+<svg width="256mm" height="256mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
  <title>The Lion</title>
  <defs>
-  <linearGradient id="linearGradient18" x1="76.239" x2="149.67" y1="194.84" y2="109.52" gradientUnits="userSpaceOnUse">
+   <linearGradient id="linearGradient" x1="75" x2="25" y1="100" y2="175" gradientUnits="userSpaceOnUse">
    <stop stop-color="#008dc9" offset="0"/>
    <stop stop-color="#00b8c9" offset="1"/>
   </linearGradient>
  </defs>
- <g transform="translate(-14.967 -63.076)">
-  <ellipse cx="106.37" cy="150.74" rx="91.406" ry="87.664" fill="url(#linearGradient18)" fill-rule="evenodd" stroke-width=".26458"/>
- </g>
+ <circle cx="128" cy="128" r="128" fill="url(#linearGradient)" fill-rule="evenodd" stroke-width=".25"/>
 </svg>
