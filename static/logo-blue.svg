@@ -2,7 +2,7 @@
 <svg width="256mm" height="256mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
  <title>The Lion</title>
  <defs>
-   <linearGradient id="linearGradient" x1="75" x2="25" y1="100" y2="175" gradientUnits="userSpaceOnUse">
+   <linearGradient id="linearGradient" x1="70" x2="190" y1="160" y2="62" gradientUnits="userSpaceOnUse">
    <stop stop-color="#008dc9" offset="0"/>
    <stop stop-color="#00b8c9" offset="1"/>
   </linearGradient>
