@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="182.81mm" height="175.33mm" version="1.1" viewBox="0 0 182.81 175.33" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="182.81mm" height="175.33mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 182.81 175.33" xmlns="http://www.w3.org/2000/svg">
+ <title>The Lion</title>
  <defs>
   <linearGradient id="linearGradient18" x1="76.239" x2="149.67" y1="194.84" y2="109.52" gradientUnits="userSpaceOnUse">
    <stop stop-color="#ca1300" offset="0"/>
