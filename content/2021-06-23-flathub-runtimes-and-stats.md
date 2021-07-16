@@ -8,6 +8,7 @@ author = "Lionirdeadman"
 author_url = "https://thelion.website/about/"
 license.name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license.url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Tildes" = "https://tildes.net/~tech/xdi/flathub_runtimes_and_stats", "Mastodon" = "https://fosstodon.org/@lionirdeadman/105454380433782624", "r/flatpak" = "https://www.reddit.com/r/flatpak/comments/o7gwc2/flathub_runtimes_and_stats/", "r/linux" = "https://www.reddit.com/r/linux/comments/o7gvn6/flathub_runtimes_and_stats/"}
 
 +++
 In the past month, I've started contributing to Flathub to update runtimes as to reduce
