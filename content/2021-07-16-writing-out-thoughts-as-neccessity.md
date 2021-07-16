@@ -2,7 +2,6 @@
 title = "Writing out thoughts as neccessity & thoughts of the day."
 date = 2021-07-16
 slug_url = true
-draft = true
 
 [extra]
 author = "Lionirdeadman"
