@@ -1,0 +1,22 @@
+<header class="header">
+
+    <!-- Navigation bar -->
+    <nav class="nav">
+        <p class="u-url u-uid logo"><a href="{{ .Site.BaseURL }}">The Lion</a></p>
+        <ul class="menu">
+            <li><a href="/atom.xml">Feed</a></li><li><a href="/projects/">Projects</a></li><li><a href="/tracking/">Tracking</a></li><li><a href="/about/">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile picture -->
+    <figure class="profile-wrapper">
+        <picture class="profile-wrapper">
+          <source class="u-photo" srcset="/profile/{{ .Site.Author.avatar }}.avif" loading="lazy" type="image/avif" />
+          <source class="u-photo" srcset="/profile/{{ .Site.Author.avatar }}.webp" loading="lazy" type="image/webp" />
+          <img class="u-photo" src="/profile/{{ .Site.Author.avatar }}.jpg" loading="lazy" type="image/jpg" alt="Drawing of me made by my friend Kuroma" />
+        </picture>
+        <figcaption class="picture-license"><a class="picture-license-a" href="https://www.deviantart.com/kuroma-dyne/" rel="noopener" target="_blank">©Kuroma</a></figcaption>
+    </figure>
+    <script src="/jpeg-mask.js"></script>
+
+</header>

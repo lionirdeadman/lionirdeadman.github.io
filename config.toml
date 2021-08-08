@@ -1,327 +1,63 @@
-# The URL the site will be built for
-base_url = "https://thelion.website"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
+baseURL = "https://thelion.website/"
+languageCode = "en-us"
 title = "The Lion"
 
-generate_feed = true
-feed_filename = "atom.xml"
-feed_url = "/atom.xml"
+paginate = "10"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
 
-insert_anchor_links = "right"
+[author]
+  name = "Lionir Deadman"
+  url = "https://thelion.website/about/"
+  avatar = "mermelon_profile"
 
-[slugify]
-paths = "on"
-taxonomies = "on"
-anchors = "on"
+[outputFormats]
+  [outputFormats.jsonfeed]
+    mediaType = "application/json"
+    baseName = "feed"
+    isPlainText = true
+    
+  [outputFormats.atom]
+    mediaType = "application/xml"
+    baseName = "atom"
+    isPlainText = true
 
-[extra]
-# Menu
-links = [ {url = "/atom.xml", name = "Feed"},
-	  {url = "/projects/", name = "Projects"},
-  	  {url = "/tracking/", name = "Tracking"},
-	  {url = "/about/", name = "About"},
-]
+  [outputFormats.logo]
+    mediaType = "image/svg+xml"
+    baseName = "logo"
+    isPlainText = true
 
-# Identities
-identities_social = {"Mastodon" = "https://mastodon.thelion.website"}
-identities_editing = {"OpenStreetMap" = "https://openstreetmap.thelion.website", "Wikipedia" = "https://wikipedia.thelion.website"}
-identities_discussion = {"Tildes" = "https://tildes.thelion.website", "Reddit" = "https://reddit.thelion.website", "GNOME Discourse" = "https://discourse-gnome.thelion.website"}
-identities_coding = {"GitHub" = "https://github.thelion.website", "Codeberg" = "https://codeberg.thelion.website", "GitLab.com" = "https://gitlab.thelion.website", "GNOME GitLab" = "https://gitlab-gnome.thelion.website", "FreeDesktop GitLab" = "https://gitlab-freedesktop.thelion.website"}
-identities_tracking = {"Listenbrainz" = "https://listen.thelion.website"}
-identities_chatting = {"Discord (using a tool a friend made, pretty neat)" = "https://discord.thelion.website", "Matrix" = "https://matrix.thelion.website"}
+  [outputFormats.stylesheet]
+    mediaType = "text/css"
+    baseName = "main"
+    isPlainText = true
 
-# Tracking
-anime_watching = [  {name = "Legend of the Galactic Heroes", rating = "9/10", status = "89/115"},
-]
-anime_completed = [ {name = "91 Days", rating = "8/10", status = "x2"},
-                    {name = "Akame ga Kill!", rating = "7/10", status = "x1"},
-                    {name = "Aldnoah.Zero", rating = "?/10", status = "x1"},
-                    {name = "Aldnoah.Zero (2015)", rating = "?/10", status = "x1"},
-                    {name = "Angel Beats!", rating = "?/10", status = "x1"},
-                    {name = "Another", rating = "?/10", status = "x1"},
-                    {name = "Bakemonogatari", rating = "7/10", status = "x1"},
-                    {name = "Blade Dance of Elementalers", rating = "9/10", status = "x1"},
-                    {name = "Chaos;Head", rating = "?/10", status = "x1"},
-                    {name = "Code Geass R1", rating = "10/10", status = "x4"},
-                    {name = "Code Geass R2", rating = "10/10", status = "x4"},
-                    {name = "Cowboy Bebop", rating = "6/10", status = "x1"},
-                    {name = "Date a Live", rating = "?/10", status = "x1"},
-                    {name = "Date a Live II", rating = "?/10", status = "x1"},
-                    {name = "Deadman Wonderland", rating = "?/10", status = "x1"},
-                    {name = "Death Note", rating = "10/10", status = "x4"},
-                    {name = "Death Parade", rating = "?/10", status = "x1"},
-                    {name = "Drifters", rating = "?/10", status = "x1"},
-                    {name = "Durarara!!", rating = "8/10", status = "x1"},
-                    {name = "Durarara!!x2 Ketsu", rating = "7/10", status = "x1"},
-                    {name = "Durarara!!x2 Shou", rating = "8/10", status = "x1"},
-                    {name = "Durarara!!x2 Ten", rating = "7/10", status = "x1"},
-                    {name = "Erased", rating = "9/10", status = "x1"},
-                    {name = "Golden Time", rating = "7/10", status = "x1"},
-                    {name = "Elfen Lied", rating = "4/10", status = "x1"},
-                    {name = "Guilty Crown", rating = "?/10", status = "x1"},
-                    {name = "Halo Legends", rating = "?/10", status = "x1"},
-                    {name = "High School DxD", rating = "?/10", status = "x1"},
-                    {name = "High School DxD New", rating = "?/10", status = "x1"},
-                    {name = "Hyouka", rating = "?/10", status = "x1"},
-                    {name = "In Search of the Lost Future", rating = "?/10", status = "x1"},
-                    {name = "K", rating = "?/10", status = "x1"},
-                    {name = "K: Missing Kings", rating = "?/10", status = "x1"},
-                    {name = "K: Return of Kings", rating = "?/10", status = "x1"},
-                    {name = "Kill la Kill", rating = "?/10", status = "x1"},
-                    {name = "Kiznaiver", rating = "6/10", status = "x1"},
-                    {name = "Kokoro Connect", rating = "8/10", status = "x1"},
-                    {name = "Konosuba", rating = "?/10", status = "x1"},
-                    {name = "Legend of the Galactic Heroes", rating = "9/10", status = "x1"},
-                    {name = "LOTGH: My Conquest is the Sea of Stars", rating = "9/10", status = "x1"},
-                    {name = "LOTGH: Overture to a New War", rating = "9/10", status = "x1"},
-                    {name = "Log Horizon", rating = "?/10", status = "x1"},
-                    {name = "Mirai Nikki", rating = "?/10", status = "x1"},
-                    {name = "Mirai Nikki Redial", rating = "?/10", status = "x1"},
-                    {name = "Mob Psycho 100", rating = "8/10", status = "x2"},
-                    {name = "Mob Psycho 100 II", rating = "9/10", status = "x1"},
-                    {name = "Monster", rating = "9/10", status = "x1"},
-                    {name = "Motto To Loveru", rating = "?/10", status = "x1"},
-                    {name = "Naruto", rating = "7/10", status = "x1"},
-                    {name = "Naruto Shippuden", rating = "8/10", status = "x1"},
-                    {name = "Naruto the Movie : Ninja Clash in the Land of Snow", rating = "?/10", status = "x1"},
-                    {name = "Nekomonogatari (Black): Tsubasa Family", rating = "8/10", status = "x1"},
-                    {name = "Neon Genesis Evangelion", rating = "6/10", status = "x1"},
-                    {name = "Nisemonogatari", rating = "7/10", status = "x1"},
-                    {name = "No Game No Life", rating = "9/10", status = "x1"},
-                    {name = "Occultic;Nine", rating = "?/10", status = "x1"},
-                    {name = "One Punch Man", rating = "7/10", status = "x1"},
-                    {name = "Prison School", rating = "7/10", status = "x2"},
-                    {name = "Psycho Pass", rating = "8/10", status = "x2"},
-                    {name = "Psycho Pass 2", rating = "8/10", status = "x2"},
-                    {name = "Psycho Pass : The Movie", rating = "7/10", status = "x1"},
-                    {name = "Psycho Pass 3", rating = "7/10", status = "x1"},
-                    {name = "Psycho Pass 3 : First Insepctor", rating = "7/10", status = "x1"},
-                    {name = "School Days", rating = "?/10", status = "x1"},
-                    {name = "Serial Experiments Lain", rating = "4/10", status = "x1"},
-                    {name = "Shimoneta", rating = "7/10", status = "x1"},
-                    {name = "Steins;Gate", rating = "10/10", status = "x3"},
-                    {name = "Steins;Gate 0", rating = "10/10", status = "x2"},
-                    {name = "Steins;Gate: Load Region of Deja Vu", rating = "8/10", status = "x1"},
-                    {name = "Strike the Blood", rating = "?/10", status = "x1"},
-                    {name = "Sword Art Online", rating = "7/10", status = "x2"},
-                    {name = "Sword Art Online II", rating = "6/10", status = "x2"},
-                    {name = "Terror in Resonance", rating = "?/10", status = "x2"},
-                    {name = "The World God Only Knows", rating = "?/10", status = "x1"},
-                    {name = "The World God Only Knows II", rating = "?/10", status = "x1"},
-                    {name = "The World God Only Knows : Godesses", rating = "?/10", status = "x1"},
-                    {name = "To Loveru", rating = "?/10", status = "x1"},
-                    {name = "To Loveru : Darkness", rating = "?/10", status = "x1"},
-                    {name = "Tokyo Ghoul", rating = "?/10", status = "x1"},
-                    {name = "Tokyo Ghoul Root A", rating = "?/10", status = "x1"},
-                    {name = "Toradora!", rating = "7/10", status = "x2"},
-                    {name = "Unlimited Psychic Squad ", rating = "?/10", status = "x2"},
-                    {name = "Vampire Knight", rating = "?/10", status = "x2"},
-                    {name = "Vampire Knight Guilty", rating = "?/10", status = "x2"},
-                    {name = "Welcome to the NHK", rating = "8/10", status = "x1"},
-                    {name = "When Supernatural Battles Became Commonplace", rating = "?/10", status = "x1"},
-                    {name = "Wolf Children", rating = "?/10", status = "x1"},
-]
-anime_dropped = [   {name = "Absolute Duo", rating = "?/10", status = "1/12"},
-                    {name = "Baccano!", rating = "7/10", status = "1/13"},
-                    {name = "Black Bullet", rating = "?/10", status = "1/13"},
-                    {name = "Black Clover", rating = "?/10", status = "3/?"},
-                    {name = "BlazBlue : Alter Memory", rating = "?/10", status = "5/12"},
-                    {name = "Bleach", rating = "8/10", status = "7/366"},
-                    {name = "Blue Spring Ride", rating = "?/10", status = "3/12"},
-                    {name = "Clannad", rating = "?/10", status = "3/23"},
-                    {name = "DearS", rating = "?/10", status = "2/12"},
-                    {name = "Gabriel DropOut", rating = "?/10", status = "3/12"},
-                    {name = "Haven't You Heard? I'm Sakamoto", rating = "?/10", status = "2/12"},
-                    {name = "High School DxD BorN", rating = "?/10", status = "4/12"},
-                    {name = "Log Horizon 2", rating = "?/10", status = "14/25"},
-                    {name = "Lucky Star", rating = "4/10", status = "1/24"},
-                    {name = "Majimoji Rurumo", rating = "?/10", status = "3/12"},
-                    {name = "March comes in like a lion", rating = "?/10", status = "3/22"},
-                    {name = "Monthly Girls' Nozaki-kun", rating = "?/10", status = "1/12"},
-               	    {name = "Mushi-shi", rating = "5/10", status = "7/26"},
-                    {name = "One Piece", rating = "?/10", status = "385/?"},
-                    {name = "Problem Children Are Coming From Another World, Aren't They?", rating = "?/10", status = "3/10"},
-                    {name = "Texhnolyze", rating = "?/10", status = "1/22"},
-                    {name = "The Seven Deadly Sins", rating = "?/10", status = "4/24"},
-                    {name = "The Tatami Galaxy", rating = "?/10", status = "1/11"},
-                    {name = "World Trigger", rating = "?/10", status = "12/73"},
-]
+[outputs]
+  home = ["html","atom", "jsonfeed", "logo", "stylesheet"]
+  list = ["html"]
+  single = ["html"]
+  section = ["html"]
+  page = ["html"]
 
-manga_watching = [  {name = "Asadora!", rating = "?/10", status = "21/?"},
-		    {name = "Berserk", rating = "?/10", status = "263/?"},
-		    {name = "Otome Kaijuu Caramelize", rating = "?/10", status = "18/?"},
-		    {name = "Platinum End", rating = "?/10", status = "48/58"},
-		    {name = "Sperman", rating = "?/10", status = "18/?"},
-		    {name = "The Gamer", rating = "?/10", status = "106/?"},
-		    {name = "Tower of God", rating = "?/10", status = "467/?"},
-]
-manga_completed = [ {name = "Billy Bat", rating = "8/10", status = "x1"},
-		    {name = "Monster", rating = "8/10", status = "x1"},
-		    {name = "Pluto", rating = "8/10", status = "x1"},
-		    {name = "The Breaker", rating = "7/10", status = "x1"},
-		    {name = "The Breaker : New Waves", rating = "7/10", status = "x1"},
-		    {name = "20th Century Boys", rating = "10/10", status = "x1"},
-		    {name = "21st Century Boys", rating = "10/10", status = "x1"},
-]
-manga_planned = [   {name = "Birdmen", rating = "?/10", status = "0/80"},
-		    {name = "No Longer Human", rating = "?/10", status = "0/12"},
-		    {name = "The Empty Box and Zeroth Maria", rating = "?/10", status = "0/254"},
-]
+[privacy.twitter]
+  enableDNT = true
+  simple = true
 
-tv_completed = [    {name = "Anastasia", rating = "?/10", status = "x1"},
-		    {name = "Aladdin", rating = "?/10", status = "x1"},
-		    {name = "Atlantis : The Lost Empire", rating = "?/10", status = "x1"},
-		    {name = "Big Hero 6", rating = "?/10", status = "x1"},
-		    {name = "Black Mirror", rating = "8/10", status = "x1"},
-		    {name = "Brave (2012)", rating = "?/10", status = "x1"},
-		    {name = "Bridge to Terabithia", rating = "7/10", status = "x3"},
-		    {name = "Brother Bear", rating = "7/10", status = "x4"},
-		    {name = "Brother Bear 2", rating = "?/10", status = "x1"},
-		    {name = "Captain America", rating = "?/10", status = "x1"},
-		    {name = "Captain America : The Winter Soldier", rating = "?/10", status = "x1"},
-		    {name = "Captain America : Civil War", rating = "?/10", status = "x1"},
-		    {name = "Cars", rating = "?/10", status = "x1"},
-		    {name = "Cars 2", rating = "?/10", status = "x1"},
-    		    {name = "Despicable Me", rating = "?/10", status = "x1"},
-    		    {name = "Despicable Me 2", rating = "?/10", status = "x1"},
-    		    {name = "Despicable Me 3", rating = "?/10", status = "x1"},
-    		    {name = "Dinosaur (2000)", rating = "?/10", status = "x1"},
-    		    {name = "Dumbo (1941)", rating = "?/10", status = "x1"},
-    		    {name = "Finding Nemo", rating = "?/10", status = "x1"},
-    		    {name = "Guardians of the Galaxy", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Philosopher's Stone", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Chamber of Secrets", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Prisoner of Azkhaban", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Goblet of Fire", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Order of the Phoenix", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Half Blood Prince", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Deathly Hallows: Part 1", rating = "?/10", status = "x1"},
-    		    {name = "Harry Potter and the Deathly Hallows: Part 2", rating = "?/10", status = "x1"},
-    		    {name = "Hercules (1997)", rating = "?/10", status = "x1"},
-    		    {name = "Home Alone", rating = "?/10", status = "x3"},
-    		    {name = "Home Alone 2 : Lost in New York", rating = "?/10", status = "x3"},
-    		    {name = "Hook", rating = "?/10", status = "x1"},
-    		    {name = "How to Train Your Dragon", rating = "?/10", status = "x1"},
-    		    {name = "How to Train Your Dragon 2", rating = "?/10", status = "x1"},
-    		    {name = "Ice Age", rating = "?/10", status = "x2"},
-    		    {name = "Ice Age : Collision Course", rating = "?/10", status = "x1"},
-		    {name = "Ice Age : Continental Drift", rating = "?/10", status = "x1"},
-    		    {name = "Ice Age : Dawn of the Dinosaurs", rating = "?/10", status = "x1"},
-    		    {name = "Ice Age : The Meltdown", rating = "?/10", status = "x1"},
-		    {name = "Inkheart", rating = "?/10", status = "x1"},
-		    {name = "Iron Man", rating = "?/10", status = "x1"},
-		    {name = "Iron Man 2", rating = "?/10", status = "x1"},
-		    {name = "Iron Man 3", rating = "?/10", status = "x1"},
-		    {name = "Journey to the Center of the Earth", rating = "?/10", status = "x1"},
-		    {name = "Jumanji", rating = "?/10", status = "x2"},
-		    {name = "Knives Out", rating = "7/10", status = "x1"},
-		    {name = "Kung Fu Panda", rating = "?/10", status = "x1"},
-		    {name = "Kung Fu Panda 2", rating = "?/10", status = "x1"},
-		    {name = "Lady and the Tramp (1955)", rating = "?/10", status = "x1"},
-		    {name = "Lilo & Stitch", rating = "?/10", status = "x1"},
-		    {name = "Lilo & Stitch 2 : Stitch Has a Glitch", rating = "?/10", status = "x1"},
-		    {name = "Madagascar", rating = "?/10", status = "x2"},
-		    {name = "Madagascar: Escape 2 Africa", rating = "?/10", status = "x2"},
-		    {name = "Madagascar 3 : Europe's Most Wanted", rating = "?/10", status = "x2"},
-    		    {name = "Monsters, Inc.", rating = "?/10", status = "x2"},
-		    {name = "Night at the Museum", rating = "?/10", status = "x2"},
-		    {name = "Night at the Museum : Battle of the Smithsonian", rating = "?/10", status = "x1"},
-		    {name = "Night at the Museum : Secret of the Tomb", rating = "?/10", status = "x1"},
-		    {name = "One Hundred and One Dalmatians (1961)", rating = "?/10", status = "x1"},
-		    {name = "Percy Jackson : Sea of Monsters", rating = "?/10", status = "x1"},
-		    {name = "Percy Jackson & the Olympians : The Lightning Thief", rating = "?/10", status = "x1"},
-    		    {name = "Ratatouille", rating = "?/10", status = "x1"},
-    		    {name = "Shrek ", rating = "?/10", status = "x1"},
-    		    {name = "Shrek 2", rating = "?/10", status = "x1"},
-    		    {name = "Shrek the Third", rating = "?/10", status = "x1"},
-    		    {name = "Shrek Forever After", rating = "?/10", status = "x1"},
-    		    {name = "Sinbad : Legend of the Seven Seas (2003)", rating = "?/10", status = "x1"},
-    		    {name = "Space Jam", rating = "?/10", status = "x3"},
-    		    {name = "Spirit : Stallion of the Cimarron", rating = "?/10", status = "x1"},
-    		    {name = "Stitch! The Movie", rating = "?/10", status = "x1"},
-    		    {name = "Tarzan (1999)", rating = "?/10", status = "x1"},
-    		    {name = "Tarzan 2 : The Legend Begins", rating = "?/10", status = "x1"},
-    		    {name = "The Avengers", rating = "?/10", status = "x1"},
-    		    {name = "The Avengers : Age of Ultron", rating = "?/10", status = "x1"},
-		    {name = "The Chronicles of Narnia: Prince Caspian", rating = "?/10", status = "x1"},
-    		    {name = "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe", rating = "?/10", status = "x1"},
-    		    {name = "The Chronicles of Narnia: The Voyage of the Dawn Treader", rating = "?/10", status = "x1"},
-		    {name = "The Internet's Own Boy", rating = "8/10", status = "x2"},
-		    {name = "The Jungle Book (1967)", rating = "?/10", status = "x1"},
-		    {name = "The Karate Kid (2010)", rating = "?/10", status = "x1"},
-		    {name = "The Last Mimzy", rating = "7/10", status = "x3"},
-		    {name = "The Lion King", rating = "?/10", status = "x1"},
-		    {name = "The Lion King 2 : Simba's Pride", rating = "?/10", status = "x1"},
-		    {name = "The Lion King 3", rating = "?/10", status = "x1"},
-		    {name = "The Polar Express", rating = "?/10", status = "x1"},
-		    {name = "The Social Dilemna", rating = "8/10", status = "x1"},
-		    {name = "The Spiderwick Chronicles", rating = "?/10", status = "x1"},
-	    	    {name = "Toy Story", rating = "?/10", status = "x1"},
-	    	    {name = "Toy Story 2", rating = "?/10", status = "x1"},
-	    	    {name = "Toy Story 3", rating = "?/10", status = "x1"},
-	    	    {name = "Teasure Planet", rating = "?/10", status = "x1"},
-	    	    {name = "Twilight", rating = "?/10", status = "x1"},
-	    	    {name = "Twilight : New Moon", rating = "?/10", status = "x1"},
-	    	    {name = "Twilight : Eclipse", rating = "?/10", status = "x1"},
-	    	    {name = "Twilight : Breaking Dawn Part 1", rating = "?/10", status = "x1"},
-	    	    {name = "Twilight : Breaking Dawn Part 2", rating = "?/10", status = "x1"},
-	    	    {name = "Up (2009)", rating = "?/10", status = "x1"},
-	    	    {name = "Wall-E", rating = "7/10", status = "x2"},
-		    {name = "Zathura : A Space Adventure", rating = "?/10", status = "x1"},
-]
+[privacy.youtube]
+  privacyEnhanced = true
 
-books_reading = [   {name = "Little Brother by Cory Doctorow", rating = "?/10", status = "13/180"},
-]
-
-games_playing = [   {name = "2064: Read Only Memories", rating = "8/10", status = "12.9h"},
-		    {name = "Among Us", rating = "9/10", status = "67h"},
-		    {name = "Awesomenauts", rating = "5/10", status = "9.1h"},
-		    {name = "Barrier X", rating = "6/10", status = "7.2h"},
-		    {name = "Boring Man - Online Tactical Stickman Combat", rating = "6/10", status = "14.2h"},
-    		    {name = "Brawlhalla", rating = "7/10", status = "56h"},
-		    {name = "Danganronpa : Trigger Happy Havoc", rating = "9/10", status = "57h"},
-		    {name = "Danganronpa 2 : Goodbye Despair", rating = "8/10", status = "43h"},
-		    {name = "Doom", rating = "7/10", status = "22h"},
-		    {name = "Fallout Shelter", rating = "6/10", status = "35h"},
-		    {name = "Grand Theft Auto V", rating = "8/10", status = "70h"},
-    		    {name = "Growtopia", rating = "7/10", status = "3680h"},
-    		    {name = "Halo", rating = "9/10", status = "58h"},
-		    {name = "HITMAN", rating = "8/10", status = "11.2h"},
-		    {name = "Infectonator 3 : Apocalypse", rating = "7/10", status = "3.6h"},
-		    {name = "Kingdom : Classic", rating = "6/10", status = "5h"},
-		    {name = "Portal", rating = "7/10", status = "3.6h"},
-		    {name = "Portal 2", rating = "8/10", status = "13.8h"},
-		    {name = "Rebuild 3 : Gangs of Deadsville", rating = "6/10", status = "19.7h"},
-		    {name = "Reigns", rating = "6/10", status = "19.7h"},
-		    {name = "Rise of the Tomb Raider", rating = "7/10", status = "22h"},
-		    {name = "RUINER", rating = "8/10", status = "14h"},
-		    {name = "Shadow of the Tomb Raider", rating = "?/10", status = "9.7h"},
-		    {name = "Skullgirls", rating = "7/10", status = "2.5h"},
-		    {name = "Soda Dungeon", rating = "6/10", status = "26h"},
-		    {name = "Sonny (Steam)", rating = "6/10", status = "2.3h"},
-		    {name = "Streets of Rogue", rating = "7/10", status = "16.4h"},
-		    {name = "The Henry Stickmin Collection", rating = "7/10", status = "4.8h"},
-		    {name = "Tomb Raider", rating = "7/10", status = "27h"},
-		    {name = "Transistor", rating = "7/10", status = "18.6h"},
-		    {name = "Warframe", rating = "7/10", status = "89h"},
-		    {name = "Zero Escape : The Nonary Games", rating = "8/10", status = "21h"},
-]
-games_completed = [ {name = "The Devil on G-String", rating = "8/10", status = "64h"},
-		    {name = "Helltaker", rating = "8/10", status = "7.4h"},
-		    {name = "NieR:Automata", rating = "9/10", status = "86h"},
-		    {name = "STEINS;GATE", rating = "10/10", status = "60h"},
-		    {name = "STEINS;GATE 0", rating = "9/10", status = "52h"},
-		    {name = "STEINS;GATE : Linear Bounded Phenogram", rating = "8/10", status = "32h"},
-    		    {name = "STEINS;GATE : My Darling's Embrace", rating = "8/10", status = "27h"},
-		    {name = "VA-11 Hall-A : Cyberpunk Bartender Action", rating = "7/10", status = "41h"},
-]
+[params]
+  # Orange ca1300 f05000
+  # Purple 8410cc cc10b6
+  # Blue   008dc9 00b8c9
+  # Pink   d75090 f9426f
+  primary_colour = "#d75090"
+  secondary_colour = "#f9426f"
+  icon = "/logo.svg"
+  websub = "https://thelion.superfeedr.com"
+  description = "Hi! I'm Lionir Deadman but just can just call me Lion for short. This is my website!"
+  links = [ {url = "/atom.xml", name = "Feed"},
+            {url = "/projects/", name = "Projects"},
+            {url = "/tracking/", name = "Tracking"},
+            {url = "/about/", name = "About"}
+  ]

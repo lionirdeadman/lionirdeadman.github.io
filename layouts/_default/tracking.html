@@ -1,0 +1,26 @@
+{{ define "body"}}
+<body class="list">
+  {{ partial "head.html" . }}
+  
+  <main class="main">
+    <div class ="posts">
+    {{- if .Params.tracking_type }}<nav class="pagination">
+        <a class="prev" rel="prev" href="/tracking/">< Back</a>
+    </nav>
+    {{ end -}}
+    <article class="post-single">
+        <header class="post-header">
+            <h1 class="post-title">{{ if .Params.tracking_type }}{{- .Params.tracking_type }}{{ else }}Tracking{{ end -}}</h1>
+        </header>
+        <div class="post-content">
+          {{ if .Params.tracking_type }}
+            {{ partial "tracking_list.html" . }}
+          {{ else }}
+            {{ partialCached "tracking_page.html" . }}
+          {{ end }}
+        </div>
+    </article>
+    </div>
+  </main>
+</body>
+{{ end }}

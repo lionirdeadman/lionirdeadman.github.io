@@ -1,0 +1,17 @@
+            {{ range $Key, $Value := (index .Site.Data.tracking $.Page.Params.tracking_type ) }}
+            <h2>{{ $Key }}</h2>
+            <div class="table">
+            <div class="table-row table-head">
+              <span>Name</span>
+              <span class="center-span">Rating</span>
+              <span class="center-span">Status</span>
+            </div>
+            <div class="table-row">
+              {{ range sort . "name" "asc"}}
+              <span>{{ .name }}</span>
+              <span class="center-span">{{ .rating }}/10</span>
+              <span class="center-span">{{ .status }}</span>
+              {{ end }}
+            </div>
+            </div>
+            {{ end }}

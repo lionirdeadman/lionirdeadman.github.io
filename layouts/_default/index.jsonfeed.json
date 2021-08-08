@@ -1,0 +1,43 @@
+{{ $length := (len .RegularPages) -}}
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "{{ .Site.Title }}",
+    "description": "{{ .Site.Params.Description }}",
+    "home_page_url": "{{ .Site.BaseURL }}",
+    "feed_url": "{{ .Permalink }}",
+    "language": "{{ .Site.LanguageCode }}",
+    "icon": "https://thelion.website/profile/{{ .Site.Author.avatar }}.png",
+    "favicon": "{{ .Site.Params.icon | absURL }}",
+    "hubs": [
+        {
+            "type": "WebSub",
+            "url": "{{ .Site.Params.Websub }}"
+        }
+    ],
+    "authors": [
+        {
+            "name": "{{ .Site.Author.name }}",
+            "url": "{{ .Site.Author.url }}",
+            "avatar": "https://thelion.website/profile/{{ .Site.Author.avatar }}.png"
+        }
+    ],
+    "items": [
+        {{ range $index, $element := .RegularPages -}}
+        {
+            "title": {{ .Title | jsonify }},
+            "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+            "date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+            "id": "{{ .Permalink }}",
+            "url": "{{ .Permalink }}",
+            "authors": [
+                {
+                  "name": "{{ .Params.author }}",
+                  "url": "{{ .Params.author_url }}"
+                }
+            ],
+            "content_html": {{ .Content | jsonify }}
+        }{{ if ne (add $index 1) $length }},{{ end }}
+        {{ end -}}
+    ]
+}
+

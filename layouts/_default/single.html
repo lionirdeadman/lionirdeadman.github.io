@@ -1,0 +1,41 @@
+{{ define "body" }}
+<body class="list">
+    {{ partial "head.html" . }}
+
+    <main class="main">
+      <article class="h-entry">
+          <header class="post-header">
+              <h1 class="post-title p-name"><a class="u-url" title="{{ .Title }}" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+              <br />
+              <div class="post-meta">
+                  Author: <a class="p-author h-card" href="{{ .Params.author_url }}">
+                      {{ .Params.author }}
+                  </a>
+                  </span>
+                  <br/>
+                  <span class="dt-published post-date">Published: <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}">{{ dateFormat "Monday, 2 January, 2006" .Date }}</time></span>
+                  <span>&middot;</span>
+                  <span class="post-reading-time">{{ .ReadingTime }} min read</span>
+                  <br/>
+                  <span class="post-license">License: <a rel="license" href="{{ .Params.license_url }}">{{ .Params.license_name }}</a>.</span>
+              </div>
+              <br />
+              <hr />
+              {{ if .Params.update_message }}<div class=post-update><time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}">{{ dateFormat "Monday, 2 January, 2006" .Date }}</time> : {{ .Params.update_message }}</div>{{ end }}
+          </header>
+          <div class="e-content post-content">{{ .Content }}
+          <hr />
+          {{ if .Params.syndications }}
+            <h3>Join the discussions : </h3>
+            {{ $length := len .Params.syndications }}
+            {{ $counter := 0 }}
+            {{ range $name, $url := .Params.syndications }}
+              {{ $counter = add $counter 1 }}
+              <a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a><span>{{ if ne $counter $length }},{{ else }}.{{ end }}</span>
+            {{ end }}
+          {{ end }}
+          </div>
+      </article>
+    </main>
+</body>
+{{ end }}

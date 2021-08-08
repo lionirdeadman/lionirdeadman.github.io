@@ -1,0 +1,65 @@
+  <title>{{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ .Site.Params.icon }}" type="image/svg+xml" />
+    <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
+    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
+    <!-- Rich site data -->
+    {{- if eq .Kind "Page" }}<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "author": {
+          "@type": "Person",
+          "name": "{{ .Page.Params.author }}"
+      },
+      "license": "{{ .Page.Params.license_url}}",
+      "headline": "{{ .Page.Title }}",
+      "backstory": "{{ .Page.Summary | safeHTML }}",
+      "datePublished": "{{ dateFormat "2006-01-02T15:04:05Z07:00" .Page.Date}}"
+    }
+    </script>{{ end }}
+    <!-- Standard meta tags -->
+    {{- if eq .Kind "Page" }}
+    <meta name="author" content="{{ .Page.Params.author }}" />
+    <meta name="title" content="{{- .Page.Title -}}" />
+    <meta name="description" content="{{- .Page.Summary -}}" />
+    {{ else if eq .Section "about" }}
+    <meta name="author" content="{{ .Site.Author.name }}" />
+    <meta name="title" content="{{- .Title -}}" />
+    <meta name="description" content="{{- .Site.Params.Description -}}" />
+    {{ else if eq .Kind "home" }}
+    <meta name="author" content="{{ .Site.Author.name }}" />
+    <meta name="title" content="{{- .Site.Title -}}" />
+    <meta name="description" content="{{- .Site.Params.Description -}}" />
+    {{ else }}
+    <meta name="author" content="{{ .Site.Author.name }}" />
+    <meta name="title" content="{{- .Page.Title -}}" />
+    <meta name="description" content="{{- .Page.Summary -}}" />
+    {{ end -}}
+    <!-- Open Graph Tags -->
+    {{- if eq .Kind "Page" }}
+    <meta property="og:site_name" content="{{- .Page.Title -}}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{- .Page.Permalink -}}" />
+    <meta property="og:title" content="{{- .Site.Title -}}" />
+    <meta property="og:description" content="{{- .Page.Summary -}}" />
+    {{ else if eq .Section "about" }}
+    <meta property="og:type" content="profile" />
+    <meta property="profile:username" content="lionirdeadman" />
+    <meta property="profile:gender" content="non-binary" />
+    {{ else if eq .Kind "home" }}
+    <meta property="og:site_name" content="{{- .Site.Title -}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{- .Site.BaseURL -}}" />
+    <meta property="og:description" content="{{- .Site.Params.Description -}}" />
+    {{ else }}
+    <meta property="og:url" content="{{- .Page.Permalink -}}" />
+    <meta property="og:title" content="{{- .Page.Title -}}" />
+    <meta property="og:description" content="{{- .Page.Summary -}}" />
+    {{ end -}}
+    <!-- CSS -->
+    <link rel="stylesheet" href="/main.css" />
+    <!-- Feeds -->
+    <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="https://thelion.website/atom.xml" />
+    <link rel="alternate" type="application/feed+json" title="JSON feed" href="https://thelion.website/feed.json" />
+    <!-- Hub -->
+    <link rel="hub" href="{{ .Site.Params.Websub }}">

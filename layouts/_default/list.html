@@ -1,0 +1,38 @@
+{{ define "body" }}
+<body class="list">
+    {{ partial "head.html" . }}
+
+    <main class="main">
+      <div class="posts">
+      {{if eq .Paginator.PageNumber 1}}
+        {{ range first 1 .Pages.ByPublishDate.Reverse }}
+      <article class="h-entry first-entry">
+          
+        <header class="entry-header">
+          <h2 class="p-name"><a class="u-url" title="{{ .Title }}" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </header>
+        
+        <section class="p-summary entry-content">
+            {{ .Summary }}
+        </section>
+        
+        <footer class="entry-footer">
+          <time class="dt-published" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}">{{ dateFormat "Monday, 2 January, 2006" .Date }}</time>
+        </footer>
+        
+      </article>
+        {{ end }}
+      {{ end }}
+      {{ range $index, $value := after 1 .Paginator.Pages.ByDate.Reverse }}
+        {{ partial "article.html" . }}
+      {{ end }}
+      <footer class="page-footer">
+        <nav class="pagination">
+          {{ if .Paginator.HasPrev }}<a class="prev" rel="prev" href="{{ .Paginator.Prev.URL }}">< Previous</a>{{ else }}<!--Hidden Previous-Button-->{{ end }}
+          {{ if .Paginator.HasNext }}<a class="next" rel="next" href="{{ .Paginator.Next.URL }}">Next ></a>{{ else }}<!--Hidden Next-Button-->{{ end }}
+        </nav>
+      </footer>
+      </div>
+    </main>
+</body>
+{{ end }}
