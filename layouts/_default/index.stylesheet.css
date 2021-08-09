@@ -41,7 +41,7 @@
   :root {
     --theme: #202024;
     --entry: #2A2B2F;
-    --primary: #008fdb;
+    --primary: #099cea;
     --secondary: rgba(255, 255, 255, 0.74);
     --tertiary: rgba(255, 255, 255, 0.16);
     --content: rgba(255, 255, 255, 0.84);
@@ -61,7 +61,7 @@
 				var(--theme);
 				background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
 				background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-  }
+	}
 }
 
 /* Mobile
@@ -462,7 +462,7 @@ a {
 	width: 100%;
   position: relative;
   color: var(--content);
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   line-height: 24px;
   background: var(--entry);
