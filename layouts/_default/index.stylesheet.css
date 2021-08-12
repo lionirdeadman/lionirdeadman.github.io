@@ -115,28 +115,33 @@ a {
   color: var(--primary);
   text-decoration: none;
 }
-
-.list, .single {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 /* Header
 -------------------------------------------------- */
 .header {
-  background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%);
+  background: url(/header.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   position: relative;
   height: 300px;
   width: 100%;
 }
 .header a {
-  color: rgba(0, 0, 0, 0.88);
+  color:rgba(255, 255, 255, 1);
 }
 .profile-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content: center;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 0;
 }
 
@@ -144,9 +149,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -250px;
-  max-width: 100%;
-  max-height: 260px;
+  max-height: 300px;
 }
 .u-photo.jpeg {
   mask-image: url("/{{ .Site.Author.avatar }}_mask.png");
@@ -157,34 +160,27 @@ a {
 
 .picture-license {
   text-align: center;
-  margin-top: -5px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   font-size: 22px;
   font-weight: bold;
 }
 .picture-license-a {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 0, rgba(0, 0, 0, 0.6));
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 10px 10px 0 0;
   width: 120px;
   text-align: center;
 }
 
 .nav {
-  display: flex;
-	flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  padding: 10px;
 }
 .nav a {
-  display: block;
+  display: inline-block;
   font-weight: bold;
 }
 .logo,
 .menu {
-  display: flex;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 0, rgba(0, 0, 0, 0.6));
+  background: rgba(0, 0, 0, 0.6);
+  width: 140px;
   border-radius: 10px;
   line-height: 1;
   z-index: 1;
@@ -192,10 +188,12 @@ a {
 .logo {
   font-size: 28px;
   margin: .5em 0 0;
-  padding: 5px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 .logo h1, .logo span {
-  color: rgba(0, 0, 0, 0.88);
+  color:rgba(255, 255, 255, 1);
   font-size: 28px;
   line-height: 2;
   margin-block-start: 0;
@@ -216,10 +214,8 @@ a {
 .main {
   position: relative;
   padding: var(--gap) 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-grow: 1;
+  margin: auto;
+  margin-top: 60px;
   max-width: 815px;
   width: 100%;
 }
@@ -230,8 +226,6 @@ a {
   font-size: 40px;
 }
 .pagination {
-  display: flex;
-  justify-content: space-between;
   margin: 0 12px;
 }
 .pagination a {
@@ -251,17 +245,8 @@ a {
 
 /* Post entry
 -------------------------------------------------- */
-.posts {
-	display: flex;
-  flex-direction: column;
-	gap: 24px;
-}
-
 .first-entry {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: var(--entry);
   border-radius: var(--radius);
   padding: var(--gap);
@@ -288,6 +273,7 @@ a {
   background: var(--entry);
   border-radius: var(--radius);
   transition: transform 0.1s;
+  margin: 40px 0;
 }
 .post-entry:active {
   transform: scale(0.96);
@@ -296,10 +282,6 @@ a {
   height: 64px;
 }
 
-.tag-entry .entry-content,
-.tag-entry .entry-footer {
-  display: none;
-}
 .entry-header h2 {
   font-size: 24px;
 }
@@ -431,12 +413,11 @@ a {
 /* Table
 -------------------------------------------------- */
 .table-row {
-  display: grid;
-  grid-template-columns: 1.5fr 0.7fr 0.7fr;
+  display: table;
+  width: 100%;
 }
 .table-row span {
-  margin: 5px 10px;
-  color: var(--content);
+  display: table-row;
 }
 .table-head span {
   color: rgba(255, 255, 255, 1);
@@ -476,18 +457,116 @@ a {
 /* 404
 -------------------------------------------------- */
 .not-found {
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
   font-size: 160px;
   font-weight: bold;
 }
 
-/* Mobile
+/* Flexbox, grid and linear-gradient support
+-------------------------------------------------- */
+@supports(display:flex) {
+  .nav {
+    display: flex;
+	  flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .logo,
+  .menu {
+    display: flex;
+    width: auto;
+  }
+  .logo {
+    padding: 5px 10px;
+  }
+  .picture-license {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .profile-wrapper {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+  }
+  .profile-wrapper img {
+    margin: 0;
+    max-height: 300px;
+  }
+  .picture-license {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    margin: 0;
+  }
+  .list, .single {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: column;
+  }
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+  }
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .first-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .post-entry {
+    margin: 0;
+  }
+  .not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@supports(display:grid) {
+  .table-row {
+    display: grid;
+    grid-template-columns: 1.5fr 0.7fr 0.7fr;
+  }
+  .table-row span {
+    margin: 5px 10px;
+  }
+}
+
+@supports(background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%)) {
+  .header {
+    background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%);
+  }
+}
+
+/* Mobile support (assumes flexbox and grid)
 -------------------------------------------------- */
 @media only screen and (max-width: 768px) {
 	.nav {
@@ -504,42 +583,9 @@ a {
 	}
 	.menu {
 		flex-direction: column;
-		gap: 4px;
+		gap: 8px;
 	}
 	.logo h1, .logo span {
     margin-left: 15px;
 	}
-	.menu li, .logo h1, .logo span {
-    margin-bottom: 5px;
-  }
-}
-
-/* Add good stuff that the Netsurf 'support' destroys
--------------------------------------------------- */
-@supports(display:grid) {
-  .header a {
-    color: rgba(255, 255, 255, 1);
-  }
-  .logo h1, .logo span {
-    color:rgba(255, 255, 255, 1);
-  }
-  .profile-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  .profile-wrapper img {
-    margin: 0;
-    max-height: 100%;
-  }
-  .picture-license {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-  }
 }

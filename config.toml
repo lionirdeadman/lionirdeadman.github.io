@@ -27,13 +27,18 @@ enableEmoji = true
     baseName = "logo"
     isPlainText = true
 
+  [outputFormats.header]
+    mediaType = "image/svg+xml"
+    baseName = "header"
+    isPlainText = true
+
   [outputFormats.stylesheet]
     mediaType = "text/css"
     baseName = "main"
     isPlainText = true
 
 [outputs]
-  home = ["html","atom", "jsonfeed", "logo", "stylesheet"]
+  home = ["html","atom", "jsonfeed", "logo", "header", "stylesheet"]
   list = ["html"]
   single = ["html"]
   section = ["html"]
