@@ -125,27 +125,15 @@ a {
 /* Header
 -------------------------------------------------- */
 .header {
-  /* Orange
-  background: linear-gradient(70deg, #ca1300 -5%, #f05000 80%); */
-  /* Purple
-  background: linear-gradient(70deg, #8410cc -5%, #cc10b6 80%); */
-  /* Blue
-  background: linear-gradient(70deg, #008dc9 -5%, #00b8c9 80%); */
-  /* Pink */
   background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%);
   position: relative;
   height: 300px;
   width: 100%;
 }
 .header a {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.88);
 }
 .profile-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -154,8 +142,11 @@ a {
 
 .profile-wrapper img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 260px;
 }
 .u-photo.jpeg {
   mask-image: url("/{{ .Site.Author.avatar }}_mask.png");
@@ -165,11 +156,8 @@ a {
 }
 
 .picture-license {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  text-align: center;
+  margin-top: -5px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -196,17 +184,29 @@ a {
 .logo,
 .menu {
   display: flex;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 0, rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+  line-height: 1;
   z-index: 1;
 }
 .logo {
   font-size: 28px;
   margin: .5em 0 0;
+  padding: 5px 10px;
+}
+.logo h1, .logo span {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 28px;
+  line-height: 2;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .menu {
   list-style: none;
 	padding-inline-start: 0px;
   gap: 16px;
   word-break: keep-all;
+  padding: 10px 15px;
 }
 .menu a {
   font-size: 24px;
@@ -359,10 +359,12 @@ a {
 .post-content h1 {
   margin-top: 40px;
   margin-bottom: 32px;
+  font-size: 40px;
 }
 .post-content h2 {
   margin-top: 32px;
   margin-bottom: 24px;
+  font-size: 32px;
 }
 .post-content h3,
 .post-content h4,
@@ -370,12 +372,6 @@ a {
 .post-content h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-}
-.post-content h1 {
-  font-size: 40px;
-}
-.post-content h2 {
-  font-size: 32px;
 }
 .post-content h3 {
   font-size: 24px;
@@ -440,8 +436,6 @@ a {
 }
 .table-row span {
   margin: 5px 10px;
-}
-.table-row span {
   color: var(--content);
 }
 .table-head span {
@@ -474,6 +468,10 @@ a {
 .footer a {
   color: var(--primary);
   border-bottom: 1px solid var(--primary);
+}
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
 }
 /* 404
 -------------------------------------------------- */
@@ -508,4 +506,40 @@ a {
 		flex-direction: column;
 		gap: 4px;
 	}
+	.logo h1, .logo span {
+    margin-left: 15px;
+	}
+	.menu li, .logo h1, .logo span {
+    margin-bottom: 5px;
+  }
+}
+
+/* Add good stuff that the Netsurf 'support' destroys
+-------------------------------------------------- */
+@supports(display:grid) {
+  .header a {
+    color: rgba(255, 255, 255, 1);
+  }
+  .logo h1, .logo span {
+    color:rgba(255, 255, 255, 1);
+  }
+  .profile-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .profile-wrapper img {
+    margin: 0;
+    max-height: 100%;
+  }
+  .picture-license {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
 }

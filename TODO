@@ -1,4 +1,6 @@
 - Bring back webmention and IndieAuth
+- Mobile different title size
+- Featured posts
 - u-syndication should not need to be capitalized with css
 - Remove hacks for text height in entry-post
 - Comments from syndication (backfeed)
