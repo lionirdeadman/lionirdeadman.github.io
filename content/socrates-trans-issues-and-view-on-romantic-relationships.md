@@ -1,5 +1,5 @@
 +++
-title = "The Socratic method inconversations, trans issues and romantic relationships"
+title = "The Socratic method in conversations, trans issues and romantic relationships"
 date = 2021-08-13
 slug_url = true
 
