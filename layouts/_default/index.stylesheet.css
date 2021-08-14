@@ -174,7 +174,6 @@ figure {
   padding: 10px;
 }
 .nav a {
-  display: inline-block;
   font-weight: bold;
 }
 .logo,
@@ -563,6 +562,12 @@ figure {
 @supports(background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%)) {
   .header {
     background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%);
+  }
+}
+
+@supports(display: flow-root) {
+  .copyleft {
+    display: inline flow-root;
   }
 }
 
