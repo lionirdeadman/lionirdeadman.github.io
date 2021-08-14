@@ -7,6 +7,7 @@ author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Mastodon" = "https://fosstodon.org/@lionirdeadman/106752207826016945"}
 
 +++
 For another episode of "I ramble about things", tune in! This time, I'll write about thoughts
