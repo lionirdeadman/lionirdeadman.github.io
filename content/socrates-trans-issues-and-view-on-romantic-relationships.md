@@ -1,5 +1,5 @@
 +++
-title = "The socrates method in normal conversations, trans issues and romantic relationships"
+title = "The Socratic method inconversations, trans issues and romantic relationships"
 date = 2021-08-13
 slug_url = true
 
@@ -15,7 +15,7 @@ regarding using the socrates method in conversations, how technology affects tra
 and how I think romantic relationships between two people (for the sake of simplicity) should be.
 <!--more-->
 
-### Is the Socrates method of discussion a kind one?
+### Is the Socratic method of discussion a kind one?
 
 Refresher on the "steps" of the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method) which is important to understand this : 
 
