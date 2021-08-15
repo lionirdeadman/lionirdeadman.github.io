@@ -45,7 +45,7 @@
             <h2>Featured comments</h2>
             {{ range . }}
               <div class="comment">
-                <span><h2 class="username">{{ .username }}</h2> from <a href="{{ .url }}">{{ .platform }}</a></span>
+                <span class="small"><span class="username">{{ .username }}</span> from <a href="{{ .url }}">{{ .platform }}</a></span>
                 <p>{{ .comment | safeHTML }}</p>
                 <p class="comment-thought"><span class="comment-thought-title">Response / Thought : </span> {{ .thought | safeHTML }}</p>
               </div>

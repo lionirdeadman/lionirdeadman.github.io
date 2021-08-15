@@ -427,18 +427,18 @@ figure {
   margin-bottom: 20px;
   display: inline-block;
 }
-.comment h2 {
+.comment {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: var(--content);
+}
+.comment .small {
+  font-size: 14px;
+}
+.username {
+  font-weight: bold;
   font-size: 20px;
   margin-bottom: 0;
-  color: var(--content);
-}
-.comment span {
-  font-size: 14px;
-  margin-bottom: 0;
-  color: var(--content);
-}
-.comment p {
-  color: var(--content);
 }
 .comment-thought {
   border-radius: var(--radius);
@@ -446,6 +446,7 @@ figure {
 }
 .comment-thought-title {
   display: block;
+  font-size: 14px;
   margin-top: -5px;
   padding-bottom: 5px;
 }
