@@ -26,16 +26,33 @@
           <div class="e-content post-content">{{ .Content }}
           <hr />
           {{ if .Params.syndications }}
-            <h3>Join the discussions : </h3>
+            <h3>Share your thoughts : </h3>
             {{ $length := len .Params.syndications }}
             {{ $counter := 0 }}
             {{ range $name, $url := .Params.syndications }}
               {{ $counter = add $counter 1 }}
-              <a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a><span>{{ if ne $counter $length }},{{ else }}.{{ end }}</span>
+              <a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a><span>{{ if ne $counter $length }},{{ else }} or send me a message on my social or chatting accounts.{{ end }}</span>
             {{ end }}
+          {{ else }}
+            <h3>Share your thoughts : </h3>
+            <span>Feel free to send me a message on my social or chatting accounts.</span>
           {{ end }}
           </div>
       </article>
+      {{ range $url, $value := .Site.Data.comments }}
+        {{ if eq $url $.Page.RelPermalink }}
+          <section class="comments">
+            <h2>Featured comments</h2>
+            {{ range . }}
+              <div class="comment">
+                <span><h2 class="username">{{ .username }}</h2> from <a href="{{ .url }}">{{ .platform }}</a></span>
+                <p>{{ .comment | safeHTML }}</p>
+                <p class="comment-thought"><span class="comment-thought-title">Response / Thought : </span> {{ .thought | safeHTML }}</p>
+              </div>
+            {{ end }}
+          </section>
+        {{ end }}
+      {{ end }}
     </main>
 </body>
 {{ end }}

@@ -1,0 +1,50 @@
+{
+  "/flathub-runtimes-and-stats/": [
+    {
+      "url": "https://tildes.net/~tech/xdi/flathub_runtimes_and_stats#comment-6kx5",
+      "username": "kfwyre",
+      "platform": "Tildes",
+      "comment": "This is very cool. As someone who uses a handful of programs from Flathub, there's a good chance I've benefited from some of your work! Thanks for doing what you do!",
+      "thought": "I really appreciate that people are benefiting from the work I did so seeing this comment made me happy."
+    },
+    {
+      "url": "https://www.reddit.com/r/linux/comments/o7gvn6/flathub_runtimes_and_stats/h5os6ut/",
+      "username": "parcimonic",
+      "platform": "Reddit",
+      "comment": "Just found your post, u/Lionir. <br /><br /> I'm reading Flatpak documentation and doing some tests. Hopefully, I'll be able to contribute to Flatpak application repositories soon. <br /><br /> Thanks for the inspiration!",
+      "thought": "I am grateful that I can make people contribute so seeing this made me glad that I publicized it."
+    }
+  ],
+  "/why-i-dont-believe-in-encrypted-mail-anymore/": [
+    {
+      "url": "https://pleroma.envs.net/objects/e28c6d5a-d18e-4c29-82ef-a31d334d76e5",
+      "username": "Seirdy@pleroma.envs.net",
+      "platform": "Fediverse",
+      "comment": "I concur, and use Migadu too. <br /><br />Regarding PGP, sharing keys is pretty seamless once you set it up. WKD makes sharing keys from your own site/email domain really easy, without relying on any keyserver; since my email is @seirdy.one, PGP programs like GnuPG simply download my public key from https://seirdy.one. When I open a signed/encrypted email for the first time in my mail client (Neomutt), GnuPG automatically fetches keys via WKD, DNS, DANE, and a list of keyservers so I hardly have to lift a finger.<br /><br />It also helps to expose a public key with IndieWeb microformats2 for better discoverability.",
+      "thought": "The conversation went on and I'd recommend reading if you are interested. Personally, WKD is not possible without hosting my own webserver and then I still have the problems of managing, hosting the webserver and... the likeliness of someone contacting me this way are essentially null, I believe."
+    },
+    {
+      "url": "https://tildes.net/~tech/u7k/why_i_dont_believe_in_encrypted_mail_providers_anymore#comment-60bl",
+      "username": "smores",
+      "platform": "Tildes",
+      "comment": "I’ve seen takes like this a few times, and I think they might a be a little bit misguided. I use Protonmail and have never used Tutonota, so I can only speak for Protonmail but:<br /><br />Protonmail supports OpenGPG, like you mention in your post, which IS an open standard for encryption. I agree that it’s not one that’s easy to grok or use for folks that aren’t pretty technically literate, and that’s a shame, because it’s a great tool. I’d love to see a larger effort to create better systems around supporting everyday computer users understand and use tools like OpenGPG, but I don’t think moving away from one of the only email providers that supports it will accomplish that goal.<br /><br />For what it’s worth, Protonmail does also support the interface you describe with Tutanota, where you can email someone an encrypted message, and they get a link asking for a password. I don’t think this is a particularly nice experience for most people, but I have used it in the past for remote secret sharing in a pinch, and it is fairly simple to use, even for people without a lot of computer literacy.<br /><br />All that said, even without any truly end to end encryption, I think there are significant benefits to using encrypted email providers. I think by now there’s a pretty good cultural awareness of the kinds of harms that come from a large corporate entity having access to things like a user’s web browsing history. We know how companies are able to use those datasets to create profiles of their users, and sell manipulative advertisements and even the profiles themselves, often to other companies that the user themself would prefer to never interact with, let alone give a huge set of identifying data to.<br /><br />Your email inbox is akin to your web browsing history, at least for most people. Almost every website you make an account with ends up sending at least one verification email to you. In many ways this is an even stronger signal than just browsing history; it shows a much clearer intent than just visiting a link.<br /><br />If Protonmail is my email provider, then at the very least I can know that the contents of my inbox are being stored in a way such that they simply cannot be read by anyone who isn’t me. As someone who isn’t particularly concerned about a specific person or entity targeting my communications, but is frustrated by and concerned about largescale corporate spying on individual browsing habits, this is what I’m looking for in an email provider. I pay them money, they store my emails, and they give me a key to access them, but don’t keep a copy for themselves. I think this is how all cloud storage should work, always.<br /><br />One more minor quibble: running Protonmail Bridge doesn’t remove “all of the benefits of encryption”, it specifically allows you to continue to use your encrypted email service through a client that knows nothing about encryption. If you receive an email while running the bridge, encrypted or otherwise, it will be decrypted by the bridge, using your key, before being sent to the client you’re using. That way the email only lives unencrypted on your machine, but is still encrypted on Protonmail’s servers.",
+      "thought": "Protonmail does support OpenPGP, you're right but the key discovery and automation are gone which make using the open standard essentially impossible for the average person which goes against the goal of using protonmail in the first place in my opinion.<br /><br />I agree that the link asking for a password interface is unwielding and I personally don't like it.<br /><br />The thing that bothers me with the lack of E2EE being accepted is that you're still basing your trust on your provider. Granted, I do believe Protonmail likely has better intentions than if Google were to implement it in Gmail but that entirely still solely relies on trusting the provider. It kinda removes the entire point of encrypting things from my point of view.<br /><br />Yes, the email mailbox is very important but I don't believe that putting a weak lock and the illusion of security is necessarily the step towards making that private.<br /><br />Protonmail Bridge indeed doesn't remove “all of the benefits of encryption”, it's more so that it removes a very important part of the Protonmail promise : E2EE. That's a dealbreaker for me."
+    }
+  ],
+  "/why-i-post-my-pronouns-and-you-should-too/": [
+    {
+      "url": "https://tildes.net/~lgbt/tyh/why_i_post_my_pronouns_and_you_should_too#comment-5ywz",
+      "username": "kfwyre",
+      "platform": "Tildes",
+      "comment": "This is a good point, and it's why I have pronouns in my Tildes bio even though I'm a cis guy. If only trans people post pronouns, it becomes a trans identifier. If both cis and trans people do it, then it lets trans people be addressed in their desired manner without simultaneously outing them as trans. As such, I see pronoun normalization among cis people as a way of giving privacy to any given individual's trans status. We make gender public information via posting pronouns, but such disclosure doesn't tell us anything about whether or not the person is cis or trans. This allows each individual person to retain the right to disclose that when and to whom they wish.",
+      "thought": "I entirely agree, making it a trans identifier would be quite bad."
+    },
+    {
+      "url": "https://tildes.net/~lgbt/tyh/why_i_post_my_pronouns_and_you_should_too#comment-5yxb",
+      "username": "Gaywallet",
+      "platform": "Tildes",
+      "comment": "Before I make some meta-commentary on what I see in this thread, I want to say fantastic article and thank you for writing it and being a wonderful ally!<br /><br />I've seen a lot of people in this post advocate for asking someone's pronouns when they interact with them. I've been in the practice of providing my own and not asking others because then there is no direct pressure for someone to provide them, especially if they are uncomfortable doing so or worse put them in a situation where they feel a pressure to provide incorrect pronouns out of fear of retaliation or discrimination. I think this is an important point that is often missed when people want to push the pronoun normalization and would encourage others to act similarly. I hope one day coming out as gender nonconforming is less of an issue and this won't matter, but I don't think we're quite there yet.",
+      "thought": "That's a very good point! I've definitely seen someone provide incorrect pronouns out of fear or nervousness. This wasn't when talking to me but rather to someone else and I'm not entirely sure if it was simply because of confusion at the time.<br /><br />When writing the post, I was coming from the position of telling my pronouns first and then asking because I feel that going first will probably position myself as an ally rather than someone simply unsure what pronouns they use."
+    }
+  ]
+}

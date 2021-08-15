@@ -24,6 +24,9 @@
     --code-bg: #f5f5f5;
     --border: #eee;
   }
+  .comment-thought {
+    background: var(--theme-bg);
+  }
   .list, .single {
 		background:
 				radial-gradient(var(--secondary) 3px, transparent 4px),
@@ -50,6 +53,9 @@
     --hljs-bg: #2e2e33;
     --code-bg: #3f3f3e;
     --border: #5b5d67;
+  }
+  .comment-thought {
+    background: var(--theme);
   }
   .list, .single {
 		background:
@@ -104,7 +110,6 @@ h6 {
 }
 hr {
   height: 1px;
-  margin: 0 20px;
   background: var(--tertiary);
   border: 0;
 }
@@ -317,6 +322,8 @@ figure {
 .post-meta {
   color: var(--secondary);
   font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 .post-meta a {
   color: var(--secondary);
@@ -407,6 +414,40 @@ figure {
 
 .u-syndication {
   text-transform: capitalize;
+}
+
+.comments {
+  margin-top: 20px;
+  background: var(--entry);
+  border-radius: var(--radius);
+  padding: var(--gap);
+}
+.comments h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.comment h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: var(--content);
+}
+.comment span {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--content);
+}
+.comment p {
+  color: var(--content);
+}
+.comment-thought {
+  border-radius: var(--radius);
+  padding: var(--gap);
+}
+.comment-thought-title {
+  display: block;
+  margin-top: -5px;
+  padding-bottom: 5px;
 }
 
 /* Table
