@@ -255,18 +255,11 @@ figure {
   border-radius: var(--radius);
   padding: var(--gap);
 }
-.first-entry .entry-header {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
 .first-entry .entry-header h2 {
   font-size: 40px;
 }
 .first-entry .entry-content {
   font-size: 16px;
-  -webkit-line-clamp: 3;
 }
 .first-entry .entry-footer {
   font-size: 14px;
@@ -282,9 +275,6 @@ figure {
 .post-entry:active {
   transform: scale(0.96);
 }
-.post-entry .entry-content {
-  height: 64px;
-}
 
 .entry-header h2 {
   font-size: 24px;
@@ -293,10 +283,6 @@ figure {
   color: var(--secondary);
   font-size: 14px;
   line-height: 1.6;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
 }
 .entry-content a {
 	color: var(--secondary);
@@ -635,4 +621,10 @@ figure {
 	.logo h1, .logo span {
     margin-left: 15px;
 	}
+	.first-entry .entry-header h2 {
+    font-size: 32px;
+  }
+	.post-title {
+    font-size: 28px;
+  }
 }

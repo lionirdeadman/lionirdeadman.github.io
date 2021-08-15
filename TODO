@@ -1,8 +1,6 @@
 - Bring back webmention and IndieAuth
-- Mobile different title size
 - Add explanation of feeds page
-- Fix titles being cut off in mobile
-- Fix post-entry summary breakin if >3 lines
+- Move About to homepage
 - Featured posts
 - Auto-archive and webmention latest post
 - u-syndication should not need to be capitalized with css
