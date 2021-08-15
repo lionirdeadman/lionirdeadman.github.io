@@ -50,7 +50,7 @@ What even is a kind discussion on disagreeing topics? It certainly needs to be a
 ### Technology continues to fail trans people
 
 This might seem like a strange premise to people unfamiliar with the effects of technology. Technology is neutral, right? No.
-Systems can fail people. It can be in the medical sphere where hospitals will be farther away from poor neighboorhoods or it can be a system simply
+Systems can fail people. It can be in the medical sphere where hospitals will be farther away from poor neighbourhoods or it can be a system simply
 telling you that you can't change your name. Machines *are* systems and they are failing trans people.
 
 I was reading ["Crucial Tech Like Email Is Still Failing Trans Employees"](https://www.wired.com/story/opinion-crucial-tech-like-email-is-still-failing-trans-employees) by [Wired](https://en.wikipedia.org/wiki/Wired_(magazine))
