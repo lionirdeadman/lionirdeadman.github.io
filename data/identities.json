@@ -4,5 +4,5 @@
   "Discussion": {"Tildes": "https://tildes.thelion.website", "Reddit": "https://reddit.thelion.website", "GNOME Discourse": "https://discourse-gnome.thelion.website"},
   "Coding": {"GitHub": "https://github.thelion.website", "Codeberg": "https://codeberg.thelion.website", "GitLab.com": "https://gitlab.thelion.website", "GNOME GitLab": "https://gitlab-gnome.thelion.website", "FreeDesktop GitLab": "https://gitlab-freedesktop.thelion.website"},
   "Tracking": {"Listenbrainz": "https://listen.thelion.website"},
-  "Chatting": {"Discord (using a tool a friend made, pretty neat)": "https://discord.thelion.website", "Matrix": "https://matrix.thelion.website"}
+  "Chatting": {"Discord": "https://discord.thelion.website", "Matrix": "https://matrix.thelion.website"}
 }
