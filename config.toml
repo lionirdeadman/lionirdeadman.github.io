@@ -61,7 +61,7 @@ enableEmoji = true
   icon = "/logo.svg"
   websub = "https://thelion.superfeedr.com"
   description = "Hi! I'm Lionir Deadman but just can just call me Lion for short. This is my website!"
-  links = [ {url = "/atom.xml", name = "Feed"},
+  links = [ {url = "/feeds/", name = "Feeds"},
             {url = "/projects/", name = "Projects"},
             {url = "/tracking/", name = "Tracking"},
             {url = "/about/", name = "About"}
