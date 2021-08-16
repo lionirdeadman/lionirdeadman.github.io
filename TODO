@@ -1,7 +1,6 @@
 - Bring back webmention and IndieAuth
-- Add explanation of feeds page
 - Move About to homepage
+- Add Search
 - Featured posts
+- Related posts
 - Auto-archive and webmention latest post
-- u-syndication should not need to be capitalized with css
-- Remove hacks for text height in entry-post
