@@ -585,6 +585,10 @@ figure {
   .table-row span {
     margin: 5px 10px;
   }
+  .about-columns {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @supports(background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%)) {
@@ -626,5 +630,13 @@ figure {
   }
 	.post-title {
     font-size: 28px;
+  }
+  .about-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .about-columns {
+    grid-template-columns: 1fr;
   }
 }

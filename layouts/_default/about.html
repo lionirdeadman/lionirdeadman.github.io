@@ -5,7 +5,7 @@
   <main class="main">
   <article class="post-single">
       <header class="post-header">
-          <h1 class="post-title">About me</h1>
+          <h1 class="post-title">{{ .Title }}</h1>
       </header>
         <div class="post-content">
         <section class="h-card">
@@ -25,12 +25,18 @@
 
           <p>Here's all my other identities :</p>
 
+          <div class="about-columns">
           {{- range $Key, $Value := .Site.Data.identities }}
           <p><b>{{ $Key }}</b> {{ if eq $Key "Coding" }}<a class="pgpkey" rel="pgpkey" type="application/pgp-keys" href="/git.pub">(PGP Key)</a>{{ end }}<br />
-          {{- range $name, $url := . }}<a class="u-url" rel="me" href="{{ $url }}">{{ $name }}</a> <br />{{ end -}}
+          {{ $length := len . }}
+          {{ $counter := 0 }}
+          {{- range $name, $url := . }}
+            {{ $counter = add $counter 1 }}
+            <a class="u-url" rel="me" href="{{ $url }}">{{ $name }}</a>{{ if ne $counter $length }}<br />{{ else }}{{ end }}
+          {{ end -}}
           </p>
           {{ end -}}
-          
+          </div>
         </section>
       </div>
   </article>
