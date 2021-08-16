@@ -25,53 +25,34 @@
           </header>
           <div class="e-content post-content">{{ .Content }}
           <hr />
-          {{ if .Params.syndications }}
             <h3>Share your thoughts : </h3>
-            {{ $length := len .Params.syndications }}
-            {{ $counter := 0 }}
-            Join discussions on
-            {{ range $name, $url := .Params.syndications }}
-              {{ $counter = add $counter 1 }}
-              <a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a><span>
-              {{- if ne $counter $length }},{{ else }}, send me a <a href="mailto:comments@thelion.website?subject=RE: {{ $.Title }}">email</a> or message on
-                {{- range $Key, $Value := $.Site.Data.identities }}
-                  {{ if eq $Key "Chatting"}}
-                      {{- range $Key, $Value := . }}
-                        <a href="{{ $Value }}">{{ $Key }}</a>,
-                      {{ end }}
-                  {{ end }}
-                  {{ $length2 := len . }}
-                  {{ $counter2 := 0 }}
-                  {{ if eq $Key "Social"}}
-                      {{- range $Key, $Value := . }}
-                        {{ $counter2 = add $counter2 1 }}
-                        {{ if ne $counter2 $length2 }}<a href="{{ $Value }}">{{ $Key }}</a>,{{ else }} or <a href="{{ $Value }}">{{ $Key }}</a>.{{ end }}
-                      {{ end }}
-                  {{ end }}
-                {{ end }}
-              {{ end -}}
-              </span>
+            <span>
+            {{ if .Params.syndications }}
+              {{ $length := len .Params.syndications }}
+              {{ $counter := 0 }}
+              Join discussions on
+              {{ range $name, $url := .Params.syndications }}
+                {{ $counter = add $counter 1 }}
+                {{ if eq "r/" ( substr $name 0 2 ) }}<a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a>{{ else }}<a rel="syndication" class="u-syndication capitalize" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a>{{ end }}{{ if ne $counter $length }},{{ else }},{{ end }}
+              {{ end }}
             {{ end }}
-          {{ else }}
-            <h3>Share your thoughts : </h3>
-            <span>Feel free to send me a <a href="mailto:comments@thelion.website?subject=RE: {{ $.Title }}">email</a> or message on
-                {{- range $Key, $Value := $.Site.Data.identities }}
-                  {{ if eq $Key "Chatting"}}
-                      {{- range $Key, $Value := . }}
-                        <a href="{{ $Value }}">{{ $Key }}</a>,
-                      {{ end }}
-                  {{ end }}
-                  {{ $length2 := len . }}
-                  {{ $counter2 := 0 }}
-                  {{ if eq $Key "Social"}}
-                      {{- range $Key, $Value := . }}
-                        {{ $counter2 = add $counter2 1 }}
-                        {{ if ne $counter2 $length2 }}<a href="{{ $Value }}">{{ $Key }}</a>,{{ else }} or <a href="{{ $Value }}">{{ $Key }}</a>.{{ end }}
-                      {{ end }}
-                  {{ end }}
+            {{ if .Params.syndications }}{{ else }}Feel free to{{ end }} send me a <a href="mailto:comments@thelion.website?subject=RE: {{ $.Title }}">email</a> or message on
+              {{ range $Key, $Value := $.Site.Data.identities }}
+                {{ if eq $Key "Chatting"}}
+                    {{ range $Key, $Value := . }}
+                      <a href="{{ $Value }}">{{ $Key }}</a>,
+                    {{ end }}
                 {{ end }}
-            </span>
-          {{ end }}
+                {{ $length2 := len . }}
+                {{ $counter2 := 0 }}
+                {{ if eq $Key "Social"}}
+                    {{ range $Key, $Value := . }}
+                      {{ $counter2 = add $counter2 1 }}
+                      {{ if ne $counter2 $length2 }}<a href="{{ $Value }}">{{ $Key }}</a>,{{ else }} or <a href="{{ $Value }}">{{ $Key }}</a>.{{ end }}
+                    {{ end }}
+                {{ end }}
+              {{ end }}
+              </span>
           </div>
       </article>
       {{ range $url, $value := .Site.Data.comments }}
