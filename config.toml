@@ -3,13 +3,15 @@ languageCode = "en-us"
 title = "The Lion"
 
 paginate = "10"
-disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 
 [author]
   name = "Lionir Deadman"
   url = "https://thelion.website/about/"
   avatar = "mermelon_profile"
+
+[taxonomies]
+  tag = 'tags'
 
 [outputFormats]
   [outputFormats.jsonfeed]
@@ -38,8 +40,10 @@ enableEmoji = true
     isPlainText = true
 
 [outputs]
-  home = ["html","atom", "jsonfeed", "logo", "header", "stylesheet"]
+  home = ["html", "atom", "jsonfeed", "logo", "header", "stylesheet"]
   list = ["html"]
+  term = ["html", "atom", "jsonfeed"]
+  taxonomy = ["html"]
   single = ["html"]
   section = ["html"]
   page = ["html"]
