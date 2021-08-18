@@ -60,7 +60,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/main.css" />
     <!-- Feeds -->
+    {{ if eq .Kind "term" }}
+    <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="atom.xml" />
+    <link rel="alternate" type="application/feed+json" title="JSON feed" href="feed.json" />
+    {{ else }}
     <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="https://thelion.website/atom.xml" />
     <link rel="alternate" type="application/feed+json" title="JSON feed" href="https://thelion.website/feed.json" />
+    {{ end }}
     <!-- Hub -->
     <link rel="hub" href="{{ .Site.Params.Websub }}">
