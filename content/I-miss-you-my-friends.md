@@ -2,6 +2,7 @@
 title = "I miss you my friends"
 date = 2020-11-01
 slug_url = true
+tags = ["nostalgia", "growtopia", "reflection", "ramblings", "friendship", "memories"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

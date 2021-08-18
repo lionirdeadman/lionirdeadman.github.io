@@ -2,6 +2,7 @@
 title = "Why I don't believe in encrypted mail providers anymore"
 date = 2020-12-27
 slug_url = true
+tags = ["standards", "email", "encryption", "tutanota", "migadu", "protonmail", "gdpr", "imap"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

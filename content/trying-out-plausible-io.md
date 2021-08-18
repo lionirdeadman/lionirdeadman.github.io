@@ -2,6 +2,7 @@
 title = "I'm trying out Plausible Analytics"
 date = 2020-12-18
 slug_url = true
+tags = ["website", "meta", "analytics", "plausible.io", "free software", "cloudflare"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

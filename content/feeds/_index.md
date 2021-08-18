@@ -12,7 +12,7 @@ posts in chronological order rather than whatever the social media platform deci
 This also makes it easier for me because I don't need to share my blog posts on various platforms, people can just read
 what I write directly in their feed reader of choice.
 
-### How to use them?
+## How to use them?
 
 You'll need a [Feed reader](https://en.wikipedia.org/wiki/News_aggregator)!
 
@@ -24,12 +24,19 @@ I think [Newsblur](https://newsblur.com/) might be interesting.
 
 There are plenty feed readers so feel to look around for one that you like.
 
-### Okay I have one, now what?
+## Okay I have one, now what?
 
 Some readers might discover the feed if you point it at `https://thelion.website`
 
-You can tell it to follow the Atom Feed here : `https://thelion.website/atom.xml`
+In the case that your read doesn't discover, you can point directly to either Atom or JSON feed (different formats of the same thing) : 
 
-or the JSON Feed here : `https://thelion.website/feed.json`
+- `https://thelion.website/atom.xml`
+- `https://thelion.website/feed.json`
 
-The Atom Feed is likely the most compatible version.
+The Atom Feed is likely the most compatible version of those versions.
+
+You can also follow any tag like this (example being the `ramblings` tag : 
+
+ - `http://thelion.website/tags/ramblings/atom.xml`
+ - `http://thelion.website/tags/ramblings/feed.json`
+

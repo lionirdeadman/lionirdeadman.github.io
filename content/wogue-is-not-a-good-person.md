@@ -2,6 +2,7 @@
 title = "Wogue is not a good person"
 date = 2020-12-29
 slug_url = true
+tags = ["commentary", "babywogue", "insensitivity", "bigotry", "youtube"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

@@ -2,6 +2,7 @@
 title = "Why I post my pronouns and you should too"
 date = 2020-12-14
 slug_url = true
+tags = ["lgbtq+", "pronouns"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

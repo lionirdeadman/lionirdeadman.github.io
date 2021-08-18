@@ -2,6 +2,7 @@
 title = "What is happening in r/CentOS and why /u/redundantly should not be a moderator"
 date = 2020-12-11
 slug_url = true
+tags = ["reddit", "centos", "red hat", "moderation", "commentary"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

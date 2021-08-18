@@ -2,6 +2,7 @@
 title = "PSA about email rating limiting on Discord"
 date = 2020-10-29
 slug_url = true
+tags = ["discord", "communications", "email"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

@@ -2,6 +2,7 @@
 title = "Capitalism in Free Software & why Flash was important"
 date = 2021-07-21
 slug_url = true
+tags = ["capitalism", "free software", "non-profit", "ramblings", "flash", "early web", "fonts", "accessibility"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
