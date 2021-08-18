@@ -1,0 +1,37 @@
+{{ define "body" }}
+<body class="list">
+    {{ partial "head.html" . }}
+
+    <main class="main">
+      <nav class="filter-button-container pagination">
+        {{ if eq .Kind "term" }}<a class="prev" rel="prev" href="/tags/">< Back</a>{{ end }}
+        {{ if eq .Kind "taxonomy" }}<a class="filter-button" href="/">By Date</a>
+        <a class="filter-button" href="/tags/">By Tag</a>{{ end }}
+      </nav>
+      {{ if eq .Kind "term" }}
+      <div class="h-feed posts">
+        {{ range .Paginator.Pages.ByDate.Reverse }}
+          {{ partial "article.html" . }}
+        {{ end }}
+        <footer class="page-footer">
+          <nav class="pagination">
+            {{ if .Paginator.HasPrev }}<a class="prev" rel="prev" href="{{ .Paginator.Prev.URL }}">< Previous</a>{{ else }}<!--Hidden Previous-Button-->{{ end }}
+            {{ if .Paginator.HasNext }}<a class="next" rel="next" href="{{ .Paginator.Next.URL }}">Next ></a>{{ else }}<!--Hidden Next-Button-->{{ end }}
+          </nav>
+        </footer>
+      </div>
+      {{ end }}
+      {{ if eq .Kind "taxonomy" }}
+      <article>
+        <h2>Tags</h2>
+        <br />
+        <div class="tags-bubble-container">
+        {{ range sort .Site.Taxonomies.tags "Count" "desc" }}
+          {{ partial "tags-bubble.html" . }}
+        {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </main>
+</body>
+{{ end }}

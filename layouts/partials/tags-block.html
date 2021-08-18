@@ -1,0 +1,2 @@
+  {{ if or (eq . "rss") (eq . "imap") (eq . "jpeg") (eq . "lgbtq+") (eq . "gdpr") (eq . "suse") }}<a class="p-category tags-block uppercase" href="/tags/{{ . | urlize }}/">{{- . -}}</a>
+  {{ else }}<a class="p-category tags-block capitalize" href="/tags/{{ . | urlize }}/">{{- . -}}</a>{{ end }}
