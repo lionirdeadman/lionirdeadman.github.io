@@ -18,6 +18,12 @@
                   <span class="post-reading-time">{{ .ReadingTime }} min read</span>
                   <br/>
                   <span class="post-license">License: <a rel="license" href="{{ .Params.license_url }}">{{ .Params.license_name }}</a>.</span>
+                  {{ if .Params.tags }}<br />
+                  <span>Tags :
+                  {{- range .Params.tags }}
+                    {{ partial "tags-block.html" . }}
+                  {{ end -}}
+                  </span>{{ end }}
               </div>
               <br />
               <hr />
