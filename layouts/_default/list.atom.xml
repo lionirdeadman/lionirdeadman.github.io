@@ -22,6 +22,7 @@
       <uri>{{ .Params.author_url }}</uri>
     </author>
     <id>{{ .Permalink }}</id>
+    <rights>{{ .Params.license_name }} by {{ .Params.author }}</rights>
     <content type="html"><![CDATA[{{ .Content | safeHTML }}]]></content>
   </entry>
   {{ end }}

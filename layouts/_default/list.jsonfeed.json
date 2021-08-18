@@ -35,6 +35,9 @@
                   "url": "{{ .Params.author_url }}"
                 }
             ],
+            {{- if .Params.tags }}
+            "tags" : {{- .Params.tags | jsonify -}},
+            {{ end -}}
             "content_html": {{ .Content | jsonify }}
         }{{ if ne (add $index 1) $length }},{{ end }}
         {{ end -}}
