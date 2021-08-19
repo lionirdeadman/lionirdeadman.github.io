@@ -2,6 +2,11 @@
     <link rel="shortcut icon" href="{{ .Site.Params.icon }}" type="image/svg+xml" />
     <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
     <meta name="viewport" content="width=device-width, viewport-fit=cover" />
+    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+    <meta name="robots" content="noindex" />
+    {{ else if eq .Section "about" }}
+    <meta name="robots" content="nofollow" />
+    {{ end -}}
     <!-- Rich site data -->
     {{- if eq .Kind "page" }}<script type="application/ld+json">
     {
@@ -16,7 +21,7 @@
       "backstory": "{{ .Page.Summary | safeHTML }}",
       "datePublished": "{{ dateFormat "2006-01-02T15:04:05Z07:00" .Page.Date}}"
     }
-    </script>{{ end }}
+    </script>{{ end -}}
     <!-- Standard meta tags -->
     {{- if eq .Kind "page" }}
     <meta name="author" content="{{ .Page.Params.author }}" />
@@ -56,6 +61,12 @@
     <meta property="og:url" content="{{- .Page.Permalink -}}" />
     <meta property="og:title" content="{{- .Page.Title -}}" />
     <meta property="og:description" content="{{- .Page.Summary | plainify -}}" />
+    {{ end -}}
+    <!-- Twitter Card tags -->
+    {{- if eq .Kind "page" }}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{- .Page.Title -}}" />
+    <meta name="twitter:description" content="{{- .Page.Summary | plainify -}}" />
     {{ end -}}
     <!-- CSS -->
     <link rel="stylesheet" href="/main.css" />
