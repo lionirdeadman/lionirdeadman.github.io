@@ -3,7 +3,7 @@
     <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
     <meta name="viewport" content="width=device-width, viewport-fit=cover" />
     <!-- Rich site data -->
-    {{- if eq .Kind "Page" }}<script type="application/ld+json">
+    {{- if eq .Kind "page" }}<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -18,7 +18,7 @@
     }
     </script>{{ end }}
     <!-- Standard meta tags -->
-    {{- if eq .Kind "Page" }}
+    {{- if eq .Kind "page" }}
     <meta name="author" content="{{ .Page.Params.author }}" />
     <meta name="title" content="{{- .Page.Title -}}" />
     <meta name="description" content="{{- .Page.Summary -}}" />
@@ -36,7 +36,7 @@
     <meta name="description" content="{{- .Page.Summary -}}" />
     {{ end -}}
     <!-- Open Graph Tags -->
-    {{- if eq .Kind "Page" }}
+    {{- if eq .Kind "page" }}
     <meta property="og:site_name" content="{{- .Page.Title -}}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{- .Page.Permalink -}}" />
