@@ -21,19 +21,19 @@
     {{- if eq .Kind "page" }}
     <meta name="author" content="{{ .Page.Params.author }}" />
     <meta name="title" content="{{- .Page.Title -}}" />
-    <meta name="description" content="{{- .Page.Summary -}}" />
+    <meta name="description" content="{{- .Page.Summary | plainify -}}" />
     {{ else if eq .Section "about" }}
     <meta name="author" content="{{ .Site.Author.name }}" />
     <meta name="title" content="{{- .Title -}}" />
-    <meta name="description" content="{{- .Site.Params.Description -}}" />
+    <meta name="description" content="{{- .Site.Params.Description | plainify -}}" />
     {{ else if eq .Kind "home" }}
     <meta name="author" content="{{ .Site.Author.name }}" />
     <meta name="title" content="{{- .Site.Title -}}" />
-    <meta name="description" content="{{- .Site.Params.Description -}}" />
+    <meta name="description" content="{{- .Site.Params.Description | plainify -}}" />
     {{ else }}
     <meta name="author" content="{{ .Site.Author.name }}" />
     <meta name="title" content="{{- .Page.Title -}}" />
-    <meta name="description" content="{{- .Page.Summary -}}" />
+    <meta name="description" content="{{- .Page.Summary | plainify -}}" />
     {{ end -}}
     <!-- Open Graph Tags -->
     {{- if eq .Kind "page" }}
@@ -41,7 +41,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{- .Page.Permalink -}}" />
     <meta property="og:title" content="{{- .Site.Title -}}" />
-    <meta property="og:description" content="{{- .Page.Summary -}}" />
+    <meta property="og:description" content="{{- .Page.Summary | plainify -}}" />
     {{ else if eq .Section "about" }}
     <meta property="og:type" content="profile" />
     <meta property="profile:username" content="lionirdeadman" />
@@ -55,7 +55,7 @@
     {{ else }}
     <meta property="og:url" content="{{- .Page.Permalink -}}" />
     <meta property="og:title" content="{{- .Page.Title -}}" />
-    <meta property="og:description" content="{{- .Page.Summary -}}" />
+    <meta property="og:description" content="{{- .Page.Summary | plainify -}}" />
     {{ end -}}
     <!-- CSS -->
     <link rel="stylesheet" href="/main.css" />
