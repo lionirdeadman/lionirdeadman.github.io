@@ -21,7 +21,7 @@
     scrollbar-color: #bcb4b4 #f0edee;
 
     --hljs-bg: #1c1d21;
-    --code-bg: #f5f5f5;
+    --code-bg: #202024;
     --border: #eee;
   }
   .comment-thought, .tags-bubble, .tags-block {
@@ -43,6 +43,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --theme: #202024;
+    --theme-bg: #202024;
     --entry: #2A2B2F;
     --primary: #099cea;
     --secondary: rgba(255, 255, 255, 0.74);
@@ -51,7 +52,7 @@
     scrollbar-color: #c7c8c9 var(--theme);
 
     --hljs-bg: #2e2e33;
-    --code-bg: #3f3f3e;
+    --code-bg: #202024;
     --border: #5b5d67;
   }
   .comment-thought, .tags-bubble, .tags-block {
@@ -76,7 +77,7 @@
   .posts, footer, article {
     --radius: 0px;
   }
-  .post-update, .pagination, .tags-bubble {
+  .post-update, .pagination, .tags-bubble, .highlight {
     --radius: 20px;
   }
 }
@@ -396,7 +397,7 @@ time {
   font-family: "Cantarell", "Helvetica", "Arial", sans-serif;
   font-size: 0.78em;
   line-height: 1.5;
-  background: var(--code-bg);
+  background: var(--theme-bg);
   border-radius: 2px;
 }
 .post-content pre code {
@@ -407,6 +408,10 @@ time {
   color: rgba(255, 255, 255, 0.8);
   background: transparent;
   border-radius: 0;
+}
+.highlight pre {
+  background-color: var(--code-bg) !important;
+  border-radius: calc(var(--radius)/2) !important;
 }
 
 .post-content blockquote {
