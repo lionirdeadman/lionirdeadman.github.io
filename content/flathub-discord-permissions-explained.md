@@ -44,7 +44,9 @@ load an arbitrary module which can result in remote code execution. There's real
         "--share=network"
 ```
 
-As far as I know, this is a very safe permission to give and is obviously needed because Discord is an online application.
+As far as I know, this is a relatively safe permission to give and is obviously needed because Discord is an online application. This does give access to local
+network devices which could be an attack vector, it would be interesting to have a permission which allows internet access but not the local network. This 
+[has been proposed](https://github.com/containers/bubblewrap/issues/392) before, it would be nice to see work on that.
         
 ### Devices
 

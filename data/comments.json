@@ -46,5 +46,14 @@
       "comment": "Before I make some meta-commentary on what I see in this thread, I want to say fantastic article and thank you for writing it and being a wonderful ally!<br /><br />I've seen a lot of people in this post advocate for asking someone's pronouns when they interact with them. I've been in the practice of providing my own and not asking others because then there is no direct pressure for someone to provide them, especially if they are uncomfortable doing so or worse put them in a situation where they feel a pressure to provide incorrect pronouns out of fear of retaliation or discrimination. I think this is an important point that is often missed when people want to push the pronoun normalization and would encourage others to act similarly. I hope one day coming out as gender nonconforming is less of an issue and this won't matter, but I don't think we're quite there yet.",
       "thought": "That's a very good point! I've definitely seen someone provide incorrect pronouns out of fear or nervousness. This wasn't when talking to me but rather to someone else and I'm not entirely sure if it was simply because of confusion at the time.<br /><br />When writing the post, I was coming from the position of telling my pronouns first and then asking because I feel that going first will probably position myself as an ally rather than someone simply unsure what pronouns they use."
     }
+  ],
+  "/flathub-discord-permissions-explained/": [
+    {
+      "url": "https://github.com/flathub/com.discordapp.Discord/issues/99#issuecomment-902348396",
+      "username": "ssokolow",
+      "platform": "GitHub",
+      "comment": "I really wish Flatpak had something like --share=internet which was like --share=network but firewalled off access to the local subnet and non-routable IP addresses so an exploit in the sandboxed app couldn't be used as a jumping-off point to attack things like IoT devices and network printers behind the router firewall.",
+      "thought": "I entirely agree, it would be quite nice to have for Discord. I've amended the post to include that attack vector."
+    }
   ]
 }
