@@ -486,12 +486,11 @@ time {
 
 /* Table
 -------------------------------------------------- */
-.table-row {
-  display: table;
+table {
   width: 100%;
 }
-.table-row span {
-  display: table-row;
+.table-row {
+  padding: 4px 0;
 }
 .table-head span {
   color: rgba(255, 255, 255, 1);
@@ -501,9 +500,17 @@ time {
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
+  padding: 4px 0;
+}
+td:first-of-type, th:first-of-type {
+  text-align: left;
+  padding-left: 10px;
 }
 .center-span, .table-header {
   text-align: center;
+}
+.small-row {
+  width: 15%;
 }
 /* Footer
 -------------------------------------------------- */
@@ -650,10 +657,10 @@ time {
 @supports(display:grid) {
   .table-row {
     display: grid;
-    grid-template-columns: 1.5fr 0.7fr 0.7fr;
+    grid-template-columns: 1.5fr 0.3fr 0.4fr;
   }
-  .table-row span {
-    margin: 5px 10px;
+  .small-row {
+    width: auto;
   }
   .about-columns {
     display:grid;
