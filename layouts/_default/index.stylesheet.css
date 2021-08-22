@@ -658,7 +658,7 @@ td:first-of-type, th:first-of-type {
 @supports(display:grid) {
   .table-row {
     display: grid;
-    grid-template-columns: 1.5fr 0.3fr 0.4fr;
+    grid-template-columns: 1.5fr 0.5fr .6fr;
   }
   .small-row {
     width: auto;
