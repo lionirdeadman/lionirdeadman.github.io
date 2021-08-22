@@ -8,15 +8,16 @@
             {{ .Summary }}
         </section>
         
-        <footer class="entry-footer {{ if .Params.tags }}entry-footer-tag{{ end }}">
+        <footer class="entry-footer">
           <time class="dt-published" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Date }}">{{ dateFormat "Monday, 2 January, 2006" .Date }}</time>
-          {{ if .Params.tags }}
-            <div class="entry-tag-container">
-            {{ range .Params.tags }}
-              {{- partial "tags-block.html" . -}}
-            {{ end }}
-            </div>
-          {{ end }}
+          <span>by <a class="p-author h-card" href="{{ .Params.author_url }}">{{ .Params.author }}</a></span>
         </footer>
+        {{ if .Params.tags }}
+          <div class="entry-tag-container">
+          {{ range .Params.tags }}
+            {{- partial "tags-block.html" . -}}
+          {{ end }}
+          </div>
+        {{ end }}
         
       </article>

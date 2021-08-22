@@ -284,7 +284,7 @@ time {
 }
 .post-entry {
   position: relative;
-  padding: var(--gap);
+  padding: calc(var(--gap)/1.2) var(--gap);
   background: var(--entry);
   border-radius: var(--radius);
   transition: transform 0.1s;
@@ -309,9 +309,12 @@ time {
   color: var(--secondary);
   font-size: 13px;
 }
+.entry-footer a {
+  font-weight: bold;
+}
 .entry-tag-container {
-  margin-left: auto;
-
+  margin-top: 10px;
+  font-size: 13px;
 }
 .footnote-definition p {
   display: inline;
@@ -522,7 +525,7 @@ td:first-of-type, th:first-of-type {
   text-align: center;
   line-height: 24px;
   background: var(--entry);
-  padding: var(--gap) 0;
+  padding: calc(var(--gap)/2) 0;
 }
 .footer span {
   margin: 0 1px;
@@ -631,13 +634,11 @@ td:first-of-type, th:first-of-type {
   }
   .entry-footer {
     display: flex;
-  }
-  .entry-footer-tag {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .entry-tag-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 5px;
   }
@@ -713,9 +714,6 @@ td:first-of-type, th:first-of-type {
   }
 }
 @media only screen and (max-width: 525px) {
-  .entry-footer {
-    justify-content: flex-start;
-  }
   .entry-tag-container {
     display: none;
   }

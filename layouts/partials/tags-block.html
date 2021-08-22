@@ -3,6 +3,6 @@
           {{ $uppercase = true }}
         {{ end }}
         <a class="p-category tags-block {{ if eq $uppercase true }} uppercase {{ else }} capitalize {{ end }}"
-           href="/tags/{{ . | urlize }}/">
+           style="color: #0f689d;" href="/tags/{{ . | urlize }}/">
            {{- . -}}
         </a>  
