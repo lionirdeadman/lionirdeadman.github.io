@@ -24,7 +24,7 @@
     --code-bg: #202024;
     --border: #eee;
   }
-  .comment-thought, .tags-bubble, .tags-block {
+  .comment-thought, .tags-block {
     background: var(--theme-bg);
   }
   .list, .single {
@@ -55,7 +55,7 @@
     --code-bg: #202024;
     --border: #5b5d67;
   }
-  .comment-thought, .tags-bubble, .tags-block {
+  .comment-thought, .tags-block {
     background: var(--theme);
   }
   .list, .single {
@@ -77,7 +77,7 @@
   .posts, footer, article {
     --radius: 0px;
   }
-  .post-update, .pagination, .tags-bubble, .highlight {
+  .post-update, .pagination, .highlight {
     --radius: 20px;
   }
 }
@@ -467,13 +467,15 @@ time {
 
 /* Tags
 -------------------------------------------------- */
+.tags-title {
+  margin-bottom: -15px;
+}
 .tags-bubble {
   text-align: center;
   display: inline-block;
-  color: var(--content);
+  color: var(--primary);
   font-size: 16px;
   line-height: 40px;
-  border-radius: var(--radius);
   font-weight: bold;
   padding: 0 12px;
 }
@@ -636,7 +638,6 @@ time {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
   }
   .not-found {
     display: flex;

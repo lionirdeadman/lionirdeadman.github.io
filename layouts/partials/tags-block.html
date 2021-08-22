@@ -1,2 +1,8 @@
-  {{ if or (eq . "rss") (eq . "imap") (eq . "jpeg") (eq . "lgbtq+") (eq . "gdpr") (eq . "suse") }}<a class="p-category tags-block uppercase" href="/tags/{{ . | urlize }}/">{{- . -}}</a>
-  {{ else }}<a class="p-category tags-block capitalize" href="/tags/{{ . | urlize }}/">{{- . -}}</a>{{ end }}
+        {{ $uppercase := false }}
+        {{ if or (eq . "rss") (eq . "imap") (eq . "jpeg") (eq . "lgbtq+") (eq . "gdpr") (eq . "suse") }}
+          {{ $uppercase = true }}
+        {{ end }}
+        <a class="p-category tags-block {{ if eq $uppercase true }} uppercase {{ else }} capitalize {{ end }}"
+           href="/tags/{{ . | urlize }}/">
+           {{- . -}}
+        </a>  

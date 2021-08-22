@@ -1,0 +1,19 @@
+        {{ $uppercase := false }}
+        {{ if or (eq .Page.Title "rss") (eq .Page.Title "imap") (eq .Page.Title "jpeg") (eq .Page.Title "lgbtq+") (eq .Page.Title "gdpr") (eq .Page.Title "suse") }}
+          {{ $uppercase = true }}
+        {{ end }}
+        {{ $size := 0 }}
+        {{ if ge .Count 8 }}
+          {{ $size = 20 }}
+        {{ else if ge .Count 4 }}
+          {{ $size = 16 }}
+        {{ else if ge .Count 2 }}
+          {{ $size = 14 }}
+        {{ else }}
+          {{ $size = 12 }}
+        {{ end }}
+        <a class="tags-bubble {{ if eq $uppercase true }} uppercase {{ else }} capitalize {{ end }}"
+           href="{{ .Page.Permalink }}"
+           style="font-size: {{ $size }}px;">
+           {{ .Page.Title }} {{ if eq .Count 1 }}{{ else }}({{ .Count }}){{ end }}
+        </a>

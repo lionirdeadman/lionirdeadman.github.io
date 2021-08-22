@@ -23,11 +23,11 @@
       {{ end }}
       {{ if eq .Kind "taxonomy" }}
       <article>
-        <h2>Tags</h2>
+        <h2 class="tags-title">Tags</h2>
         <br />
         <div class="tags-bubble-container">
-        {{ range sort .Site.Taxonomies.tags "Count" "desc" }}
-          {{ partial "tags-bubble.html" . }}
+        {{ range .Site.Taxonomies.tags }}
+          {{ partial "tags-cloud.html" . }}
         {{ end }}
         </div>
       </article>
