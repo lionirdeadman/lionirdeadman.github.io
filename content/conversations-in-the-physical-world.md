@@ -1,6 +1,6 @@
 +++
 title = "Conversations in the physical world"
-date = 2021-08-20
+date = 2021-08-24
 slug_url = true
 tags = ["ramblings", "conversations", "friendships", "internet"]
 
