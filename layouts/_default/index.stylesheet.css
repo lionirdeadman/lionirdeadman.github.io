@@ -131,6 +131,11 @@ time {
   min-width: 170px;
 }
 
+.h-entry, .h-feed, .pagination, .comments {
+  max-width: 815px;
+  margin: 60px auto auto;
+}
+
 /* Header
 -------------------------------------------------- */
 .header {
@@ -224,19 +229,12 @@ time {
 .main {
   position: relative;
   padding: var(--gap) 0;
-  margin: auto;
-  margin-top: 60px;
-  max-width: 815px;
-  width: 100%;
 }
 .page-header {
   margin-bottom: 24px;
 }
 .page-header h1 {
   font-size: 40px;
-}
-.pagination {
-  margin: 0 12px;
 }
 .pagination a {
   color: #fff;
@@ -603,15 +601,20 @@ td:first-of-type, th:first-of-type {
     justify-content: flex-start;
     flex-grow: 1;
     margin: 0;
+    max-width: 815px;
   }
   .list, .single {
 	  display: flex;
 	  align-items: center;
 	  flex-direction: column;
   }
+  .h-entry, .h-feed {
+    margin: 0;
+  }
   .pagination {
     display: flex;
     justify-content: space-between;
+    margin: 0 12px;
   }
   .filter-button-container {
     display: flex;
