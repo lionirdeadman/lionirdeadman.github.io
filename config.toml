@@ -70,3 +70,20 @@ enableEmoji = true
             {url = "/tracking/", name = "Tracking"},
             {url = "/about/", name = "About"}
   ]
+  [params.stylesheet]
+    theme = "#fff"
+    gap = 24
+    content_gap = "20px"
+    nav_width = "1024px"
+    main_width = "640px"
+    header_height = "300px"
+    footer_height = "96px"
+    radius = 20
+    theme = "#fff"
+    theme_bg = "#f0edee"
+    entry = "#fff"
+    primary = "#007ac6"
+    secondary = "rgba(0, 0, 0, 0.56)"
+    tertiary = "rgba(0, 0, 0, 0.16)"
+    content = "rgba(0, 0, 0, 0.88)"
+    code_bg = "#202024"
