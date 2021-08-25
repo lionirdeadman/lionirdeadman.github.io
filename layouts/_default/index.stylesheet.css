@@ -24,6 +24,9 @@
   .comment-thought, .tags-block {
     background: {{ .Site.Params.stylesheet.theme_bg }};
   }
+  .tags-block {
+    color: #0f689d;
+  }
   .list, .single {
     background-color: {{ .Site.Params.stylesheet.theme_bg }};
 		background:
@@ -66,6 +69,9 @@
 				background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
 				background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 	}
+  .tags-block {
+    color: var(--primary);
+  }
 }
 
 /* Mobile
@@ -98,9 +104,8 @@ article {
   background: var(--entry);
   border-radius: {{ .Site.Params.stylesheet.radius }}px;
   border-radius: var(--radius);
-  padding: var(--gap);
   padding: {{ .Site.Params.stylesheet.gap }}px;
-  padding: (--gap);
+  padding: var(--gap);
 }
 h1,
 h2,
@@ -524,7 +529,6 @@ time {
 .tags-block {
   font-weight: bold;
   padding: 0 4px;
-  color: #0f689d;
 }
 
 /* Table
