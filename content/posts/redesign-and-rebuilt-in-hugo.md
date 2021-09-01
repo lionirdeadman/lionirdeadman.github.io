@@ -3,6 +3,7 @@ title = "Redesign and rebuilt in Hugo"
 date = 2021-08-09
 slug_url = true
 tags = ["website", "meta", "hugo", "zola", "design", "jsonfeed", "websub", "analytics", "jpeg", "images", "fonts"]
+aliases = ["/redesign-and-rebuilt-in-hugo/"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

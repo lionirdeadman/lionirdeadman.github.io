@@ -3,6 +3,7 @@ title = "Discord on Flathub : Permissions explained"
 date = 2021-08-19
 slug_url = true
 tags = ["discord", "flatpak", "flathub", "permissions", "security", "electron"]
+aliases = ["/flathub-discord-permissions-explained/"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

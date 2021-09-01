@@ -1,3 +1,7 @@
+{{- $pages := .RegularPages -}}
+{{- if .IsHome }}
+  {{- $pages = where .Site.RegularPages "Section" "posts" -}}
+{{ end -}}
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ .Site.LanguageCode }}">
   <title>{{ .Site.Title }}</title>
@@ -11,7 +15,7 @@
   </author>
   <updated>{{ now.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
   <id>{{ .Permalink }}</id>
-  {{ range .RegularPages }}
+  {{ range $pages }}
   <entry>
     <title type="html"><![CDATA[{{ .Title | safeHTML }}]]></title>
     <link href="{{ .Permalink }}" />

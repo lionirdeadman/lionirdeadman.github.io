@@ -1,4 +1,8 @@
-{{ $length := (len .RegularPages) -}}
+{{- $pages := .RegularPages -}}
+{{- if .IsHome }}
+  {{- $pages = where .Site.RegularPages "Section" "posts" -}}
+{{ end -}}
+{{ $length := (len $pages) -}}
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "{{ .Site.Title }}",
@@ -22,7 +26,7 @@
         }
     ],
     "items": [
-        {{ range $index, $element := .RegularPages -}}
+        {{ range $index, $element := $pages -}}
         {
             "title": {{ .Title | jsonify }},
             "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",

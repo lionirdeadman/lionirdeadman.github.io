@@ -3,6 +3,7 @@ title = "Flathub, runtimes and stats."
 date = 2021-06-23
 slug_url = true
 tags = ["flathub", "flatpak", "contributions", "security", "projects", "fp-build", "fp-stats"]
+aliases = ["/flathub-runtimes-and-stats/"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

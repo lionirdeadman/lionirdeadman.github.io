@@ -13,6 +13,11 @@ enableEmoji = true
 [taxonomies]
   tag = 'tags'
 
+[permalinks]
+  posts = '/posts/:title/'
+  ramblings = '/ramblings/:title/'
+  micro = '/micro/:title/'
+
 [outputFormats]
   [outputFormats.jsonfeed]
     mediaType = "application/json"
@@ -43,6 +48,9 @@ enableEmoji = true
   home = ["html", "atom", "jsonfeed", "logo", "header", "stylesheet"]
   list = ["html"]
   term = ["html", "atom", "jsonfeed"]
+  posts = ["html", "atom", "jsonfeed"]
+  ramblings = ["html", "atom", "jsonfeed"]
+  micro = ["html", "atom", "jsonfeed"]
   taxonomy = ["html"]
   single = ["html"]
   section = ["html"]

@@ -3,6 +3,7 @@ title = "Conversations in the physical world"
 date = 2021-08-24
 slug_url = true
 tags = ["ramblings", "conversations", "friendships", "internet"]
+aliases = ["/conversations-in-the-physical-world/"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
