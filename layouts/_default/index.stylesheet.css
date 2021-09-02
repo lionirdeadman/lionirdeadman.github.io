@@ -725,7 +725,11 @@ td:first-of-type, th:first-of-type {
 
 @supports(background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%)) {
   .header {
-    background: linear-gradient(70deg, {{ .Site.Params.primary_colour }} -5%, {{ .Site.Params.secondary_colour }} 80%);
+    background-image: radial-gradient(70% 53% at 36% 76%, {{ .Site.Params.secondary_colour }}FF 0%, {{ .Site.Params.secondary_colour }}00 100%),
+                      radial-gradient(21% 37% at 72% 23%, {{ .Site.Params.secondary_colour }}9C 24%, {{ .Site.Params.secondary_colour }}00 100%),
+                      radial-gradient(35% 56% at 91% 74%, {{ .Site.Params.primary_colour }}F5 9%, {{ .Site.Params.secondary_colour }}00 100%),
+                      radial-gradient(74% 86% at 67% 38%, {{ .Site.Params.secondary_colour }}5F 24%, {{ .Site.Params.secondary_colour }}00 100%),
+                      linear-gradient(125deg, {{ .Site.Params.primary_colour }}FF 1%, {{ .Site.Params.secondary_colour }}FF 100%);
   }
 }
 
