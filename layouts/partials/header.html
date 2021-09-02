@@ -79,8 +79,8 @@
     <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="atom.xml" />
     <link rel="alternate" type="application/feed+json" title="JSON feed" href="feed.json" />
     {{ else }}
-    <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="https://thelion.website/atom.xml" />
-    <link rel="alternate" type="application/feed+json" title="JSON feed" href="https://thelion.website/feed.json" />
+    <link rel="alternate self" type="application/atom+xml" title="Atom feed" href="{{ .Site.BaseURL }}atom.xml" />
+    <link rel="alternate" type="application/feed+json" title="JSON feed" href="{{ .Site.BaseURL }}feed.json" />
     {{ end }}
     <!-- Hub -->
     <link rel="hub" href="{{ .Site.Params.Websub }}">
