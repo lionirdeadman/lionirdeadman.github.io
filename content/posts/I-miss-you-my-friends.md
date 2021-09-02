@@ -2,7 +2,7 @@
 title = "I miss you my friends"
 date = 2020-11-01
 slug_url = true
-tags = ["nostalgia", "growtopia", "reflection", "ramblings", "friendship", "memories"]
+tags = ["nostalgia", "growtopia", "reflection", "friendship", "memories"]
 aliases = ["/i-miss-you-my-friends/"]
 
 author = "Lionir Deadman"

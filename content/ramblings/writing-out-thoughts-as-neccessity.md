@@ -2,7 +2,7 @@
 title = "Writing out thoughts as neccessity & thoughts of the day."
 date = 2021-07-16
 slug_url = true
-tags = ["ramblings", "steam", "valve", "free software", "capitalism", "contributions", "aaronsw", "growtopia", "indiedev", "game design", "red hat", "suse", "arch linux"]
+tags = ["steam", "valve", "free software", "capitalism", "contributions", "aaronsw", "growtopia", "indiedev", "game design", "red hat", "suse", "arch linux"]
 aliases = ["/writing-out-thoughts-as-necessity/"]
 
 author = "Lionir Deadman"
