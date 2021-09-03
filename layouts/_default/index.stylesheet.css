@@ -29,6 +29,7 @@
   }
   .list, .single {
     background-color: {{ .Site.Params.stylesheet.theme_bg }};
+    background-color: var(--theme-bg);
   }
 
 /* Dark theme (assumes var() support)
