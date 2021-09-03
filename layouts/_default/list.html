@@ -3,6 +3,25 @@
     {{ partial "head.html" . }}
 
     <main class="main">
+      {{ if eq .Kind "home" }}
+      <div class="h-feed posts">
+      <h2 class="category-title-container"><a class="category-title" href="/posts/">Posts</a></h2>
+      <hr class="category-seperator"/>
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+          {{ partial "article.html" . }}
+      {{ end }}
+      <h2 class="category-title-container"><a class="category-title" href="/ramblings/">Ramblings</a></h2>
+      <hr class="category-seperator"/>
+      {{ range first 3 (where .Site.RegularPages "Section" "ramblings") }}
+        {{ partial "article.html" . }}
+      {{ end }}
+      <h2 class="category-title-container"><a class="category-title" href="/micro/">Micro</a></h2>
+      <hr class="category-seperator"/>
+      {{ range first 3 (where .Site.RegularPages "Section" "micro") }}
+        {{ partial "article.html" . }}
+      {{ end }}
+      </div>
+      {{ else }}
       <nav class="filter-button-container pagination">
         <a class="filter-button" href="/">By Date</a>
         <a class="filter-button" href="/tags/">By Tag</a>
@@ -18,6 +37,7 @@
         </nav>
       </footer>
       </div>
+      {{ end }}
     </main>
 </body>
 {{ end }}

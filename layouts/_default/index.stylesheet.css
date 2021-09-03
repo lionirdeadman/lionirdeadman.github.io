@@ -341,6 +341,22 @@ time {
 .footnote-definition p {
   display: inline;
 }
+.category-title-container {
+  margin-top: 50px;
+  text-align: center;
+}
+.category-title-container:first-of-type {
+  margin-top: 0;
+}
+.category-seperator {
+  height: 1px;
+  background: {{ .Site.Params.stylesheet.tertiary }};
+  background: var(--tertiary);
+  border: 0;
+  margin: 10px auto;
+  width: 25%;
+}
+
 /* Post single
 -------------------------------------------------- */
 .post-header {
@@ -529,6 +545,7 @@ time {
 .tags-block {
   font-weight: bold;
   padding: 0 4px;
+  border-radius: 2px;
 }
 
 /* Table
@@ -700,6 +717,10 @@ td:first-of-type, th:first-of-type {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .category-seperator {
+    margin: -10px 0;
+    align-self: center;
   }
   .not-found {
     display: flex;
