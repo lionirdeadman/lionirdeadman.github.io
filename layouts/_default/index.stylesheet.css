@@ -29,15 +29,6 @@
   }
   .list, .single {
     background-color: {{ .Site.Params.stylesheet.theme_bg }};
-		background:
-				radial-gradient({{ .Site.Params.stylesheet.secondary }} 3px, transparent 4px),
-				radial-gradient({{ .Site.Params.stylesheet.secondary }} 3px, transparent 4px),
-				linear-gradient(var(--theme-bg) 4px, transparent 0),
-				linear-gradient(45deg, transparent 74px, transparent 75px, #818181 75px, #818181 76px, transparent 77px, transparent 109px),
-				linear-gradient(-45deg, transparent 75px, transparent 76px, #818181 76px, #818181 77px, transparent 78px, transparent 109px),
-				var(--theme-bg);
-				background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-				background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
   }
 
 /* Dark theme (assumes var() support)
@@ -58,17 +49,6 @@
   .comment-thought, .tags-block {
     background: var(--theme);
   }
-  .list, .single {
-		background:
-				radial-gradient(var(--primary) 3px, transparent 4px),
-				radial-gradient(var(--primary) 3px, transparent 4px),
-				linear-gradient(var(--theme) 4px, transparent 0),
-				linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-				linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-				var(--theme);
-				background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-				background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-	}
   .tags-block {
     color: var(--primary);
   }
