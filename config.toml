@@ -14,9 +14,9 @@ enableEmoji = true
   tag = 'tags'
 
 [permalinks]
-  posts = '/posts/:title/'
-  ramblings = '/ramblings/:title/'
-  micro = '/micro/:title/'
+  posts = '/posts/:filename/'
+  ramblings = '/ramblings/:filename/'
+  micro = '/micro/:filename/'
 
 [outputFormats]
   [outputFormats.jsonfeed]

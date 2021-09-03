@@ -1,5 +1,5 @@
 {
-  "/flathub-runtimes-and-stats/": [
+  "/posts/flathub-runtimes-and-stats/": [
     {
       "url": "https://tildes.net/~tech/xdi/flathub_runtimes_and_stats#comment-6kx5",
       "username": "kfwyre",
@@ -15,7 +15,7 @@
       "thought": "I am grateful that I can make people contribute so seeing this made me glad that I publicized it."
     }
   ],
-  "/why-i-dont-believe-in-encrypted-mail-anymore/": [
+  "/posts/why-i-dont-believe-in-encrypted-mail-anymore/": [
     {
       "url": "https://pleroma.envs.net/objects/e28c6d5a-d18e-4c29-82ef-a31d334d76e5",
       "username": "Seirdy@pleroma.envs.net",
@@ -31,7 +31,7 @@
       "thought": "Protonmail does support OpenPGP, you're right but the key discovery and automation are gone which make using the open standard essentially impossible for the average person which goes against the goal of using protonmail in the first place in my opinion.<br /><br />I agree that the link asking for a password interface is unwielding and I personally don't like it.<br /><br />The thing that bothers me with the lack of E2EE being accepted is that you're still basing your trust on your provider. Granted, I do believe Protonmail likely has better intentions than if Google were to implement it in Gmail but that entirely still solely relies on trusting the provider. It kinda removes the entire point of encrypting things from my point of view.<br /><br />Yes, the email mailbox is very important but I don't believe that putting a weak lock and the illusion of security is necessarily the step towards making that private.<br /><br />Protonmail Bridge indeed doesn't remove “all of the benefits of encryption”, it's more so that it removes a very important part of the Protonmail promise : E2EE. That's a dealbreaker for me."
     }
   ],
-  "/why-i-post-my-pronouns-and-you-should-too/": [
+  "/posts/why-i-post-my-pronouns-and-you-should-too/": [
     {
       "url": "https://tildes.net/~lgbt/tyh/why_i_post_my_pronouns_and_you_should_too#comment-5ywz",
       "username": "kfwyre",
@@ -47,7 +47,7 @@
       "thought": "That's a very good point! I've definitely seen someone provide incorrect pronouns out of fear or nervousness. This wasn't when talking to me but rather to someone else and I'm not entirely sure if it was simply because of confusion at the time.<br /><br />When writing the post, I was coming from the position of telling my pronouns first and then asking because I feel that going first will probably position myself as an ally rather than someone simply unsure what pronouns they use."
     }
   ],
-  "/flathub-discord-permissions-explained/": [
+  "/posts/flathub-discord-permissions-explained/": [
     {
       "url": "https://github.com/flathub/com.discordapp.Discord/issues/99#issuecomment-902348396",
       "username": "ssokolow",
