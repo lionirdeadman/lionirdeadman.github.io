@@ -358,18 +358,15 @@ time {
 .footnote-definition p {
   display: inline;
 }
+
 .category-title-container {
-  margin-top: 50px;
   text-align: center;
 }
-.category-title-container:first-of-type {
-  margin-top: 0;
+.category-title-container:not(:first-of-type) {
+  margin-top: 50px;
 }
+
 .category-seperator {
-  height: 1px;
-  background: {{ .Site.Params.stylesheet.tertiary }};
-  background: var(--tertiary);
-  border: 0;
   margin: 10px auto;
   width: 25%;
 }
