@@ -8,7 +8,7 @@ enableEmoji = true
 [author]
   name = "Lionir Deadman"
   url = "https://thelion.website/about/"
-  avatar = "mermelon_profile"
+  avatar = "bird_profile"
 
 [taxonomies]
   tag = 'tags'
@@ -68,8 +68,10 @@ enableEmoji = true
   # Purple 8410cc cc10b6
   # Blue   008dc9 00b8c9
   # Pink   d75090 f9426f
-  primary_colour = "#d75090"
-  secondary_colour = "#f9426f"
+  # Autumn 731c12 b34410
+  # Gold   e73602 dda30e
+  primary_colour = "#731c12"
+  secondary_colour = "#b34410"
   icon = "/logo.svg"
   websub = "https://thelion.superfeedr.com"
   description = "Hi! I'm Lionir Deadman but just can just call me Lion for short. This is my website!"
