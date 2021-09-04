@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="256mm" height="128mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="256mm" height="128mm" version="1.2" baseProfile="tiny-ps" viewBox="0 0 256 128" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
  <title>The Lion</title>
  <defs>
    <linearGradient id="linearGradient" x1="70" x2="190" y1="160" y2="62" gradientUnits="userSpaceOnUse">
