@@ -167,7 +167,8 @@ time {
 -------------------------------------------------- */
 .header {
   background: url(/header.svg);
-  background-size: 100%;
+  background-color: {{ .Site.Params.secondary_colour }};
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
