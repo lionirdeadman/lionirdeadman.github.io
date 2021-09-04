@@ -627,6 +627,7 @@ td:first-of-type, th:first-of-type {
     bottom: 0;
     justify-content: center;
     margin: 0;
+    overflow: hidden;
   }
   .profile-wrapper img {
     margin: 0;
