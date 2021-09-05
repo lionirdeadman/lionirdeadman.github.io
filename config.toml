@@ -81,7 +81,6 @@ enableEmoji = true
             {url = "/about/", name = "About"}
   ]
   [params.stylesheet]
-    theme = "#fff"
     gap = 24
     content_gap = "20px"
     nav_width = "1024px"
