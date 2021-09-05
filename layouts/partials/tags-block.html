@@ -1,5 +1,5 @@
         {{ $uppercase := false }}
-        {{ if or (eq . "rss") (eq . "imap") (eq . "jpeg") (eq . "lgbtq+") (eq . "gdpr") (eq . "suse") }}
+        {{ if or (eq . "rss") (eq . "imap") (eq . "css") (eq . "jpeg") (eq . "lgbtq+") (eq . "gdpr") (eq . "suse") }}
           {{ $uppercase = true }}
         {{ end }}
         <a class="p-category tags-block {{ if eq $uppercase true }} uppercase {{ else }} capitalize {{ end }}"
