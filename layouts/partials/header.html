@@ -1,4 +1,4 @@
-  <title>{{ .Site.Title }}</title>
+  {{- if eq .Kind "home" }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Site.Title }} - {{ .Page.Title }}</title>{{ end -}}
     <link rel="shortcut icon" href="{{ .Site.Params.icon }}" type="image/svg+xml" />
     <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
     <meta name="msvalidate.01" content="AFEEAEAF8AB3872FD7F4C66856BE4BEA" />
