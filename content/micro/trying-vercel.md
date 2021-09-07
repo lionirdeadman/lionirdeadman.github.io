@@ -16,3 +16,6 @@ comment on designs since responsive design is hard to put into pictures.
 <!--more-->
 Hopefully it works out. The performance due to Vercel's edge network not being as expansive is a bit underwhelming but
 the features it provides I think are worth it. I don't think anyone will spit on loading times which are .2s slower.
+
+It turns out that Vercel doesn't `no-index` if using a custom domain so my hope to have a cool dev.thelion.website is over.
+That sucks.
