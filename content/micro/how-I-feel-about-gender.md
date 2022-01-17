@@ -2,7 +2,7 @@
 title = "How I feel about genders"
 date = 2022-01-16
 slug_url = true
-tags = ["lgbtq", "language", "questioning"]
+tags = ["lgbtq+", "language", "questioning"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
