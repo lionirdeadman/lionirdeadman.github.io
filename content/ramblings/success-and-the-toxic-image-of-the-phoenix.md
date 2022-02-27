@@ -1,6 +1,6 @@
 +++
 title = "Success and the toxic image of the Phoenix"
-date = 2022-02-19
+date = 2022-02-27
 slug_url = true
 tags = ["insecurity", "burnout", "success", "toxic masculinity", "optimism", "anxiety", "friendships"]
 
