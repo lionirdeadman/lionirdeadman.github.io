@@ -14,6 +14,10 @@
         {
           "key" : "Content-Security-Policy",
           "value" : "default-src 'self'; script-src 'self'; img-src 'self'; style-src 'self'"
+        },
+        {
+          "key" : "Referrer-Policy",
+          "value" : ""
         }
       ]
     }
