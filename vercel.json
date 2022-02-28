@@ -12,10 +12,6 @@
           "value" : "DENY"
         },
         {
-          "key" : "Content-Security-Policy",
-          "value" : "default-src 'self' https://thelion.website"
-        },
-        {
           "key" : "Referrer-Policy",
           "value" : ""
         }
