@@ -13,7 +13,7 @@
         },
         {
           "key" : "Content-Security-Policy",
-          "value" : "default-src https://thelion.website"
+          "value" : "default-src 'self' https://thelion.website"
         },
         {
           "key" : "Referrer-Policy",
