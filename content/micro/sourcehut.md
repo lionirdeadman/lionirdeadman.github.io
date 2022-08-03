@@ -13,5 +13,4 @@ license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 
 Today I switched my hosting provide to sourcehut. Why?
 <!--more-->
-My website was broken ever since switching to Vercel for reasons beyond my understanding.
-It just worked on sourcehut and I feel good supporting its development.
+My website was broken ever since switching to Vercel for reasons beyond my understanding. It just worked on sourcehut and I feel good supporting its development.
