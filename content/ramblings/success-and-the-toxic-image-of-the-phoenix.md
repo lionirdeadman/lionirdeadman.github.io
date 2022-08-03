@@ -2,7 +2,7 @@
 title = "Success and the toxic image of the Phoenix"
 date = 2022-02-27
 slug_url = true
-tags = ["insecurity", "burnout", "success", "toxic masculinity", "optimism", "anxiety", "friendship"]
+tags = ["insecurity", "burnout", "success", "toxic masculinity", "optimism", "anxiety", "friendship", "ramblings"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

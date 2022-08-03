@@ -2,7 +2,7 @@
 title = "The Socratic method in conversations, trans issues and romantic relationships"
 date = 2021-08-13
 slug_url = true
-tags = ["socrates", "philosophy", "kindness", "lgbtq+", "debates", "love", "relationships"]
+tags = ["socrates", "philosophy", "kindness", "lgbtq+", "debates", "love", "relationships", "ramblings"]
 aliases = ["/socrates-trans-issues-and-view-on-romantic-relationships/"]
 
 author = "Lionir Deadman"

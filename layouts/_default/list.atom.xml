@@ -28,6 +28,9 @@
     <id>{{ if .Aliases }}{{ .Site.BaseURL }}{{ substr (index .Aliases 0) 1 }}{{ else }}{{ .Permalink }}{{ end }}</id>
     <rights>{{ .Params.license_name }} by {{ .Params.author }}</rights>
     <content type="html"><![CDATA[{{ .Content | safeHTML }}]]></content>
+    {{ range .Params.categories }}
+    <category term="{{ . }}" label="{{ . }}"></category>
+    {{ end }}
   </entry>
   {{ end }}
 </feed>

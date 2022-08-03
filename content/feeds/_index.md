@@ -35,8 +35,3 @@ In the case that your read doesn't discover, you can point directly to either At
 
 The Atom Feed is likely the most compatible version of those versions.
 
-You can also follow any tag like this (example being the `ramblings` tag : 
-
- - `http://thelion.website/tags/ramblings/atom.xml`
- - `http://thelion.website/tags/ramblings/feed.json`
-

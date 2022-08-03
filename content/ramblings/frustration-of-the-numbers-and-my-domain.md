@@ -2,7 +2,7 @@
 title = "Frustration of the numbers and my domain on the internet"
 date = 2021-08-16
 slug_url = true
-tags = ["analytics", "website", "internet culture", "feelings"]
+tags = ["analytics", "website", "internet culture", "feelings", "ramblings"]
 aliases = ["/frustration-of-the-numbers-and-my-domain/"]
 
 author = "Lionir Deadman"

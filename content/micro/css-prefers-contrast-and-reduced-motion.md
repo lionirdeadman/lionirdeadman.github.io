@@ -2,7 +2,7 @@
 title = "CSS : prefers-contrast and prefers-reduced-motion"
 date = 2021-09-04
 slug_url = true
-tags = ["meta", "css", "accessibility"]
+tags = ["meta", "css", "accessibility", "micro"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"

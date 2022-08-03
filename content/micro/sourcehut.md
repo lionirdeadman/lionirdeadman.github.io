@@ -2,7 +2,7 @@
 title = "Hosted by Sourcehut"
 date = 2022-08-02
 slug_url = true
-tags = ["sourcehut", "free software"]
+tags = ["sourcehut", "free software", "micro"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
