@@ -1,0 +1,8 @@
+image: alpine/edge
+tasks:
+  - post-to-websub: |
+      curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://thelion.website/atom.xml" -d"hub.topic=https://thelion.website/"
+      curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://thelion.website/feed.json" -d"hub.topic=https://thelion.website/"
+  - post-to-crawlers: |
+      curl -X GET "https://www.google.com/ping?sitemap=https://thelion.website/sitemap.xml"
+      curl -X GET "http://www.bing.com/ping?sitemap=https://thelion.website/sitemap.xml"
