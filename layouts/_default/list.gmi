@@ -3,7 +3,7 @@
 
 {{ if eq .Kind "home" }}
 
-=> / Posts
+=> /posts/ Posts
 {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
 {{ partial "article.gmi" . }}
 {{ end }}
@@ -22,13 +22,11 @@
 
 {{ range .Paginator.Pages.ByDate.Reverse }}
 {{ partial "article.gmi" . }}
+
 {{ end }}
 
-{{ if .Next }}=> {{ .Next.RelPermalink }} ← Newer: {{ .Next.Title }}{{ end }}
-{{ if .Prev -}}=> {{ .Prev.RelPermalink }} → Older: {{ .Prev.Title }}{{- end }}
-
-  {{ if .Paginator.HasPrev }}=> {{ .Paginator.Prev.URL }} ← Previous{{ else }}{{ end }}
-  {{ if .Paginator.HasNext }}=> {{ .Paginator.Next.URL }} ← Next{{ else }}{{ end }}
+{{ if .Paginator.HasPrev }}=> {{ .Paginator.Prev.URL }} ← Previous{{ else }}{{ end }}
+{{ if .Paginator.HasNext }}=> {{ .Paginator.Next.URL }} Next →{{ else }}{{ end }}
 
 {{ end }}
 {{ end }}

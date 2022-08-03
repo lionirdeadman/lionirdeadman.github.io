@@ -1,6 +1,6 @@
 => gemini://thelion.website    The Lion Homepage
 => gemini://thelion.website/profile/{{ .Site.Author.avatar }}.jpg    Drawing of me made by my friend Phobos
 
-=> gemini://thelion.website/feeds.gmi    Feeds
-=> gemini://thelion.website/projects.gmi    Projects
-=> gemini://thelion.website/about.gmi    About
+=> gemini://thelion.website/feeds/    Feeds
+=> gemini://thelion.website/projects/    Projects
+=> gemini://thelion.website/about/    About
