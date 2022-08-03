@@ -7,7 +7,7 @@ environment:
 tasks:
 - package: |
     cd $site
-    hugo --minify
+    hugo --minify --gc
     tar -C public -cvz . > ../site.tar.gz
 - upload: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
