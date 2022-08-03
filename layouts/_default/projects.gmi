@@ -1,0 +1,24 @@
+{{- define "body" -}}
+{{ partial "head.gmi" . }}
+
+## Projects<
+
+Here are some projects that I am or was involved in :
+
+=> https://flathub.org Flathub
+
+I maintain the Discord Flatpak but I've recently started working on updating applications from EOL runtimes all over the place.
+
+=> https://github.com/lionirdeadman/fp-build/ fp-build
+
+This is a tool I made to help myself find problems before I try to make a pull request and see it fail, I've made fp-build to have things like checking for 128x128 icons, check that appstream is valid amongst other things.
+
+=> https://github.com/lionirdeadman/fp-stats fp-stats
+
+These are some python scripts to generate data about Flathub applications such as what architectures they support, what runtime they rely on. I want to expand it to check for other types of data that we might want to improve upon.
+
+=> https://github.com/Jintaku/Jintaku-Cogs-V3 Jintaku-Cogs-V3
+
+These are not actively maintained cogs for Red Discord Bot. I should really go fix some of them or retire them at some point in time.
+
+{{ end }}

@@ -1,0 +1,3 @@
+{{- block "body" . -}}{{ end }}
+
+{{- partialCached "footer.gmi" . -}}

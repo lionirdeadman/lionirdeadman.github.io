@@ -1,0 +1,25 @@
+{{- define "body" -}}
+{{ partial "head.gmi" . }}
+
+## {{ .Title }}
+
+{{ $scratch := newScratch }}
+{{ $content := .RawContent -}}
+{{ $content := $content | replaceRE `#### ` "### " -}}
+{{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
+{{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+{{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+{{ $content := $content | replaceRE `<br/??>` "\n" -}}
+{{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
+{{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+{{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
+{{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
+{{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
+{{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
+{{ $content | safeHTML }}
+## References
+{{ $scratch.Set "ref" (add (len $links) 1) }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
+=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$2 [$3] $1 ($2)" -}}
+{{ $scratch.Set "ref" (add $ref 1) }}{{ end}}
+
+{{ end }}

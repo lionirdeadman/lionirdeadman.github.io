@@ -1,0 +1,5 @@
+=> gemini://{{ .RelPermalink }}    {{ .Title }}
+{{ .Summary | plainify }}
+
+Posted on {{ dateFormat "Monday, 2 January, 2006" .Date }}
+By {{ .Params.author_url }}

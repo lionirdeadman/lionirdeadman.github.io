@@ -1,0 +1,4 @@
+
+=> https://git.sr.ht/~lionir/lionir.website    Website code under AGPLv3-only
+=> https://gohugo.io/ Powered by Hugo
+=> https://srht.site/ Hosted on sourcehut pages

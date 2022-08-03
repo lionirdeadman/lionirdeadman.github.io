@@ -1,0 +1,34 @@
+{{ define "body" }}
+{{ partial "head.gmi" . }}
+
+{{ if eq .Kind "home" }}
+
+=> / Posts
+{{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+{{ partial "article.gmi" . }}
+{{ end }}
+
+=> /ramblings/ Ramblings
+{{ range first 3 (where .Site.RegularPages "Section" "ramblings") }}
+{{ partial "article.gmi" . }}
+{{ end }}
+
+=> /micro/ Micro
+{{ range first 3 (where .Site.RegularPages "Section" "micro") }}
+{{ partial "article.gmi" . }}
+{{ end }}
+
+{{ else }}
+
+{{ range .Paginator.Pages.ByDate.Reverse }}
+{{ partial "article.gmi" . }}
+{{ end }}
+
+{{ if .Next }}=> {{ .Next.RelPermalink }} ← Newer: {{ .Next.Title }}{{ end }}
+{{ if .Prev -}}=> {{ .Prev.RelPermalink }} → Older: {{ .Prev.Title }}{{- end }}
+
+  {{ if .Paginator.HasPrev }}=> {{ .Paginator.Prev.URL }} ← Previous{{ else }}{{ end }}
+  {{ if .Paginator.HasNext }}=> {{ .Paginator.Next.URL }} ← Next{{ else }}{{ end }}
+
+{{ end }}
+{{ end }}

@@ -1,0 +1,15 @@
+{{- define "body" -}}
+{{ partial "head.gmi" . }}
+
+## {{ .Title }}
+
+Hi! I'm Lionir Deadman but just can just call me Lion for short. My pronouns are he/him/his. Nice to meet you!
+
+I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll be talking to you about a certain project all day long and another I'm gonna be into something completely different.</p>
+
+Here's all my other identities :
+{{ range $Key, $Value := .Site.Data.identities }}
+{{ $Key }}
+{{- range $name, $url := . }}
+=> {{ $url }} {{ $name }}{{ end -}}
+{{ end }}{{ end }}

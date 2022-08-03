@@ -1,0 +1,60 @@
+{{- define "body" -}}
+{{ partial "head.gmi" . }}
+{{ .Title }}
+
+Author: {{ .Params.author }}
+Published on: {{ dateFormat "Monday, 2 January, 2006" .Date }}
+{{ .ReadingTime }} min read
+Licensed under {{ .Params.license_name }}
+
+{{ if .Params.update_message }}## {{ dateFormat "Monday, 2 January, 2006" .Date }} : {{ .Params.update_message | plainify }}{{ end }}
+
+{{ $scratch := newScratch }}
+{{ $content := .RawContent -}}
+{{ $content := $content | replaceRE `#### ` "### " -}}
+{{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
+{{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+{{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+{{ $content := $content | replaceRE `<br/??>` "\n" -}}
+{{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
+{{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+{{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
+{{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
+{{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
+{{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
+{{ $content | safeHTML }}
+## References
+{{ $scratch.Set "ref" (add (len $links) 1) }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
+=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$2 [$3] $1 ($2)" -}}
+{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}
+
+## Share your thoughts :
+
+{{- if .Params.syndications }}
+{{ $length := len .Params.syndications }}
+{{ $counter := 0 }}
+Join discussions on :
+{{ range $name, $url := .Params.syndications }}
+=>{{ $url }} {{ $name }}
+{{ end }}
+{{ end }}
+{{ if .Params.syndications }}{{ else }}Feel free to{{ end }} send me an email to comments@thelion.website or message on :
+{{ range $Key, $Value := $.Site.Data.identities }}
+{{- if eq $Key "Chatting" -}}{{- range $Key, $Value := . }}=> {{ $Value }} {{ $Key }}
+{{ end -}}{{- end -}}
+{{- if eq $Key "Social"}}{{- range $Key, $Value := . }}=> {{ $Value }} {{ $Key }}
+{{ end -}}{{- end -}}
+{{- end -}}
+
+{{- range $url, $value := .Site.Data.comments }}
+{{- if eq $url $.Page.RelPermalink }}
+## Featured comments
+{{- range . }}
+### {{ .username }} on {{ .platform }} :
+{{ .comment | plainify }}
+#### Response / Thought :
+{{ .thought | plainify }}
+{{ end -}}
+{{ end -}}
+{{ end }}
+{{ end }}

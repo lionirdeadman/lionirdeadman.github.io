@@ -18,6 +18,10 @@ enableEmoji = true
   ramblings = '/ramblings/:filename/'
   micro = '/micro/:filename/'
 
+[mediaTypes]
+  [mediaTypes.'text/gemini']
+    suffixes = ['gmi']
+
 [outputFormats]
   [outputFormats.jsonfeed]
     mediaType = "application/json"
@@ -27,6 +31,11 @@ enableEmoji = true
   [outputFormats.atom]
     mediaType = "application/xml"
     baseName = "atom"
+    isPlainText = true
+
+  [outputFormats.gemini]
+    mediaType = "text/gemini"
+    baseName = "index"
     isPlainText = true
 
   [outputFormats.logo]
@@ -45,16 +54,16 @@ enableEmoji = true
     isPlainText = true
 
 [outputs]
-  home = ["html", "atom", "jsonfeed", "logo", "header", "stylesheet"]
-  list = ["html"]
+  home = ["html", "gemini", "atom", "jsonfeed", "logo", "header", "stylesheet"]
+  list = ["html", "gemini"]
   term = ["html"]
-  posts = ["html"]
-  ramblings = ["html"]
-  micro = ["html"]
+  posts = ["html", "gemini"]
+  ramblings = ["html", "gemini"]
+  micro = ["html", "gemini"]
   taxonomy = ["html"]
-  single = ["html"]
-  section = ["html"]
-  page = ["html"]
+  single = ["html", "gemini"]
+  section = ["html", "gemini"]
+  page = ["html", "gemini"]
 
 [privacy.twitter]
   enableDNT = true
