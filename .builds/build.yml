@@ -3,7 +3,7 @@ packages:
   - hugo
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: lionir.srht.site
+  site: thelion.website
 tasks:
 - package: |
     cd $site
