@@ -1,7 +1,4 @@
-{{- $pages := .RegularPages -}}
-{{- if .IsHome }}
-  {{- $pages = where .Site.RegularPages "Section" "posts" -}}
-{{ end -}}
+{{- $pages := .Site.RegularPages -}}
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ .Site.LanguageCode }}">
   <title>{{ .Site.Title }}</title>

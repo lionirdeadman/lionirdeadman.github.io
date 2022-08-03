@@ -1,7 +1,4 @@
-{{- $pages := .RegularPages -}}
-{{- if .IsHome }}
-  {{- $pages = where .Site.RegularPages "Section" "posts" -}}
-{{ end -}}
+{{- $pages := .Site.RegularPages -}}
 {{ $length := (len $pages) -}}
 {
     "version": "https://jsonfeed.org/version/1.1",
