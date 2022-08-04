@@ -1,6 +1,6 @@
 {{- define "body" -}}
 {{ partial "head.gmi" . }}
-{{ .Title }}
+## {{ .Title }}
 
 Author: {{ .Params.author }}
 Published on: {{ dateFormat "Monday, 2 January, 2006" .Date }}
@@ -25,12 +25,12 @@ Licensed under {{ .Params.license_name }}
 {{ $content | safeHTML }}
 {{- $scratch.Set "ref" (add (len $links) 1) -}}
 {{ if $refs }}
-## References{{ end }}
+### References{{ end }}
 {{- range $refs -}}
 {{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
 => {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$2 [$3] $1 ($2)" }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}
 
-## Share your thoughts :
+### Share your thoughts :
 {{ if .Params.syndications }}
 {{ $length := len .Params.syndications }}
 {{- $counter := 0 -}}
@@ -46,9 +46,9 @@ Or send{{- else -}}Send {{ end }} me an email to comments@thelion.website or mes
 
 {{- range $url, $value := .Site.Data.comments }}
 {{- if eq $url $.Page.RelPermalink }}
-## Featured comments
+### Featured comments
 {{- range . }}
-### {{ .username }} on {{ .platform }} :
+#### {{ .username }} on {{ .platform }} :
 {{ .comment | plainify }}
 #### Response / Thought :
 {{ .thought | plainify }}
