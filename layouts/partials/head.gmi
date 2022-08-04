@@ -1,4 +1,4 @@
-=> gemini://thelion.website    # The Lion Homepage
+=> gemini://thelion.website    The Lion Homepage
 => gemini://thelion.website/profile/{{ .Site.Author.avatar }}.jpg    Drawing of me made by my friend Phobos
 
 => gemini://thelion.website/feeds/    Feeds
