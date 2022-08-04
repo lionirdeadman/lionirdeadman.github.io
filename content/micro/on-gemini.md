@@ -2,12 +2,13 @@
 title = "Available on gemini"
 date = 2022-08-03
 slug_url = true
-tags = ["gemini", "micro"]
+tags = ["gemini", "micro", "meta"]
 
 author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Mastodon" = "https://fosstodon.org/@lionirdeadman/108762310560182878"}
 
 +++
 Just a quick post to say this website is now on gemini on the same domain.

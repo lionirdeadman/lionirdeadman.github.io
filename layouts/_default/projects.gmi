@@ -1,7 +1,7 @@
 {{- define "body" -}}
 {{ partial "head.gmi" . }}
 
-## Projects<
+## Projects
 
 Here are some projects that I am or was involved in :
 
