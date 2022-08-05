@@ -19,11 +19,12 @@
       "@type": "BlogPosting",
       "author": {
           "@type": "Person",
-          "name": "{{ .Page.Params.author }}"
+          "name": "{{ .Page.Params.author }}",
+          "url": "{{ .Page.Params.author_url }}"
       },
-      "license": "{{ .Page.Params.license_url}}",
+      "license": "{{ .Page.Params.license_url }}",
       "headline": "{{ .Page.Title }}",
-      "backstory": "{{ .Page.Summary | safeHTML }}",
+      "backstory": "{{ .Page.Summary | htmlUnescape | plainify }}",
       "datePublished": "{{ dateFormat "2006-01-02T15:04:05Z07:00" .Page.Date}}"
     }
     </script>{{ end -}}
