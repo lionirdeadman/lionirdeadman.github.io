@@ -3,4 +3,3 @@
 
 => gemini://thelion.website/feeds/    Feeds
 => gemini://thelion.website/projects/    Projects
-=> gemini://thelion.website/about/    About

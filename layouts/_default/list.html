@@ -4,6 +4,33 @@
 
     <main class="main">
       {{ if eq .Kind "home" }}
+
+      <article class="post-single about">
+        <div class="post-content">
+          <section class="h-card">
+
+            <!-- About me -->
+            <p>Hi! I'm <span class="p-name">Lionir Deadman</span> but just can just call me <span class="p-given-name">Lio</span> for short. My pronouns are
+            <a href="https://pronoun.is/he/him/his" class="p-pronoun p-pronouns"><span class="p-pronoun-nominative">he</span>/<span class="p-pronoun-oblique">him</span>/<span class="p-pronoun-possessive">his</span></a>.
+            Nice to meet you!</p>
+            <p class="p-note">I'm not sure how to present myself. I'd say I tend to be quite pragmatic in how I talk even though I think I'm generally rather emotionally aware and a good listener.
+            I don't think that this means that my rationality is more important to me than my emotional sensibility but rather that I'm not really sure how to be useful outside of a pragmatic approach.
+            <br /><br />
+            I have a wide range of interests. I advocate for privacy, freedom, better working conditions and more generally human rights. I think often about how power structures (for example, capitalism)
+            affect people. I like to talk about what I think is good design. I also quite enjoy anime. I'm always looking to learn new things!
+            </p>
+
+            <p><a href="/about/">Find out more about me</p>
+
+            <!-- Profile picture -->
+            <figure style="display: none;" class="profile-wrapper">
+                <img class="u-photo" src="/profile/{{ .Site.Author.avatar }}.png" loading="lazy" alt="Drawing of me made by my friend Phobos" />
+                <figcaption class="picture-license"><a href="https://phobosketch.newgrounds.com/" target="_blank">©Phobosketch</a></figcaption>
+            </figure>
+          </section>
+        </div>
+      </article>
+
       <div class="h-feed posts">
       <h2 class="category-title-container"><a class="category-title" href="/posts/">Posts</a></h2>
       <hr class="category-seperator"/>

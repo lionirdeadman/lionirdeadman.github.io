@@ -5,7 +5,9 @@
 
 Hi! I'm Lionir Deadman but just can just call me Lion for short. My pronouns are he/him/his. Nice to meet you!
 
-I never know what to say honestly. I like anime, tech, philosophy, copyleft? I'm fairly all over the place. One week or month, I'll be talking to you about a certain project all day long and another I'm gonna be into something completely different.</p>
+I'm not sure how to present myself. I'd say I tend to be quite pragmatic in how I talk even though I think I'm generally rather emotionally aware and a good listener. I don't think that this means that my rationality is more important to me than my emotional sensibility but rather that I'm not really sure how to be useful outside of a pragmatic approach.
+
+I have a wide range of interests. I advocate for privacy, freedom, better working conditions and more generally human rights. I think often about how power structures (for example, capitalism) affect people. I like to talk about what I think is good design. I also quite enjoy anime. I'm always looking to learn new things!
 
 Here's all my other identities :
 {{ range $Key, $Value := .Site.Data.identities }}
