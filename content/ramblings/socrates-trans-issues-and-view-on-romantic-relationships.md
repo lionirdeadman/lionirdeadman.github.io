@@ -45,7 +45,7 @@ What even is a kind discussion on disagreeing topics? It certainly needs to be a
 
 This might seem like a strange premise to people unfamiliar with the effects of technology. Technology is neutral, right? No. Systems can fail people. It can be in the medical sphere where hospitals will be farther away from poor neighbourhoods or it can be a system simply telling you that you can't change your name. Machines *are* systems and they are failing trans people.
 
-I was reading ["Crucial Tech Like Email Is Still Failing Trans Employees"](https://www.wired.com/story/opinion-crucial-tech-like-email-is-still-failing-trans-employees) by [Wired](https://en.wikipedia.org/wiki/Wired_(magazine) where a woman returned to a previous workplace and they couldn't change the name or email address of the account. She says :
+I was reading ["Crucial Tech Like Email Is Still Failing Trans Employees"](https://www.wired.com/story/opinion-crucial-tech-like-email-is-still-failing-trans-employees) by [Wired](https://en.wikipedia.org/wiki/Wired_(magazine)) where a woman returned to a previous workplace and they couldn't change the name or email address of the account. She says :
 
 > I explained that using my deadname wasn’t acceptable. It would confuse my new coworkers and ensure that my first conversation with them would be about my gender identity and not my new job.
 
