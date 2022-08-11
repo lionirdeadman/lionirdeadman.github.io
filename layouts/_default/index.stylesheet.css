@@ -252,6 +252,21 @@ time {
 .menu a {
   font-size: 24px;
 }
+.search-input {
+  width: 94%;
+  background: {{ .Site.Params.stylesheet.entry }};
+  color: {{ .Site.Params.stylesheet.content }};
+  border-radius: {{ .Site.Params.stylesheet.radius }}px;
+  padding: {{ mul .Site.Params.stylesheet.gap 1.2 }}px {{ .Site.Params.stylesheet.gap }}px;
+  background: var(--entry);
+  color: var(--content);
+  border-radius: var(--radius);
+  padding: calc(var(--gap)/1.2) var(--gap);
+  border: none;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 16px;
+}
 
 /* Main
 -------------------------------------------------- */
@@ -696,6 +711,7 @@ td:first-of-type, th:first-of-type {
     margin: 0;
     gap: 24px;
     max-width: 815px;
+    width: 100%;
   }
   .about {
     margin: 0;

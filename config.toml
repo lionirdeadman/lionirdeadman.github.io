@@ -54,9 +54,10 @@ enableEmoji = true
     isPlainText = true
 
 [outputs]
-  home = ["html", "gemini", "atom", "jsonfeed", "logo", "header", "stylesheet"]
+  home = ["html", "gemini", "atom", "jsonfeed", "logo", "header", "stylesheet", "json"]
   list = ["html", "gemini"]
   term = ["html"]
+  search = ["html"]
   posts = ["html", "gemini"]
   ramblings = ["html", "gemini"]
   micro = ["html", "gemini"]

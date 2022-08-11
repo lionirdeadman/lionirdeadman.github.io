@@ -1,0 +1,6 @@
+{{/* layouts/_default/index.json */}}
+{{- $index := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $index = $index | append (dict "title" ( .Title | plainify ) "author" ( .Params.author ) "author_url" ( .Params.author_url ) "permalink" .Permalink "tags" (.Params.tags) "summary" ( .Summary | htmlUnescape | plainify ) "content" ( .Content | htmlUnescape | plainify ) "date" (dateFormat "Monday, 2 January, 2006" .Date) ) -}}
+{{- end -}}
+{{- $index | jsonify -}}

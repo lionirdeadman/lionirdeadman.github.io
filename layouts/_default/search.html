@@ -1,0 +1,17 @@
+{{ define "body" }}
+<body class="list">
+    {{ partial "head.html" . }}
+    <main class="main">
+      <div class="h-feed posts">
+        <form id="search-form" data-language-prefix="{{ site.LanguagePrefix }}">
+	      <div class="search-bar">
+		      <input id="search-input" class="search-input" name="q" tabindex="0" autocomplete="off" value="Search" placeholder="Search">
+	      </div>
+	      <div id="search-results" class="h-feed posts"></div>
+	      <noscript>Search is not available because javascript is not available.</noscript>
+      </form>
+      </div>
+    </main>
+    <script src="{{ "/scripts/fixedsearch/fixedsearch.js" | relURL }}"></script>
+</body>
+{{ end }}
