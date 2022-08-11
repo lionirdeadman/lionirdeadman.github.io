@@ -7,7 +7,7 @@
     {{- if eq .Kind "page" }}
     <link rel="canonical" href="{{ .Permalink }}" />
     {{ end }}
-    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+    {{- if or (eq .Kind "taxonomy") (eq .Kind "term") (eq .Section "search") }}
     <meta name="robots" content="noindex" />
     {{ else if eq .Section "about" }}
     <meta name="robots" content="nofollow" />
