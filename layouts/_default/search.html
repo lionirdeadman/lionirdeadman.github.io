@@ -1,17 +1,17 @@
 {{ define "body" }}
 <body class="list">
     {{ partial "head.html" . }}
-    <main class="main">
+      <main class="main">
       <div class="h-feed posts">
         <form id="search-form" data-language-prefix="{{ site.LanguagePrefix }}">
 	      <div class="search-bar">
-		      <input id="search-input" class="search-input" name="q" tabindex="0" autocomplete="off" value="Search" placeholder="Search" autofocus>
+		      <input id="search-input" class="search-input" name="q" tabindex="0" autocomplete="off" placeholder="Click, or press 's' to search">
 	      </div>
 	      <div id="search-results" class="h-feed posts"></div>
+        <script integrity="sha384-WLZf4mEO2WbTmaN/snqvlzc6WNkqOEO8YJ0fzzM1zxJJ11i8De2wzw5kLHS4a+lF" crossorigin="anonymous" src="{{ "/search.js" | relURL }}"></script>
 	      <noscript>Search is not available because javascript is not available.</noscript>
       </form>
       </div>
     </main>
-    <script integrity="sha384-FHzxMvopu1/0vUZ/5Dbbv4hERUU3A6a/o21iMwIOuvw4J0Kmcg4G9xc6fRR4yS8P" crossorigin="anonymous" src="{{ "/search.js" | relURL }}"></script>
 </body>
 {{ end }}

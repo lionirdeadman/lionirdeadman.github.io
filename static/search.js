@@ -4,10 +4,19 @@ fixedsearch — Super fast, client side search for Hugo.io with Fusejs.io
 based on https://gist.github.com/cmod/5410eae147e4318164258742dd053993
 --------------------------------------------------------------*/
 
-if (typeof variable !== 'undefined') {
-	console.log('search.js already loaded');
-} else {
-fixedsearch = function(){
+window.addEventListener("keydown", onKeyDown);
+
+function onKeyDown(event) {
+    let search_input = document.querySelector("#search-input");
+    // We don't want to try to focus the search input if it isn't visible. That way
+    // we avoid the preventDefault(), hence allowing devhelp to use S as mnemonic.
+
+    if (event.code === "KeyS" && document.activeElement !== search_input) {
+        search_input.focus();
+    }
+}
+
+search = function(){
 	var search_form = document.getElementById('search-form'); // search form
 	var search_input = document.getElementById('search-input'); // input box for search
 	var search_results = document.getElementById('search-results'); // targets the <ul>
@@ -82,7 +91,7 @@ fixedsearch = function(){
 						shouldSort: true,
 						location: 0,
 						distance: 100,
-						threshold: 0.2,
+						threshold: 0,
 						ignoreLocation: true,
 						minMatchCharLength: 2,
 						keys: [
@@ -91,7 +100,6 @@ fixedsearch = function(){
 							'author',
 							'author_url',
 							'date',
-							'summary',
 							'content',
 							'tags'
 							]
@@ -120,7 +128,7 @@ fixedsearch = function(){
 			results_available = false;
 			search_items = '';
 		} else { // build our html
-			for (let item in results.slice(0,10)) { // only show first 5 results
+			for (let item in results.slice(0,10)) { // only show first 10 results
 				search_items = search_items +
 `<article class="h-entry post-entry">
         <header class="entry-header">
@@ -144,4 +152,3 @@ fixedsearch = function(){
 		search_results.innerHTML = search_items;
 	}
 }();
-}
