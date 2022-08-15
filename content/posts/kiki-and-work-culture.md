@@ -8,6 +8,7 @@ author = "Lionir Deadman"
 author_url = "https://thelion.website/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+syndications = {"Beehaw" = "https://beehaw.org/post/95581", "Mastodon" = "https://fosstodon.org/@lionirdeadman/108811260810662277"}
 
 +++
 Recently, I've gotten into physical media, and it brought me to finally watching the Studio Ghibli classics. Let's analyse what [Kiki's Delivery Service](https://en.wikipedia.org/wiki/Kiki's_Delivery_Service) says about work culture and burnout. Obviously, spoilers ahead.
