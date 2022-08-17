@@ -1,6 +1,8 @@
 image: alpine/latest
 packages:
   - hugo
+  - oxipng
+  - imagemagick
 oauth: pages.sr.ht/PAGES:RW
 environment:
   site: thelion.website
@@ -8,6 +10,9 @@ tasks:
 - package: |
     cd $site
     hugo --minify --gc
+    convert -background transparent public/logo.svg -resize 48 public/favicon.ico
+    convert -background transparent public/logo.svg -resize 64 public/logo.png
+    oxipng -o max -a public/logo.png --out public/logo.png
     tar -C public -cvz . > ../site.tar.gz
 - upload-to-https: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

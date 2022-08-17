@@ -1,5 +1,7 @@
   {{- if eq .Kind "home" }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Site.Title }} - {{ .Page.Title }}</title>{{ end -}}
-    <link rel="shortcut icon" href="{{ .Site.Params.icon }}" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
+    <link rel="icon" href="/logo.png" sizes="any" type="image/png" />
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
     <meta name="google-site-verification" content="45TezZMsSoY5qA7wC4E98BjjNJ_wUyJehNrI0G5Zh7U" />
     <meta name="msvalidate.01" content="0E905D484614E7AD2C88CEE98F6EC92E" />
     <meta name="viewport" content="width=device-width, viewport-fit=cover" />

@@ -82,7 +82,7 @@ enableEmoji = true
   # Gold   e73602 dda30e
   primary_colour = "#d75090"
   secondary_colour = "#f9426f"
-  icon = "/logo.svg"
+  icon = "/logo.png"
   websub = "https://thelion.superfeedr.com"
   description = "Hi! I'm Lionir Deadman but just can just call me Lion for short. This is my website!"
   links = [ {url = "/feeds/", name = "Feeds"},
