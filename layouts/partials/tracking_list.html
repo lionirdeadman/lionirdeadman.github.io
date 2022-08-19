@@ -1,17 +1,18 @@
             {{ range $Key, $Value := (index .Site.Data.tracking $.Page.Params.tracking_type ) }}
-            <h2>{{ $Key }}</h2>
+            <h2 id="{{ $Key }}">{{ $Key }}</h2>
             <table class="table">
             <tr class="table-row table-head">
               <th>Name</th>
-              <th class="small-row">Rating</th>
               <th class="small-row">Status</th>
             </tr>
-            {{ range sort . "name" "asc"}}
+            {{ range . }}
             <tr class="table-row">
-              <td>{{ .name }}</td>
-              <td class="small-row center-span">{{ .rating }}/10</td>
+              <td>{{ if eq $.Page.Params.tracking_type "Anime" }}<a style="color:var(--content);box-shadow: none;" href="https://anilist.co/anime/{{ .anilist }}/">{{ .name }}</a>{{ with .own }}  💿{{ end }}{{ with .love }} ❤️{{ end }}{{ else }}{{ .name }}{{ end }}</td>
               <td class="small-row center-span">{{ .status }}</td>
             </tr>
             {{ end }}
             </table>
             {{ end }}
+            {{ if eq $.Page.Params.tracking_type "Anime" }}<div class="sticky-categories" >{{ range $Key, $Value := (index .Site.Data.tracking $.Page.Params.tracking_type ) }}
+            <span><a href="#{{ $Key }}">{{ $Key }}</a></span>
+            {{ end }}</div>{{ end }}

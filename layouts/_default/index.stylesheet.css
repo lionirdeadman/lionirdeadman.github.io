@@ -31,6 +31,11 @@
 .list, .single {
   background-color: {{ .Site.Params.stylesheet.theme_bg }};
   background-color: var(--theme-bg);
+  /*background: url("/profile/{{ .Site.Author.avatar }}_full.png"), url("/background/monokuma.svg"), url("/background/halo.svg"), url("/background/friend.svg"), url("/background/emil.svg"), url("/background/xenia.svg"), url("/background/monokuma.svg"), url("/background/steinsgate.svg"), url("/background/emil.svg"), url("/background/friend.svg"), url("/background/halo.svg"), var(--theme-bg);
+  background-size: 25%, 8%, 12%, 6%, 7%, 7.5%, 8%, 9%, 7%, 6%, 7%, auto;
+  background-repeat: no-repeat;
+  background-position: 95% 75%, 9.5% 40%, -7% 41%, 22% 40%, 2.8% 60%, 15.5% 60%, -4% 80%, 9% 80%, 21% 80%, 5% 100%, 15% 100%, center;
+  background-attachment: fixed;*/
 }
 
 @media (prefers-contrast: more) {
@@ -96,7 +101,7 @@
   .posts, footer, article {
     --radius: 0px;
   }
-  .post-update, .pagination, .highlight {
+  .post-update, .pagination, .highlight, .sticky-categories {
     --radius: 20px;
   }
 }
@@ -623,6 +628,31 @@ td:first-of-type, th:first-of-type {
 .small-row {
   width: 15%;
 }
+.sticky-categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  position: sticky;
+  bottom: 0;
+  background: var(--theme-bg);
+  padding: 10px 10px 10px;
+  border-radius: var(--radius);
+}
+.sticky-categories span {
+  margin: 5px 4px;
+}
+.sticky-categories a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  background: #0073e6;
+  border-radius: {{ .Site.Params.stylesheet.radius }}px;
+  border-radius: var(--radius);
+  font-weight: bold;
+  padding: 10px;
+  box-shadow: none;
+}
 /* Footer
 -------------------------------------------------- */
 .footer {
@@ -787,7 +817,7 @@ td:first-of-type, th:first-of-type {
 @supports(display:grid) {
   .table-row {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr .6fr;
+    grid-template-columns: 1.5fr 0.5fr;
   }
   .small-row {
     width: auto;
@@ -847,6 +877,11 @@ td:first-of-type, th:first-of-type {
   }
   .about-columns {
     grid-template-columns: 1fr 1fr;
+  }
+  .sticky-categories {
+    flex-flow: column wrap;
+    height: 55px;
+    overflow-x: scroll;
   }
 }
 @media only screen and (max-width: 525px) {

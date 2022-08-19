@@ -1,0 +1,575 @@
+Anime:
+  Action:
+    - name: Akame ga Kill!
+      status: x2
+      anilist: 20613
+    - name: Guilty Crown
+      status: x2
+      anilist: 10793
+    - name: Mob Psycho 100
+      status: x3
+      anilist: 21507
+    - name: Mob Psycho 100 II
+      status: x2
+      anilist: 101338
+    - name: Naruto
+      status: x1
+      anilist: 20
+    - name: Naruto Shippuden
+      status: x1
+      anilist: 1735
+    - name: 'Naruto the Movie : Ninja Clash in the Land of Snow'
+      status: x1
+      anilist: 442
+    - name: Ninja Scroll
+      status: x1
+      anilist: 617
+      own: True
+    - name: One Punch Man
+      status: x1
+      anilist: 21087
+    - name: Sword Art Online
+      status: x2
+      anilist: 11757
+    - name: Sword Art Online II
+      status: x2
+      anilist: 20594
+  Adventure:
+    - name: Howl's Moving Castle
+      status: x1
+      anilist: 431
+      own: True
+    - name: Kiki's Delivery Service
+      status: x3
+      anilist: 512
+      own: True
+      love: True
+    - name: Nausicaä of the Valley of the Wind
+      status: x1
+      anilist: 572
+      own: True
+      love: True
+    - name: Princess Mononoke
+      status: x1
+      anilist: 164
+      own: True
+      love: True
+    - name: Spirited Away
+      status: x1
+      anilist: 199
+      own: True
+      love: True
+    - name: The Wonderland
+      status: x1
+      anilist: 107012
+      own: True
+  Brain Warfare:
+    - name: Code Geass R1
+      status: x4
+      anilist: 1575
+      own: True
+      love: True
+    - name: Code Geass R2
+      status: x4
+      anilist: 2904
+      own: True
+      love: True
+    - name: Death Note
+      status: x4
+      anilist: 1535
+      own: True
+      love: True
+    - name: Kaiji - Ultimate Survivor
+      status: x1
+      anilist: 3002
+    - name: Kaiji - Against All Rules
+      status: x1
+      anilist: 10271
+    - name: Legend of the Galactic Heroes
+      status: x2
+      anilist: 820
+      love: True
+    - name: 'LOTGH: My Conquest is the Sea of Stars'
+      status: x1
+      anilist: 3014
+    - name: 'LOTGH: Overture to a New War'
+      status: x1
+      anilist: 3016
+    - name: Monster
+      status: x1
+      anilist: 19
+    - name: No Game No Life
+      status: x1
+      anilist: 19815
+    - name: Tomodachi Game
+      status: x1
+      anilist: 141014
+  Drama:
+    - name: Kokoro Connect
+      status: x2
+      anilist: 11887
+      own: True
+    - name: Terror in Resonance
+      status: x3
+      anilist: 20661
+      own: True
+    - name: The Wind Rises
+      status: x1
+      anilist: 16662
+      own: True
+      love: True
+  Mystery:
+    - name: 'ACCA: 13-Territory Inspection Dept.'
+      status: x1
+      anilist: 21823
+  Romance:
+    - name: 5 centimeters per second
+      status: x1
+      anilist: 1689
+      own: True
+    - name: Golden Time
+      status: x2
+      anilist: 17895
+      own: True
+      love: True
+    - name: Toradora!
+      status: x3
+      anilist: 4224
+    - name: Voices of a distant star
+      status: x2
+      anilist: 256
+      own: True
+    - name: Your Lie in April
+      status: x1
+      anilist: 20665
+      love: True
+  Supernatural:
+    - name: Paprika
+      status: x1
+      anilist: 1943
+      own: True
+      love: True
+    - name: Sonny Boy
+      status: x1
+      anilist: 132126
+      love: True
+  Sci-fi:
+    - name: 86 EIGHTY=SIX
+      status: x1
+      anilist: 116589
+      anidb: 15441
+    - name: Vivy -Fluorite Eye's Song-
+      status: x1
+      anilist: 128546
+      anidb: 15988
+  Thriller:
+    - name: 91 Days
+      status: x3
+      anilist: 21711
+      anidb: 12014
+      own: True
+    - name: King's Game
+      status: x1
+      anilist: 99698
+    - name: Perfect Blue
+      status: x1
+      anilist: 437
+      own: True
+      love: True
+    - name: Psycho Pass
+      status: x2
+      anilist: 13601
+    - name: Psycho Pass 2
+      status: x2
+      anilist: 20513
+    - name: 'Psycho Pass : The Movie'
+      status: x1
+      anilist: 20514
+    - name: Psycho Pass 3
+      status: x1
+      anilist: 108307
+    - name: 'Psycho Pass 3 : First Inspector'
+      status: x1
+      anilist: 113917
+  Time Travel:
+    - name: Erased
+      status: x2
+      anilist: 21234
+    - name: 'Re:ZERO -Starting Life in Another World-'
+      status: x1
+      anilist: 21355
+    - name: 'Re:ZERO -Starting Life in Another World- S2'
+      status: x1
+      anilist: 108632
+    - name: Steins;Gate
+      status: x3
+      anilist: 9253
+      own: True
+      love: True
+    - name: Steins;Gate 0
+      status: x2
+      anilist: 21127
+      love: True
+    - name: 'Steins;Gate: Load Region of Deja Vu'
+      status: x1
+      anilist: 11577
+  WTF:
+    - name: Neon Genesis Evangelion
+      status: x1
+      anilist: 30
+    - name: Serial Experiments Lain
+      status: x1
+      anilist: 339
+  Ecchi:
+    - name: Prison School
+      status: x2
+      anilist: 20807
+    - name: Shimoneta
+      status: x1
+      anilist: 20910
+    - name: Date a Live
+      status: x1
+      anilist: 15583
+    - name: Date a Live II
+      status: x1
+      anilist: 19163
+    - name: High School DxD
+      status: x1
+      anilist: 11617
+    - name: High School DxD New
+      status: x1
+      anilist: 15451
+    - name: Motto To Loveru
+      status: x1
+      anilist: 9181
+    - name: The World God Only Knows
+      status: x1
+      anilist: 8525
+    - name: The World God Only Knows II
+      status: x1
+      anilist: 10080
+    - name: 'The World God Only Knows : Godesses'
+      status: x1
+      anilist: 16706
+    - name: To Loveru
+      status: x1
+      anilist: 3455
+    - name: 'To Loveru : Darkness'
+      status: x1
+      anilist: 13663
+  Forgotten:
+    - name: Aldnoah.Zero
+      status: x1
+      anilist: 20632
+    - name: Aldnoah.Zero (2015)
+      status: x1
+      anilist: 20853
+    - name: Angel Beats!
+      status: x1
+      anilist: 6547
+    - name: Another
+      status: x1
+      anilist: 11111
+    - name: Bakemonogatari
+      status: x1
+      anilist: 5081
+    - name: Blade Dance of Elementalers
+      status: x1
+      anilist: 20663
+    - name: Chaos;Head
+      status: x1
+      anilist: 4975
+    - name: Cowboy Bebop
+      status: x1
+      anilist: 1
+    - name: Deadman Wonderland
+      status: x1
+      anilist: 6880
+    - name: Death Parade
+      status: x1
+      anilist: 20931
+    - name: Drifters
+      status: x1
+      anilist: 21123
+    - name: Durarara!!
+      status: x1
+      anilist: 6746
+    - name: Durarara!!x2 Ketsu
+      status: x1
+      anilist: 20880
+    - name: Durarara!!x2 Shou
+      status: x1
+      anilist: 20652
+    - name: Durarara!!x2 Ten
+      status: x1
+      anilist: 20879
+    - name: Elfen Lied
+      status: x1
+      anilist: 226
+    - name: Halo Legends
+      status: x1
+      anilist: 6867
+    - name: Hyouka
+      status: x1
+      anilist: 12189
+    - name: In Search of the Lost Future
+      status: x1
+      anilist: 20591
+    - name: K
+      status: x1
+      anilist: 14467
+    - name: 'K: Missing Kings'
+      status: x1
+      anilist: 16904
+    - name: 'K: Return of Kings'
+      status: x1
+      anilist: 20913
+    - name: Kill la Kill
+      status: x1
+      anilist: 18679
+    - name: Kiznaiver
+      status: x1
+      anilist: 21421
+    - name: Konosuba
+      status: x1
+      anilist: 21202
+    - name: Log Horizon
+      status: x1
+      anilist: 17265
+    - name: Mirai Nikki
+      status: x1
+      anilist: 10620
+    - name: Mirai Nikki Redial
+      status: x1
+      anilist: 16762
+    - name: 'Nekomonogatari (Black): Tsubasa Family'
+      status: x1
+      anilist: 15689
+    - name: Nisemonogatari
+      status: x1
+      anilist: 11597
+    - name: Occultic;Nine
+      status: x1
+      anilist: 21708
+    - name: School Days
+      status: x1
+      anilist: 2476
+    - name: Strike the Blood
+      status: x1
+      anilist: 18277
+    - name: Tokyo Ghoul
+      status: x1
+      anilist: 20605
+    - name: Tokyo Ghoul Root A
+      status: x1
+      anilist: 20850
+    - name: 'Unlimited Psychic Squad '
+      status: x1
+      anilist: 16005
+    - name: Vampire Knight
+      status: x2
+      anilist: 3457
+    - name: Vampire Knight Guilty
+      status: x2
+      anilist: 4752
+    - name: Welcome to the NHK
+      status: x1
+      anilist: 1210
+    - name: When Supernatural Battles Became Commonplace
+      status: x1
+      anilist: 20646
+    - name: Wolf Children
+      status: x1
+      anilist: 12355
+#  Dropped:
+#    - name: Absolute Duo
+#      status: 1/12
+#      anilist: 20785
+#    - name: Baccano!
+#      status: 1/13
+#      anilist: 2251
+#    - name: Black Bullet
+#      status: 1/13
+#      anilist: 20457
+#    - name: Black Clover
+#      status: 3/170
+#      anilist: 97940
+#    - name: 'BlazBlue : Alter Memory'
+#      status: 5/12
+#      anilist: 18767
+#    - name: Bleach
+#      status: 7/366
+#      anilist: 269
+#    - name: Blue Spring Ride
+#      status: 3/12
+#      anilist: 20596
+#    - name: Clannad
+#      status: 3/23
+#      anilist: 2167
+#    - name: DearS
+#      status: 2/12
+#      anilist: 63
+#    - name: Gabriel DropOut
+#      status: 3/12
+#      anilist: 21878
+#    - name: Haven't You Heard? I'm Sakamoto
+#      status: 2/12
+#      anilist: 21595
+#    - name: High School DxD BorN
+#      status: 4/12
+#      anilist: 20745
+#    - name: Log Horizon 2
+#      status: 14/25
+#      anilist: 20671
+#    - name: Lucky Star
+#      status: 1/24
+#      anilist: 1887
+#    - name: Majimoji Rurumo
+#      status: 3/12
+#      anilist: 20708
+#    - name: March comes in like a lion
+#      status: 3/22
+#      anilist: 21366
+#    - name: Monthly Girls' Nozaki-kun
+#      status: 1/12
+#      anilist: 20668
+#    - name: Mushi-shi
+#      status: 7/26
+#      anilist: 457
+#    - name: One Piece
+#      status: 385/?
+#      anilist: 21
+#    - name: 'Problem Children Are Coming From Another World, Aren''t They?'
+#      status: 3/10
+#      anilist: 15315
+#    - name: Texhnolyze
+#      status: 1/22
+#      anilist: 26
+#    - name: The Seven Deadly Sins
+#      status: 4/24
+#      anilist: 20789
+#    - name: The Tatami Galaxy
+#      status: 1/11
+#      anilist: 7785
+#    - name: World Trigger
+#      status: 12/73
+#      anilist: 20729
+Manga:
+  Reading:
+    - name: Asadora!
+      status: 21/?
+    - name: Berserk
+      status: 263/?
+    - name: Otome Kaijuu Caramelize
+      status: 18/?
+    - name: Platinum End
+      status: 48/58
+    - name: Sperman
+      status: 18/?
+    - name: The Gamer
+      status: 106/?
+    - name: Tower of God
+      status: 467/?
+  Completed:
+    - name: Billy Bat
+      status: x1
+    - name: Monster
+      status: x1
+    - name: Pluto
+      status: x1
+    - name: The Breaker
+      status: x1
+    - name: 'The Breaker : New Waves'
+      status: x1
+    - name: 20th Century Boys
+      status: x1
+    - name: 21st Century Boys
+      status: x1
+Books:
+  Reading:
+    - name: Little Brother by Cory Doctorow
+      status: 13/180
+Games:
+  Games I care about:
+    - name: '2064: Read Only Memories'
+      status: 12.9h
+    - name: Among Us
+      status: 67h
+    - name: Awesomenauts
+      status: 9.1h
+    - name: Barrier X
+      status: 7.2h
+    - name: Boring Man - Online Tactical Stickman Combat
+      status: 14.2h
+    - name: Brawlhalla
+      status: 56h
+    - name: 'Danganronpa : Trigger Happy Havoc'
+      status: 57h
+    - name: 'Danganronpa 2 : Goodbye Despair'
+      status: 43h
+    - name: Doom
+      status: 22h
+    - name: Fallout Shelter
+      status: 35h
+    - name: Grand Theft Auto V
+      status: 70h
+    - name: Growtopia
+      status: 3680h
+    - name: Halo
+      status: 58h
+    - name: HITMAN
+      status: 11.2h
+    - name: 'Infectonator 3 : Apocalypse'
+      status: 3.6h
+    - name: 'Kingdom : Classic'
+      status: 5h
+    - name: Portal
+      status: 3.6h
+    - name: Portal 2
+      status: 13.8h
+    - name: 'Rebuild 3 : Gangs of Deadsville'
+      status: 19.7h
+    - name: Reigns
+      status: 19.7h
+    - name: Rise of the Tomb Raider
+      status: 22h
+    - name: RUINER
+      status: 14h
+    - name: Shadow of the Tomb Raider
+      status: 9.7h
+    - name: Skullgirls
+      status: 2.5h
+    - name: Soda Dungeon
+      status: 26h
+    - name: Sonny (Steam)
+      status: 2.3h
+    - name: Streets of Rogue
+      status: 16.4h
+    - name: The Henry Stickmin Collection
+      status: 4.8h
+    - name: Tomb Raider
+      status: 27h
+    - name: Transistor
+      status: 18.6h
+    - name: Warframe
+      status: 89h
+    - name: 'Zero Escape : The Nonary Games'
+      status: 21h
+  Games I 100%ed:
+    - name: The Devil on G-String
+      status: 64h
+    - name: Helltaker
+      status: 7.4h
+    - name: 'NieR:Automata'
+      status: 86h
+    - name: STEINS;GATE
+      status: 60h
+    - name: STEINS;GATE 0
+      status: 52h
+    - name: 'STEINS;GATE : Linear Bounded Phenogram'
+      status: 32h
+    - name: 'STEINS;GATE : My Darling''s Embrace'
+      status: 27h
+    - name: 'VA-11 Hall-A : Cyberpunk Bartender Action'
+      status: 41h
+
