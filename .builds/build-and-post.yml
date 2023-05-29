@@ -5,7 +5,7 @@ packages:
   - imagemagick
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: thelion.website
+  site: lionir.ca
 tasks:
 - package: |
     cd $site
@@ -19,8 +19,8 @@ tasks:
 - upload-to-gemini: |
     acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz -Fprotocol=GEMINI
 - post-to-websub: |
-    curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://thelion.website/atom.xml" -d"hub.topic=https://thelion.website/"
-    curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://thelion.website/feed.json" -d"hub.topic=https://thelion.website/"
+    curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://lion.ca/atom.xml" -d"hub.topic=https://lionir.ca/"
+    curl -X POST https://thelion.superfeedr.com -d "hub.mode=publish" -d"hub.url=https://lion.ca/feed.json" -d"hub.topic=https://lionir.ca/"
 - post-to-crawlers: |
-    curl -X GET "https://www.google.com/ping?sitemap=https://thelion.website/sitemap.xml"
-    curl -X GET "http://www.bing.com/ping?sitemap=https://thelion.website/sitemap.xml"
+    curl -X GET "https://www.google.com/ping?sitemap=https://lionir.ca/sitemap.xml"
+    curl -X GET "http://www.bing.com/ping?sitemap=https://lionir.ca/sitemap.xml"
