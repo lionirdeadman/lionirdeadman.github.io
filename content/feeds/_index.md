@@ -26,12 +26,12 @@ There are plenty feed readers so feel to look around for one that you like.
 
 ## Okay I have one, now what?
 
-Some readers might discover the feed if you point it at `https://thelion.website`
+Some readers might discover the feed if you point it at `https://lionir.ca`
 
 In the case that your read doesn't discover, you can point directly to either Atom or JSON feed (different formats of the same thing) : 
 
-- `https://thelion.website/atom.xml`
-- `https://thelion.website/feed.json`
+- `https://lionir.ca/atom.xml`
+- `https://lionir.ca/feed.json`
 
 The Atom Feed is likely the most compatible version of those versions.
 

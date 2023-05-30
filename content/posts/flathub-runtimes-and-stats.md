@@ -6,7 +6,7 @@ tags = ["flathub", "flatpak", "contributions", "security", "projects", "fp-build
 aliases = ["/flathub-runtimes-and-stats/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Tildes" = "https://tildes.net/~tech/xdi/flathub_runtimes_and_stats", "Mastodon" = "https://fosstodon.org/@lionirdeadman/105454380433782624", "r/flatpak" = "https://www.reddit.com/r/flatpak/comments/o7gwc2/flathub_runtimes_and_stats/", "r/linux" = "https://www.reddit.com/r/linux/comments/o7gvn6/flathub_runtimes_and_stats/"}

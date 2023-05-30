@@ -6,7 +6,7 @@ tags = ["reddit", "centos", "red hat", "moderation", "commentary"]
 aliases = ["/what-is-happening-in-centos-subreddit-and-more/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Tildes" = "https://tildes.net/~tech/tw2/what_is_happening_in_r_centos_and_why_u_redundantly_should_not_be_a_moderator"}

@@ -42,7 +42,7 @@
                 {{ if eq "r/" ( substr $name 0 2 ) }}<a rel="syndication" class="u-syndication" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a>{{ else }}<a rel="syndication" class="u-syndication capitalize" title="{{ $name }}" href="{{ $url }}">{{ $name }}</a>{{ end }}{{ if ne $counter $length }},{{ else }},{{ end }}
               {{ end }}
             {{ end }}
-            {{ if .Params.syndications }}{{ else }}Feel free to{{ end }} send me a <a href="mailto:comments@thelion.website?subject=RE: {{ $.Title }}">email</a> or message on
+            {{ if .Params.syndications }}{{ else }}Feel free to{{ end }} send me a <a href="mailto:comments@lionir.ca?subject=RE: {{ $.Title }}">email</a> or message on
               {{ range $Key, $Value := $.Site.Data.identities }}
                 {{ if eq $Key "Chatting"}}
                     {{ range $Key, $Value := . }}

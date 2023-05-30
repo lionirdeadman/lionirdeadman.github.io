@@ -1,4 +1,4 @@
-baseURL = "https://thelion.website/"
+baseURL = "https://lionir.ca/"
 languageCode = "en-us"
 title = "The Lion"
 
@@ -7,7 +7,7 @@ enableEmoji = true
 
 [author]
   name = "Lionir Deadman"
-  url = "https://thelion.website/about/"
+  url = "https://lionir.ca/about/"
   avatar = "winter_lio_profile"
 
 [taxonomies]

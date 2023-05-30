@@ -6,7 +6,7 @@ tags = ["socrates", "philosophy", "kindness", "lgbtq+", "debates", "love", "rela
 aliases = ["/socrates-trans-issues-and-view-on-romantic-relationships/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Mastodon" = "https://fosstodon.org/@lionirdeadman/106752207826016945"}

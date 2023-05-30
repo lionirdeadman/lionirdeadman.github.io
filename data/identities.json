@@ -1,8 +1,8 @@
 {
-  "Social": {"Mastodon": "https://mastodon.thelion.website"},
-  "Editing": {"OpenStreetMap": "https://openstreetmap.thelion.website", "Wikipedia": "https://wikipedia.thelion.website"},
-  "Discussion": {"Tildes": "https://tildes.thelion.website", "Reddit": "https://reddit.thelion.website", "GNOME Discourse": "https://discourse-gnome.thelion.website"},
-  "Coding": {"GitHub": "https://github.thelion.website", "Codeberg": "https://codeberg.thelion.website", "GitLab.com": "https://gitlab.thelion.website", "GNOME GitLab": "https://gitlab-gnome.thelion.website", "FreeDesktop GitLab": "https://gitlab-freedesktop.thelion.website"},
-  "Tracking": {"Listenbrainz": "https://listen.thelion.website"},
-  "Chatting": {"Discord": "https://discord.thelion.website", "Matrix": "https://matrix.thelion.website"}
+  "Social": {"Mastodon": "https://mastodon.lionir.ca"},
+  "Editing": {"OpenStreetMap": "https://openstreetmap.lionir.ca", "Wikipedia": "https://wikipedia.lionir.ca"},
+  "Discussion": {"Tildes": "https://tildes.lionir.ca", "Reddit": "https://reddit.lionir.ca", "GNOME Discourse": "https://discourse-gnome.lionir.ca"},
+  "Coding": {"GitHub": "https://github.lionir.ca", "Codeberg": "https://codeberg.lionir.ca", "GitLab.com": "https://gitlab.lionir.ca", "GNOME GitLab": "https://gitlab-gnome.lionir.ca", "FreeDesktop GitLab": "https://gitlab-freedesktop.lionir.ca"},
+  "Tracking": {"Listenbrainz": "https://listen.lionir.ca"},
+  "Chatting": {"Discord": "https://discord.lionir.ca", "Matrix": "https://matrix.lionir.ca"}
 }

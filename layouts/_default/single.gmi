@@ -36,7 +36,7 @@ Licensed under {{ .Params.license_name }}
 {{- $counter := 0 -}}
 Join discussions on :
 {{ range $name, $url := .Params.syndications }}=> {{ $url }} {{ $name }}{{ end }}
-Or send{{- else -}}Send {{ end }} me an email to comments@thelion.website or message on :
+Or send{{- else -}}Send {{ end }} me an email to comments@lionir.ca or message on :
 {{ range $Key, $Value := $.Site.Data.identities }}
 {{- if eq $Key "Chatting" -}}{{- range $Key, $Value := . }}=> {{ $Value }} {{ $Key }}
 {{ end -}}{{- end -}}

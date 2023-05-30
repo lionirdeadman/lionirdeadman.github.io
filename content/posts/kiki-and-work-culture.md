@@ -5,7 +5,7 @@ slug_url = true
 tags = ["analysis", "studio ghibli", "hayao miyazaki", "kiki delivery service", "work culture", "burnout"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Beehaw" = "https://beehaw.org/post/95581", "Mastodon" = "https://fosstodon.org/@lionirdeadman/108811260810662277"}

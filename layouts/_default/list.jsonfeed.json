@@ -7,7 +7,7 @@
     "home_page_url": "{{ .Site.BaseURL }}",
     "feed_url": "{{ .Permalink }}",
     "language": "{{ .Site.LanguageCode }}",
-    "icon": "https://thelion.website/profile/{{ .Site.Author.avatar }}.png",
+    "icon": "https://lionir.ca/profile/{{ .Site.Author.avatar }}.png",
     "favicon": "{{ .Site.Params.icon | absURL }}",
     "hubs": [
         {
@@ -19,7 +19,7 @@
         {
             "name": "{{ .Site.Author.name }}",
             "url": "{{ .Site.Author.url }}",
-            "avatar": "https://thelion.website/profile/{{ .Site.Author.avatar }}.png"
+            "avatar": "https://lionir.ca/profile/{{ .Site.Author.avatar }}.png"
         }
     ],
     "items": [

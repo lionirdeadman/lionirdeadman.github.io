@@ -5,7 +5,7 @@ slug_url = true
 tags = ["lgbtq+", "language", "questioning", "micro"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 

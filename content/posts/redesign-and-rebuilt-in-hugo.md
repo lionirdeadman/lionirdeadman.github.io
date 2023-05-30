@@ -6,7 +6,7 @@ tags = ["website", "meta", "hugo", "zola", "design", "jsonfeed", "websub", "anal
 aliases = ["/redesign-and-rebuilt-in-hugo/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Mastodon" = "https://fosstodon.org/@lionirdeadman/105454380433782624"}

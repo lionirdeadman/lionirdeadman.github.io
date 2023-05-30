@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow : /tags/
 
-Sitemap: https://thelion.website/sitemap.xml
+Sitemap: https://lionir.ca/sitemap.xml

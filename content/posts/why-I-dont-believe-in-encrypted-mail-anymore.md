@@ -6,7 +6,7 @@ tags = ["standards", "email", "encryption", "tutanota", "migadu", "protonmail", 
 aliases = ["/why-i-dont-believe-in-encrypted-mail-anymore/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Tildes" = "https://tildes.net/~tech/u7k/why_i_dont_believe_in_encrypted_mail_providers_anymore", "Mastodon" = "https://fosstodon.org/@lionirdeadman/105454380433782624", "r/privacy" = "https://www.reddit.com/r/privacy/comments/klfxk5/why_i_dont_believe_in_encrypted_mail_providers/"}

@@ -6,7 +6,7 @@ tags = ["lgbtq+", "pronouns"]
 aliases = ["/why-i-post-my-pronouns-and-you-should-too/"]
 
 author = "Lionir Deadman"
-author_url = "https://thelion.website/about/"
+author_url = "https://lionir.ca/about/"
 license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 syndications = {"Tildes" = "https://tildes.net/~lgbt/tyh/why_i_post_my_pronouns_and_you_should_too"}
