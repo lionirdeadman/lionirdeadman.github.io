@@ -1,7 +1,7 @@
 {
   "Social": {"Mastodon": "https://mastodon.lionir.ca"},
   "Editing": {"OpenStreetMap": "https://openstreetmap.lionir.ca", "Wikipedia": "https://wikipedia.lionir.ca"},
-  "Discussion": {"Tildes": "https://tildes.lionir.ca", "Reddit": "https://reddit.lionir.ca", "GNOME Discourse": "https://discourse-gnome.lionir.ca"},
+  "Discussion": {"Tildes": "https://tildes.lionir.ca", "Beehaw": "https://threadiverse.lionir.ca", "GNOME Discourse": "https://discourse-gnome.lionir.ca"},
   "Coding": {"GitHub": "https://github.lionir.ca", "GitLab.com": "https://gitlab.lionir.ca", "GNOME GitLab": "https://gitlab-gnome.lionir.ca", "FreeDesktop GitLab": "https://gitlab-freedesktop.lionir.ca"},
   "Tracking": {"Listenbrainz": "https://listen.lionir.ca"},
   "Chatting": {"Discord": "https://discord.lionir.ca", "Matrix": "https://matrix.lionir.ca"}
